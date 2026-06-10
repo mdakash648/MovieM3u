@@ -790,3 +790,32 @@ http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/From%20%28TV%
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/100576
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/From%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%204%201080p/From.S04E07.1080p.AMZN.WEB-DL.Hindi.DDP5.1-English.DDP5.1.H.264.mkv
+
+#EXTINF:-1 group-title="Horror" -1,Tumbbad (2018) Hindi 1080p WEB-DL ESub DD5.1 H264
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/47827
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://index1.circleftp.net/FILE/Hindi%20Movies/2018/Tumbbad%20%282018%29%20Hindi%201080p%20WEB-DL%20ESub%20DD5.1%20H264/Tumbbad%20%282018%29%20Hindi%201080p%20WEB-DL%20ESub%20DD5.1%20H264.mp4
+#EXTINF:-1 group-title="Horror" -1,Stree (2018) Hindi 1080p WEBRip x264 AAC - Ranvijay
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/52059
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://index1.circleftp.net/FILE/Hindi%20Movies/2018/Stree%20%282018%29%20Hindi%201080p%20WEBRip%20x264%20AAC/Stree%20%282018%29%20Hindi%201080p%20WEBRip%20x264%20AAC%20-%20Ranvijay.mp4
+#EXTINF:-1 group-title="Horror" -1,Stree 2 Sarkate Ka Aatank (2024) 1080p WEB-DL Hindi H265
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/100138
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://index1.circleftp.net/FILE/Hindi%20Movies/2024/Stree%202%20Sarkate%20Ka%20Aatank%20%282024%29%201080p%20WEB-DL%20Hindi%20H265/Stree%202%20Sarkate%20Ka%20Aatank%20%282024%29%201080p%20WEB-DL%20Hindi%20H265.mkv
+#EXTINF:-1 group-title="Horror" -1,1920 - Horrors of the Heart (2023) 1080p HS WEB-DL Hindi H265
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/95878
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://index1.circleftp.net/FILE/Hindi%20Movies/2023/1920%20-%20Horrors%20of%20the%20Heart%20%282023%29%201080p%20HS%20WEB-DL%20Hindi%20H265/1920%20-%20Horrors%20of%20the%20Heart%20%282023%29%201080p%20HS%20WEB-DL%20Hindi%20H265.mkv
+#EXTINF:-1 group-title="Horror" -1,Eeram (2009) TAMIL 720p BRRip x264
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/98559
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp17.circleftp.net/FILE/Tamil%20Telugu%20%26%20Others/2009/Eeram%20%282009%29%20TAMIL%20720p%20BRRip%20x264/Eeram%20%282009%29%20TAMIL%20720p%20BRRip%20x264.mkv
+#EXTINF:-1 group-title="Horror" -1,U Turn (2023) Hindi 1080p WEB-DL ESub DDP5.1 H265
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/94274
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://index1.circleftp.net/FILE/Hindi%20Movies/2023/U%20Turn%20%282023%29%20Hindi%201080p%20WEB-DL%20ESub%20DDP5.1%20H265/U%20Turn%20%282023%29%20Hindi%201080p%20WEB-DL%20ESub%20DDP5.1%20H265.mkv
+#EXTINF:-1 group-title="Horror" -1,[Fibwatch.Com]Bhoothakaalam.(2022).Malayalam.HQ.HDRip.720p
+#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/bhoothakaalam-2022-malayalam-web-dl-720p_Hege3xtVHXCecuQ.html
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://qtryhnn.b-cdn.net/upload/videos/2023/10/[Fibwatch.Com]Bhoothakaalam.(2022).Malayalam.HQ.HDRip.720p.mkv
