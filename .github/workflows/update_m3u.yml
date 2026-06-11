@@ -3,7 +3,7 @@ name: Auto Update M3U (Naagin)
 on:
   schedule:
     # Bangladesh time রাত 12:00 AM = UTC 6:00 PM
-    - cron: '0 18 * * *'
+    - cron: '5 21 * * *'
     # Bangladesh time দুপুর 12:00 PM = UTC 6:00 AM
     - cron: '0 6 * * *'
   
