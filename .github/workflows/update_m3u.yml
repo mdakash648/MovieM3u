@@ -34,7 +34,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add player.m3u
+          git add playlist.m3u
           # কোনো change না থাকলে commit skip করবে
           git diff --cached --quiet || git commit -m "chore: auto-update Naagin M3U domain [$(date '+%Y-%m-%d %H:%M UTC')]"
           git push
