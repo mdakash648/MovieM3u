@@ -79,10 +79,16 @@ def generate_updated_m3u(new_media_url: str) -> str:
     for line in lines:
         stripped = line.strip()
 
+        # ১. যদি ইনফো লাইন হয়, তবে চেক করো ফিবওয়াচ এন্ট্রি কি না
         if stripped.startswith("#EXTINF"):
-            is_fibwatch_entry = "[Fibwatch.Com]" in stripped
+            is_fibwatch_entry = "fibwatch.com" in stripped.lower()
             new_lines.append(line)
 
+        # ২. যদি মাঝখানে #EXTVLCOPT বা খালি লাইন থাকে, সেগুলোকে জাস্ট রেখে দাও, ফ্ল্যাগ অফ করিও না
+        elif stripped.startswith("#EXTVLCOPT") or not stripped:
+            new_lines.append(line)
+
+        # ৩. যখনই আসল মুভির লিঙ্ক পাবে, তখনই ডোমেন রিপ্লেস করো এবং ফ্ল্যাগ অফ করো
         elif re.match(r'https?://', stripped) and re.search(r'\.(mkv|mp4)', stripped, re.IGNORECASE):
             if is_fibwatch_entry:
                 old_domain = extract_domain(stripped)
@@ -93,7 +99,7 @@ def generate_updated_m3u(new_media_url: str) -> str:
                     new_lines.append(line)
             else:
                 new_lines.append(line)
-            is_fibwatch_entry = False
+            is_fibwatch_entry = False  # লিঙ্ক পাওয়ার পর সিগন্যাল অফ করো
         else:
             new_lines.append(line)
 
