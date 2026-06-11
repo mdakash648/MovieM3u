@@ -3,11 +3,10 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
-app = Flask(__name__) # Vercel এখন এই টপ-লেভেল 'app' ভ্যারিয়েবলটা খুঁজে পাবে 🦾
+app = Flask(__name__)
 
 # ==================== CONFIG ====================
 WATCH_URL = "https://fibwatch.art/watch/naagin-2025-s07e48-hindi-jh-web-dl-720p_l6SN6MEkd7mT66S.html"
-# ⚠️ নিচে তোমার গিটহাবের playlist.m3u ফাইলের RAW URL টা বসাও
 M3U_RAW_URL = "https://raw.githubusercontent.com/mdakash648/MovieM3u/refs/heads/main/playlist.m3u"
 
 HEADERS = {
@@ -18,12 +17,14 @@ HEADERS = {
 
 def extract_media_url(watch_url: str) -> str | None:
     try:
-        resp = requests.get(watch_url, headers=HEADERS, timeout=30)
-        resp.raise_for_status()
+        # টাইমআউট ৮ সেকেন্ড করলাম যেন ভার্সেল ১০ সেকেন্ডের লিমিটে ক্র্যাশ না করে
+        resp = requests.get(watch_url, headers=HEADERS, timeout=8)
+        if resp.status_code != 200:
+            return None
+        html = resp.text
     except Exception:
         return None
 
-    html = resp.text
     patterns = [
         r'https?://[^\s\'"<>]+\.mkv',
         r'https?://[^\s\'"<>]+\.mp4',
@@ -37,17 +38,20 @@ def extract_media_url(watch_url: str) -> str | None:
             url = match.group(1) if match.lastindex else match.group(0)
             return url.strip().strip('"\'')
 
-    soup = BeautifulSoup(html, "html.parser")
-    for tag in soup.find_all(["video", "source"]):
-        src = tag.get("src") or tag.get("data-src") or tag.get("data-url")
-        if src and re.search(r'\.(mkv|mp4)(\?|$)', src, re.IGNORECASE):
-            return src
+    try:
+        soup = BeautifulSoup(html, "html.parser")
+        for tag in soup.find_all(["video", "source"]):
+            src = tag.get("src") or tag.get("data-src") or tag.get("data-url")
+            if src and re.search(r'\.(mkv|mp4)(\?|$)', src, re.IGNORECASE):
+                return src
 
-    for script in soup.find_all("script"):
-        text = script.string or ""
-        match = re.search(r'["\']?(https?://[^\s\'"]+\.(?:mkv|mp4))["\']?', text, re.IGNORECASE)
-        if match:
-            return match.group(1)
+        for script in soup.find_all("script"):
+            text = script.string or ""
+            match = re.search(r'["\']?(https?://[^\s\'"]+\.(?:mkv|mp4))["\']?', text, re.IGNORECASE)
+            if match:
+                return match.group(1)
+    except Exception:
+        pass
 
     return None
 
@@ -57,12 +61,12 @@ def extract_domain(url: str) -> str:
 
 def generate_updated_m3u(new_media_url: str) -> str:
     try:
-        resp = requests.get(M3U_RAW_URL, timeout=10)
+        resp = requests.get(M3U_RAW_URL, timeout=8)
         if resp.status_code != 200:
-            return f"# ERROR: Could not fetch M3U from GitHub. Status: {resp.status_code}"
+            return f"#EXTM3U\n# ERROR: Could not fetch M3U from GitHub. Status: {resp.status_code}"
         content = resp.text
     except Exception as e:
-        return f"# ERROR: {str(e)}"
+        return f"#EXTM3U\n# ERROR: {str(e)}"
 
     lines = content.splitlines(keepends=True)
     new_domain = extract_domain(new_media_url)
@@ -99,22 +103,20 @@ def generate_updated_m3u(new_media_url: str) -> str:
 @app.route('/playlist.m3u', methods=['GET'])
 @app.route('/', methods=['GET'])
 def get_playlist():
-    media_url = extract_media_url(WATCH_URL)
-    
-    if media_url:
-        m3u_content = generate_updated_m3u(media_url)
-    else:
-        try:
-            m3u_content = requests.get(M3U_RAW_URL, timeout=10).text
-        except Exception:
-            m3u_content = "#EXTM3U\n# ERROR: Could not extract media URL"
+    try:
+        media_url = extract_media_url(WATCH_URL)
+        if media_url:
+            m3u_content = generate_updated_m3u(media_url)
+        else:
+            # যদি নতুন ডোমেন কোনো কারণে এক্সট্রাক্ট না হয়, গিটহাবের অরিজিনাল ফাইলটাই ব্যাকআপ হিসেবে দেবে
+            m3u_content = requests.get(M3U_RAW_URL, timeout=8).text
+    except Exception as e:
+        m3u_content = f"#EXTM3U\n# GLOBAL ERROR: {str(e)}"
 
-    # Flask Response তৈরি করা (M3U ফরম্যাট এবং CORS হেডারসহ)
     response = Response(m3u_content, mimetype='application/x-mpegurl')
     response.headers['Content-Disposition'] = 'inline; filename="playlist.m3u"'
     response.headers['Access-Control-Allow-Origin'] = '*'
     return response
 
-# লোকাল পিসিতে টেস্ট করার জন্য (অপশনাল)
 if __name__ == '__main__':
     app.run(debug=True)
