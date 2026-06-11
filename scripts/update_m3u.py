@@ -71,8 +71,8 @@ def extract_domain(url: str) -> str:
 
 def update_m3u(m3u_path: str, new_media_url: str) -> bool:
     """
-    player.m3u তে শেষ media URL লাইনটা নতুন URL দিয়ে replace করো।
-    শুধু domain বদলায়, path একই থাকে।
+    playlist.m3u তে শুধুমাত্র [Fibwatch.Com] tagged entry গুলোর
+    media URL এর domain replace করো। অন্য কোনো entry touch হবে না।
     """
     try:
         with open(m3u_path, "r", encoding="utf-8") as f:
@@ -81,9 +81,8 @@ def update_m3u(m3u_path: str, new_media_url: str) -> bool:
         print(f"[!] M3U file not found: {m3u_path}")
         return False
 
-    # শেষ http URL লাইন find করো (media link)
     lines = content.splitlines(keepends=True)
-    
+
     new_domain = extract_domain(new_media_url)
     if not new_domain:
         print("[!] Could not extract domain from new URL.")
@@ -91,24 +90,36 @@ def update_m3u(m3u_path: str, new_media_url: str) -> bool:
 
     updated = False
     new_lines = []
+    is_fibwatch_entry = False  # ← flag: আগের EXTINF line টা Fibwatch এর কিনা
 
     for line in lines:
         stripped = line.strip()
-        # Media URL line: http দিয়ে শুরু, .mkv বা .mp4 আছে
-        if re.match(r'https?://', stripped) and re.search(r'\.(mkv|mp4)', stripped, re.IGNORECASE):
-            old_domain = extract_domain(stripped)
-            if old_domain and old_domain != new_domain:
-                new_line = stripped.replace(old_domain, new_domain, 1) + "\n"
-                print(f"[+] Replacing domain:")
-                print(f"    OLD: {stripped}")
-                print(f"    NEW: {new_line.strip()}")
-                new_lines.append(new_line)
-                updated = True
-            elif old_domain == new_domain:
-                print(f"[=] Domain already up-to-date: {new_domain}")
-                new_lines.append(line)
+
+        # #EXTINF line দেখলে check করো [Fibwatch.Com] আছে কিনা
+        if stripped.startswith("#EXTINF"):
+            is_fibwatch_entry = "[Fibwatch.Com]" in stripped
+            new_lines.append(line)
+
+        # Media URL line (http দিয়ে শুরু, .mkv/.mp4 আছে)
+        elif re.match(r'https?://', stripped) and re.search(r'\.(mkv|mp4)', stripped, re.IGNORECASE):
+            if is_fibwatch_entry:
+                # শুধু Fibwatch entry তে domain replace করো
+                old_domain = extract_domain(stripped)
+                if old_domain and old_domain != new_domain:
+                    new_line = stripped.replace(old_domain, new_domain, 1) + "\n"
+                    print(f"[+] Replacing domain:")
+                    print(f"    OLD: {stripped}")
+                    print(f"    NEW: {new_line.strip()}")
+                    new_lines.append(new_line)
+                    updated = True
+                else:
+                    print(f"[=] Domain already up-to-date: {stripped}")
+                    new_lines.append(line)
             else:
+                # Fibwatch entry না, skip — unchanged
                 new_lines.append(line)
+            is_fibwatch_entry = False  # reset flag after URL line
+
         else:
             new_lines.append(line)
 
