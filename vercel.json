@@ -1,0 +1,14 @@
+{
+    "rewrites": [
+        {
+            "source": "/playlist.m3u",
+            "destination": "/api/index.py"
+        }
+    ],
+    "crons": [
+        {
+            "path": "/playlist.m3u",
+            "schedule": "5 21 * * *"
+        }
+    ]
+}

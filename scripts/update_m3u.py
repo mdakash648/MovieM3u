@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 # ==================== CONFIG ====================
 WATCH_URL = "https://fibwatch.art/watch/naagin-2025-s07e48-hindi-jh-web-dl-720p_l6SN6MEkd7mT66S.html"
-M3U_FILE = "playlist.m3u"   # ← player.m3u → playlist.m3u
+M3U_FILE = "https://raw.githubusercontent.com/mdakash648/MovieM3u/refs/heads/main/playlist.m3u"   # ← player.m3u → playlist.m3u
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "Referer": WATCH_URL,
