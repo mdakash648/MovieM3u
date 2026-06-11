@@ -18,7 +18,7 @@
     "crons": [
         {
             "path": "/playlist.m3u",
-            "schedule": "15 22 * * *"
+            "schedule": "35 22 * * *"
         },
         {
             "path": "/playlist.m3u",
