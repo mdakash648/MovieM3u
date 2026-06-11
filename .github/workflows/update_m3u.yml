@@ -4,8 +4,10 @@ on:
   schedule:
     # Bangladesh time রাত 12:00 AM = UTC 6:00 PM
     - cron: '0 18 * * *'
+    # Bangladesh time দুপুর 12:00 PM = UTC 6:00 AM
+    - cron: '0 6 * * *'
   
-  # Manual trigger এর জন্য (test করতে চাইলে)
+  # Manual trigger
   workflow_dispatch:
 
 jobs:
