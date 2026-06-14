@@ -1,5 +1,6 @@
 from flask import Flask, Response, request
 import re
+import subprocess
 import requests
 from bs4 import BeautifulSoup
 
@@ -127,11 +128,56 @@ def get_playlist():
     return cors_headers(response)
 
 
+@app.route('/audioinfo', methods=['GET', 'OPTIONS'])
+def audio_info():
+    """
+    Returns JSON list of audio tracks in a video file.
+    Usage: /audioinfo?url=<encoded_video_url>
+    Uses ffprobe to detect all audio streams.
+    """
+    if request.method == 'OPTIONS':
+        resp = Response('', status=204)
+        return cors_headers(resp)
+
+    video_url = request.args.get('url', '')
+    if not video_url or not re.match(r'https?://', video_url):
+        return cors_headers(Response('{"error":"Invalid URL"}', status=400, mimetype='application/json'))
+
+    try:
+        result = subprocess.run(
+            [
+                'ffprobe', '-v', 'quiet',
+                '-print_format', 'json',
+                '-show_streams',
+                '-select_streams', 'a',
+                '-headers', f'User-Agent: {HEADERS["User-Agent"]}\r\nReferer: {HEADERS["Referer"]}\r\n',
+                video_url
+            ],
+            capture_output=True, text=True, timeout=20
+        )
+        import json
+        data = json.loads(result.stdout or '{"streams":[]}')
+        tracks = []
+        for i, s in enumerate(data.get('streams', [])):
+            tags = s.get('tags', {})
+            lang = tags.get('language') or tags.get('LANGUAGE') or ''
+            title = tags.get('title') or tags.get('TITLE') or ''
+            label = title or lang or f'Track {i + 1}'
+            tracks.append({'index': i, 'lang': lang, 'title': title, 'label': label})
+        return cors_headers(Response(json.dumps({'tracks': tracks}), mimetype='application/json'))
+    except Exception as e:
+        import json
+        return cors_headers(Response(json.dumps({'tracks': [], 'error': str(e)}), mimetype='application/json'))
+
+
 @app.route('/proxy', methods=['GET', 'OPTIONS'])
 def proxy_video():
     """
     Proxy endpoint to stream MKV/MP4 files with proper CORS and Range support.
-    Usage: /proxy?url=<encoded_video_url>
+    Usage: /proxy?url=<encoded_video_url>[&audio=<track_index>]
+
+    When audio= is specified, ffmpeg remuxes the file selecting only that audio track
+    so the browser always gets a single clean audio stream (no multi-audio confusion).
     """
     if request.method == 'OPTIONS':
         resp = Response('', status=204)
@@ -141,11 +187,46 @@ def proxy_video():
     if not video_url:
         return cors_headers(Response('Missing url parameter', status=400))
 
-    # Only allow mkv/mp4 files from known domains for security
     if not re.match(r'https?://', video_url):
         return cors_headers(Response('Invalid URL', status=400))
 
-    # Forward Range header for seek support
+    audio_track = request.args.get('audio', None)
+
+    # If a specific audio track is requested, use ffmpeg to remux with that track only
+    if audio_track is not None:
+        try:
+            track_idx = int(audio_track)
+        except ValueError:
+            track_idx = 0
+
+        def generate_ffmpeg():
+            cmd = [
+                'ffmpeg', '-v', 'quiet',
+                '-headers', f'User-Agent: {HEADERS["User-Agent"]}\r\nReferer: {HEADERS["Referer"]}\r\n',
+                '-i', video_url,
+                '-map', '0:v:0',          # first video stream
+                '-map', f'0:a:{track_idx}',  # selected audio stream
+                '-c', 'copy',             # no re-encode, just remux
+                '-movflags', 'frag_keyframe+empty_moov+faststart',
+                '-f', 'mp4',
+                'pipe:1'
+            ]
+            proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL)
+            try:
+                while True:
+                    chunk = proc.stdout.read(65536)
+                    if not chunk:
+                        break
+                    yield chunk
+            finally:
+                proc.kill()
+                proc.wait()
+
+        resp = Response(generate_ffmpeg(), mimetype='video/mp4')
+        resp.headers['Accept-Ranges'] = 'none'
+        return cors_headers(resp)
+
+    # No audio track specified — plain proxy with Range support (original behaviour)
     range_header = request.headers.get('Range', None)
     req_headers = dict(HEADERS)
     if range_header:
@@ -161,14 +242,13 @@ def proxy_video():
     except Exception as e:
         return cors_headers(Response(f'Upstream error: {e}', status=502))
 
-    # Detect content type
     content_type = upstream.headers.get('Content-Type', 'video/mp4')
     if 'mkv' in video_url.lower() or 'matroska' in content_type.lower():
         content_type = 'video/x-matroska'
     elif 'mp4' in video_url.lower():
         content_type = 'video/mp4'
 
-    status_code = upstream.status_code  # 200 or 206 for partial content
+    status_code = upstream.status_code
 
     def generate():
         for chunk in upstream.iter_content(chunk_size=65536):
@@ -182,7 +262,6 @@ def proxy_video():
         direct_passthrough=True
     )
 
-    # Forward important headers
     for h in ('Content-Range', 'Content-Length', 'Accept-Ranges', 'Last-Modified', 'ETag'):
         val = upstream.headers.get(h)
         if val:
