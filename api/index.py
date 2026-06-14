@@ -1,4 +1,4 @@
-from flask import Flask, Response
+from flask import Flask, Response, request
 import re
 import requests
 from bs4 import BeautifulSoup
@@ -17,7 +17,6 @@ HEADERS = {
 
 def extract_media_url(watch_url: str) -> str | None:
     try:
-        # টাইমআউট ৮ সেকেন্ড করলাম যেন ভার্সেল ১০ সেকেন্ডের লিমিটে ক্র্যাশ না করে
         resp = requests.get(watch_url, headers=HEADERS, timeout=8)
         if resp.status_code != 200:
             return None
@@ -79,16 +78,13 @@ def generate_updated_m3u(new_media_url: str) -> str:
     for line in lines:
         stripped = line.strip()
 
-        # ১. যদি ইনফো লাইন হয়, তবে চেক করো ফিবওয়াচ এন্ট্রি কি না
         if stripped.startswith("#EXTINF"):
             is_fibwatch_entry = "fibwatch.com" in stripped.lower()
             new_lines.append(line)
 
-        # ২. যদি মাঝখানে #EXTVLCOPT বা খালি লাইন থাকে, সেগুলোকে জাস্ট রেখে দাও, ফ্ল্যাগ অফ করিও না
         elif stripped.startswith("#EXTVLCOPT") or not stripped:
             new_lines.append(line)
 
-        # ৩. যখনই আসল মুভির লিঙ্ক পাবে, তখনই ডোমেন রিপ্লেস করো এবং ফ্ল্যাগ অফ করো
         elif re.match(r'https?://', stripped) and re.search(r'\.(mkv|mp4)', stripped, re.IGNORECASE):
             if is_fibwatch_entry:
                 old_domain = extract_domain(stripped)
@@ -99,11 +95,19 @@ def generate_updated_m3u(new_media_url: str) -> str:
                     new_lines.append(line)
             else:
                 new_lines.append(line)
-            is_fibwatch_entry = False  # লিঙ্ক পাওয়ার পর সিগন্যাল অফ করো
+            is_fibwatch_entry = False
         else:
             new_lines.append(line)
 
     return "".join(new_lines)
+
+
+def cors_headers(response: Response) -> Response:
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    response.headers['Access-Control-Allow-Methods'] = 'GET, OPTIONS'
+    response.headers['Access-Control-Allow-Headers'] = 'Range, Content-Type'
+    response.headers['Access-Control-Expose-Headers'] = 'Content-Range, Content-Length, Accept-Ranges'
+    return response
 
 
 @app.route('/playlist.m3u', methods=['GET'])
@@ -114,15 +118,81 @@ def get_playlist():
         if media_url:
             m3u_content = generate_updated_m3u(media_url)
         else:
-            # যদি নতুন ডোমেন কোনো কারণে এক্সট্রাক্ট না হয়, গিটহাবের অরিজিনাল ফাইলটাই ব্যাকআপ হিসেবে দেবে
             m3u_content = requests.get(M3U_RAW_URL, timeout=8).text
     except Exception as e:
         m3u_content = f"#EXTM3U\n# GLOBAL ERROR: {str(e)}"
 
     response = Response(m3u_content, mimetype='application/x-mpegurl')
     response.headers['Content-Disposition'] = 'inline; filename="playlist.m3u"'
-    response.headers['Access-Control-Allow-Origin'] = '*'
-    return response
+    return cors_headers(response)
+
+
+@app.route('/proxy', methods=['GET', 'OPTIONS'])
+def proxy_video():
+    """
+    Proxy endpoint to stream MKV/MP4 files with proper CORS and Range support.
+    Usage: /proxy?url=<encoded_video_url>
+    """
+    if request.method == 'OPTIONS':
+        resp = Response('', status=204)
+        return cors_headers(resp)
+
+    video_url = request.args.get('url', '')
+    if not video_url:
+        return cors_headers(Response('Missing url parameter', status=400))
+
+    # Only allow mkv/mp4 files from known domains for security
+    if not re.match(r'https?://', video_url):
+        return cors_headers(Response('Invalid URL', status=400))
+
+    # Forward Range header for seek support
+    range_header = request.headers.get('Range', None)
+    req_headers = dict(HEADERS)
+    if range_header:
+        req_headers['Range'] = range_header
+
+    try:
+        upstream = requests.get(
+            video_url,
+            headers=req_headers,
+            stream=True,
+            timeout=15
+        )
+    except Exception as e:
+        return cors_headers(Response(f'Upstream error: {e}', status=502))
+
+    # Detect content type
+    content_type = upstream.headers.get('Content-Type', 'video/mp4')
+    if 'mkv' in video_url.lower() or 'matroska' in content_type.lower():
+        content_type = 'video/x-matroska'
+    elif 'mp4' in video_url.lower():
+        content_type = 'video/mp4'
+
+    status_code = upstream.status_code  # 200 or 206 for partial content
+
+    def generate():
+        for chunk in upstream.iter_content(chunk_size=65536):
+            if chunk:
+                yield chunk
+
+    resp = Response(
+        generate(),
+        status=status_code,
+        mimetype=content_type,
+        direct_passthrough=True
+    )
+
+    # Forward important headers
+    for h in ('Content-Range', 'Content-Length', 'Accept-Ranges', 'Last-Modified', 'ETag'):
+        val = upstream.headers.get(h)
+        if val:
+            resp.headers[h] = val
+
+    if 'Accept-Ranges' not in resp.headers:
+        resp.headers['Accept-Ranges'] = 'bytes'
+
+    return cors_headers(resp)
+
 
 if __name__ == '__main__':
     app.run(debug=True)

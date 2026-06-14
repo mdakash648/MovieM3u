@@ -11,6 +11,10 @@
             "destination": "/api/index.py"
         },
         {
+            "source": "/proxy",
+            "destination": "/api/index.py"
+        },
+        {
             "source": "/",
             "destination": "/api/index.py"
         }
