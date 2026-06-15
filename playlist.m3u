@@ -2284,3 +2284,24 @@ http://ftp11.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/The%20Sopr
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/72669
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://ftp11.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/The%20Sopranos%20%28TV%20Series%201999-2007%29/The.Sopranos.S06.1080p.BluRay.x264-HDMI%5Brartv%5D/the.sopranos.s06e21.1080p.bluray.x264-hdmi.mkv
+
+#EXTINF:-1 group-title="Chernobyl" -1,Chernobyl.S01E01.1.23.45.1080p.x264.BluRay.Hindi.English.Esubs.MoviesMod.org
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/96971
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Chernobyl%20%28TV%20Mini%20Series%202019%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%201%201080p/Chernobyl.S01E01.1.23.45.1080p.x264.BluRay.Hindi.English.Esubs.MoviesMod.org.mkv
+#EXTINF:-1 group-title="Chernobyl" -1,Chernobyl.S01E02.Please.Remain.Calm.1080p.x264.BluRay.Hindi.English.Esubs.MoviesMod.org
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/96971
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Chernobyl%20%28TV%20Mini%20Series%202019%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%201%201080p/Chernobyl.S01E02.Please.Remain.Calm.1080p.x264.BluRay.Hindi.English.Esubs.MoviesMod.org.mkv
+#EXTINF:-1 group-title="Chernobyl" -1,Chernobyl.S01E03.Open.Wide.O.Earth.1080p.x264.BluRay.Hindi.English.Esubs.MoviesMod.org
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/96971
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Chernobyl%20%28TV%20Mini%20Series%202019%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%201%201080p/Chernobyl.S01E03.Open.Wide.O.Earth.1080p.x264.BluRay.Hindi.English.Esubs.MoviesMod.org.mkv
+#EXTINF:-1 group-title="Chernobyl" -1,Chernobyl.S01E04.The.Happiness.of.All.Mankind.1080p.x264.BluRay.Hindi.English.Esubs.MoviesMod.org
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/96971
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Chernobyl%20%28TV%20Mini%20Series%202019%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%201%201080p/Chernobyl.S01E04.The.Happiness.of.All.Mankind.1080p.x264.BluRay.Hindi.English.Esubs.MoviesMod.org.mkv
+#EXTINF:-1 group-title="Chernobyl" -1,Chernobyl.S01E05.Vichnaya.Pamyat.1080p.x264.BluRay.Hindi.English.Esubs.MoviesMod.org
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/96971
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Chernobyl%20%28TV%20Mini%20Series%202019%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%201%201080p/Chernobyl.S01E05.Vichnaya.Pamyat.1080p.x264.BluRay.Hindi.English.Esubs.MoviesMod.org.mkv
