@@ -36,10 +36,6 @@ http://index.circleftp.net/FILE/English%20%26%20Foreign%20Dubbed%20Movies/1995%2
 http://index.circleftp.net/FILE/English%20%26%20Foreign%20Dubbed%20Movies/2010/Iron%20Man%202%20%282010%29%201080p%20BluRay%20%5BDual%20Audio%5D%20%5BHindi%2BEnglish%5D%20DD%205.1%20MSubs%20x264/Iron%20Man%202%20%282010%29%201080p%20BluRay%20%5BDual%20Audio%5D%20%5BHindi%2BEnglish%5D%20DD%205.1%20MSubs%20x264.mkv
 #EXTINF:-1 group-title="MCU Movie" -1,Thor (2011) 1080p BluRay [Dual Audio] [Hindi+English] DD 5.1 MSubs x264.mkv
 http://index.circleftp.net/FILE/English%20%26%20Foreign%20Dubbed%20Movies/2011/Thor%20%282011%29%201080p%2mkv
-
-
-
-uRay%20%5BDual%20Audio%5D%20%5BHindi%2BEnglish%5D%20DD%205.1%20MSubs%20x264/Thor%20%282011%29%201080p%20BluRay%20%5BDual%20Audio%5D%20%5BHindi%2BEnglish%5D%20DD%205.1%20MSubs%20x264.mkv
 #EXTINF:-1 group-title="MCU Movie" -1,Captain America The First Avenger (2011) IMAX 1080p BluRay [Multi Audio] [Hin+Eng+Tam+Tel] MSub DD5.1 x264.mkv
 http://index.circleftp.net/FILE/English%20%26%20Foreign%20Dubbed%20Movies/2011/Captain%20America%20The%20First%20Avenger%20%282011%29%20IMAX%201080p%20BluRay%20%5BMulti%20Audio%5D%20%5BHin%2BEng%2BTam%2BTel%5D%20MSub%20DD5.1%20x264/Captain%20America%20The%20First%20Avenger%20%282011%29%20IMAX%201080p%20BluRay%20%5BMulti%20Audio%5D%20%5BHin%2BEng%2BTam%2BTel%5D%20MSub%20DD5.1%20x264.mkv
 #EXTINF:-1 group-title="MCU Movie" -1,The Avengers (2012) 1080p BluRay x264 Dual Audio [Hindi BD DD5 1 English DD5 1] ESUB @Sazib.mkv
@@ -406,7 +402,18 @@ http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/From%20%28TV%
 http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/From%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%204%201080p/From.S04E04.1080p.AMZN.WEB-DL.Hindi.DDP5.1-English.DDP5.1.H.264.mkv
 #EXTINF:-1 group-title="From" -1,From.S04E05.1080p.AMZN.WEB-DL.Hindi.DDP5.1-English.DDP5.1.H.264.mkv
 http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/From%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%204%201080p/From.S04E05.1080p.AMZN.WEB-DL.Hindi.DDP5.1-English.DDP5.1.H.264.mkv
-
+#EXTINF:-1 group-title="From" -1,From.S04E06.1080p.AMZN.WEB-DL.Hindi.DDP5.1-English.DDP5.1.H.264
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/100576
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/From%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%204%201080p/From.S04E06.1080p.AMZN.WEB-DL.Hindi.DDP5.1-English.DDP5.1.H.264.mkv
+#EXTINF:-1 group-title="From" -1,From.S04E07.1080p.AMZN.WEB-DL.Hindi.DDP5.1-English.DDP5.1.H.264
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/100576
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/From%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%204%201080p/From.S04E07.1080p.AMZN.WEB-DL.Hindi.DDP5.1-English.DDP5.1.H.264.mkv
+#EXTINF:-1 group-title="From" -1,From.S04E08.1080p.AMZN.WEB-DL.Hindi.DDP5.1-English.DDP5.1.H.264
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/100576
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/From%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%204%201080p/From.S04E08.1080p.AMZN.WEB-DL.Hindi.DDP5.1-English.DDP5.1.H.264.mkv
 
 
 #EXTINF:-1 group-title="Gyaarah" -1,Gyaarah Gyaarah S01E01 Hindi 1080p Zee5 WEBRip x264 AAC 5.1 ESub - DownloadHub
@@ -451,215 +458,20 @@ https://server5.ftpbd.net/FTP-5/Animation%20Movies/Dual%20Audio/Movie-Series-Col
 https://server5.ftpbd.net/FTP-5/Animation%20Movies/Dual%20Audio/Movie-Series-Collection/Kung-Fu-Panda-Movie-Collection-2008-2016/Kung%20Fu%20Panda%202008%20%281080p%20x265%2010bit%20Tigole%29_reencoded.mp4
 #EXTINF:-1 group-title="hindi & dubbed movies" -1,Kung Fu Panda 3 2016 (1080p x265 10bit Tigole)_reencoded
 https://server5.ftpbd.net/FTP-5/Animation%20Movies/Dual%20Audio/Movie-Series-Collection/Kung-Fu-Panda-Movie-Collection-2008-2016/Kung%20Fu%20Panda%203%202016%20%281080p%20x265%2010bit%20Tigole%29_reencoded.mp4
-
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E01.Back.From.The.Flames.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E01.Back.From.The.Flames.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E02.Echoes.Of.The.Past.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E02.Echoes.Of.The.Past.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E03.Virus.And.Venting.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E03.Virus.And.Venting.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E04.Spotlight.Stand-Up.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E04.Spotlight.Stand-Up.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E05.Camp.Competition.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E05.Camp.Competition.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E06.Camp.Trials.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E06.Camp.Trials.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E07.Team.Tensions.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E07.Team.Tensions.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E08.Confidants.In.Code.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E08.Confidants.In.Code.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E09.App.Trio.Formed.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E09.App.Trio.Formed.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E10.Sacrifice.and.Shield.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E10.Sacrifice.and.Shield.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E11.Secrets.Unfurled.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E11.Secrets.Unfurled.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E12.Lighters.Flame.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E12.Lighters.Flame.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E13.First.Sparks.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E13.First.Sparks.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E14.Princess.Dress.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E14.Princess.Dress.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E15.Rivals.Rise.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E15.Rivals.Rise.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E16.Betrayal.Brewed.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E16.Betrayal.Brewed.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E17.Fall.and.Fallout.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E17.Fall.and.Fallout.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E18.Loves.Time.Jump.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E18.Loves.Time.Jump.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E19.Hearts.On.Hold.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E19.Hearts.On.Hold.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E20.Campus.Closure.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E20.Campus.Closure.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E21.Graduation.Goodbye.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E21.Graduation.Goodbye.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E22.Professional.Alliance.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E22.Professional.Alliance.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E23.Scandal.and.Shares.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E23.Scandal.and.Shares.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E24.Toxic.Fallout.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E24.Toxic.Fallout.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E25.Rising.Phoenix.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E25.Rising.Phoenix.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E26.Rebuilding.Together.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E26.Rebuilding.Together.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E27.Deep.Confession.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E27.Deep.Confession.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E28.Healing.Light.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E28.Healing.Light.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E29.Together.Apart.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E29.Together.Apart.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E30.Promise.and.Proposal.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E30.Promise.and.Proposal.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E31.Yes.In.The.Flames.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E31.Yes.In.The.Flames.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E32.Homecoming.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E32.Homecoming.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E33.Jealous.Shadows.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E33.Jealous.Shadows.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E34.Phoenix.Wedding.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E34.Phoenix.Wedding.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E35.Legacy.Ignited.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E35.Legacy.Ignited.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E36.Warm.Afterglow.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E36.Warm.Afterglow.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
-
 #EXTINF:-1 group-title="hindi & dubbed movies" -1,Maharshi (2019) 1080p WEBRip [Dual Audio] [Hindi+Telugu] x264.mkv
 http://ftp17.circleftp.net/FILE/Tamil%20Telugu%20%26%20Others%20Hindi%20Dubbed/2019/Maharshi%20%282019%29%201080p%20WEBRip%20%5BDual%20Audio%5D%20%5BHindi%2BTelugu%5D%20x264/Maharshi%20%282019%29%201080p%20WEBRip%20%5BDual%20Audio%5D%20%5BHindi%2BTelugu%5D%20x264.mkv
-
-#EXTINF:-1 group-title="Mother" -1,Mother.S01E01.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E01.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
-#EXTINF:-1 group-title="Mother" -1,Mother.S01E02.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E02.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
-#EXTINF:-1 group-title="Mother" -1,Mother.S01E03.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E03.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
-#EXTINF:-1 group-title="Mother" -1,Mother.S01E04.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mkv
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E04.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mkv
-#EXTINF:-1 group-title="Mother" -1,Mother.S01E05.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E05.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
-#EXTINF:-1 group-title="Mother" -1,Mother.S01E06.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E06.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
-#EXTINF:-1 group-title="Mother" -1,Mother.S01E07.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E07.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
-#EXTINF:-1 group-title="Mother" -1,Mother.S01E08.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E08.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
-#EXTINF:-1 group-title="Mother" -1,Mother.S01E09.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E09.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
-#EXTINF:-1 group-title="Mother" -1,Mother.S01E10.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E10.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
-#EXTINF:-1 group-title="Mother" -1,Mother.S01E11.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E11.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
-#EXTINF:-1 group-title="Mother" -1,Mother.S01E12.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E12.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
-#EXTINF:-1 group-title="Mother" -1,Mother.S01E13.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E13.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
-#EXTINF:-1 group-title="Mother" -1,Mother.S01E14.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E14.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
-#EXTINF:-1 group-title="Mother" -1,Mother.S01E15.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E15.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
-#EXTINF:-1 group-title="Mother" -1,Mother.S01E16.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E16.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
-
 #EXTINF:-1 group-title="hindi & dubbed movies" -1,Noise (2025) 1080p WEB-DL [Dual Audio] [Hindi+Korean] x264.mkv
 http://index2.circleftp.net/FILE/English%20&%20Foreign%20Dubbed%20Movies/2025/Noise%20(2025)%201080p%20WEB-DL%20[Dual%20Audio]%20[Hindi+Korean]%20x264/Noise%20(2025)%201080p%20WEB-DL%20[Dual%20Audio]%20[Hindi+Korean]%20x264.mkv
-#EXTINF:-1 group-title="perfect crown" -1,Perfect.Crown.S01E01.1080p.WEB-DL.AAC2.0.H.264.mkv
-http://ftp7.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/Perfect%20Crown%20%28TV%20Min%20Series%202026-%29/Season%201%201080p/Perfect.Crown.S01E01.1080p.WEB-DL.AAC2.0.H.264.mkv
-#EXTINF:-1 group-title="perfect crown" -1,Perfect.Crown.S01E02.1080p.WEB-DL.AAC2.0.H.264.mkv
-http://ftp7.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/Perfect%20Crown%20%28TV%20Min%20Series%202026-%29/Season%201%201080p/Perfect.Crown.S01E02.1080p.WEB-DL.AAC2.0.H.264.mkv
-#EXTINF:-1 group-title="perfect crown" -1,Perfect.Crown.S01E03.1080p.WEB-DL.AAC2.0.H.264.mkv
-http://ftp7.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/Perfect%20Crown%20%28TV%20Min%20Series%202026-%29/Season%201%201080p/Perfect.Crown.S01E03.1080p.WEB-DL.AAC2.0.H.264.mkv
-#EXTINF:-1 group-title="perfect crown" -1,Perfect.Crown.S01E04.1080p.WEB-DL.AAC2.0.H.264.mkv
-http://ftp7.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/Perfect%20Crown%20%28TV%20Min%20Series%202026-%29/Season%201%201080p/Perfect.Crown.S01E04.1080p.WEB-DL.AAC2.0.H.264.mkv
-#EXTINF:-1 group-title="perfect crown" -1,Perfect.Crown.S01E05.1080p.WEB-DL.AAC2.0.H.264.mkv
-http://ftp7.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/Perfect%20Crown%20%28TV%20Min%20Series%202026-%29/Season%201%201080p/Perfect.Crown.S01E05.1080p.WEB-DL.AAC2.0.H.264.mkv
-#EXTINF:-1 group-title="perfect crown" -1,Perfect.Crown.S01E06.1080p.WEB-DL.AAC2.0.H.264.mkv
-http://ftp7.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/Perfect%20Crown%20%28TV%20Min%20Series%202026-%29/Season%201%201080p/Perfect.Crown.S01E06.1080p.WEB-DL.AAC2.0.H.264.mkv
-#EXTINF:-1 group-title="perfect crown" -1,Perfect.Crown.S01E07.1080p.WEB-DL.AAC2.0.H.264.mkv
-http://ftp7.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/Perfect%20Crown%20%28TV%20Min%20Series%202026-%29/Season%201%201080p/Perfect.Crown.S01E07.1080p.WEB-DL.AAC2.0.H.264.mkv
-#EXTINF:-1 group-title="perfect crown" -1,Perfect.Crown.S01E08.1080p.WEB-DL.AAC2.0.H.264.mkv
-http://ftp7.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/Perfect%20Crown%20%28TV%20Min%20Series%202026-%29/Season%201%201080p/Perfect.Crown.S01E08.1080p.WEB-DL.AAC2.0.H.264.mkv
-#EXTINF:-1 group-title="perfect crown" -1,Perfect.Crown.S01E09.1080p.WEB-DL.AAC2.0.H.264.mkv
-http://ftp7.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/Perfect%20Crown%20%28TV%20Min%20Series%202026-%29/Season%201%201080p/Perfect.Crown.S01E09.1080p.WEB-DL.AAC2.0.H.264.mkv
-#EXTINF:-1 group-title="perfect crown" -1,Perfect.Crown.S01E10.1080p.WEB-DL.AAC2.0.H.264.mkv
-http://ftp7.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/Perfect%20Crown%20%28TV%20Min%20Series%202026-%29/Season%201%201080p/Perfect.Crown.S01E10.1080p.WEB-DL.AAC2.0.H.264.mkv
-#EXTINF:-1 group-title="perfect crown" -1,Perfect.Crown.S01E11.1080p.WEB-DL.AAC2.0.H.264.mkv
-http://ftp7.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/Perfect%20Crown%20%28TV%20Min%20Series%202026-%29/Season%201%201080p/Perfect.Crown.S01E11.1080p.WEB-DL.AAC2.0.H.264.mkv
-#EXTINF:-1 group-title="perfect crown" -1,Perfect.Crown.S01E12.1080p.WEB-DL.AAC2.0.H.264.mkv
-http://ftp7.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/Perfect%20Crown%20%28TV%20Min%20Series%202026-%29/Season%201%201080p/Perfect.Crown.S01E12.1080p.WEB-DL.AAC2.0.H.264.mkv
 #EXTINF:-1 group-title="hindi & dubbed movies" -1,Saiyaara (2025) 1080p WEBRip Hindi x264.mkv
 http://index1.circleftp.net/FILE/Hindi%20Movies/2025/Saiyaara%20(2025)%201080p%20WEBRip%20Hindi%20x264/Saiyaara%20(2025)%201080p%20WEBRip%20Hindi%20x264.mkv
 #EXTINF:-1 group-title="School 2017" -1,School.2017.S01E01.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
 http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E01.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
-#EXTINF:-1 group-title="School 2017" -1,School.2017.S01E02.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E02.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
-#EXTINF:-1 group-title="School 2017" -1,School.2017.S01E03.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E03.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
-#EXTINF:-1 group-title="School 2017" -1,School.2017.S01E04.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E04.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
-#EXTINF:-1 group-title="School 2017" -1,School.2017.S01E05.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E05.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
-#EXTINF:-1 group-title="School 2017" -1,School.2017.S01E06.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E06.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
-#EXTINF:-1 group-title="School 2017" -1,School.2017.S01E07.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E07.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
-#EXTINF:-1 group-title="School 2017" -1,School.2017.S01E08.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E08.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
-#EXTINF:-1 group-title="School 2017" -1,School.2017.S01E09.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E09.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
-#EXTINF:-1 group-title="School 2017" -1,School.2017.S01E10.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E10.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
-#EXTINF:-1 group-title="School 2017" -1,School.2017.S01E11.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E11.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
-#EXTINF:-1 group-title="School 2017" -1,School.2017.S01E12.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E12.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
-#EXTINF:-1 group-title="School 2017" -1,School.2017.S01E13.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E13.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
-#EXTINF:-1 group-title="School 2017" -1,School.2017.S01E14.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E14.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
-#EXTINF:-1 group-title="School 2017" -1,School.2017.S01E15.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E15.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
-#EXTINF:-1 group-title="School 2017" -1,School.2017.S01E16.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E16.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
 #EXTINF:-1 group-title="hindi & dubbed movies" -1,The-Avengers-2012-1080p-Hindi-Dubbed_reencoded
 https://server2.ftpbd.net/FTP-2/English%20Movies/Dual-Audio/2015-%26-Before/The-Avengers-2012/The-Avengers-2012-1080p-Hindi-Dubbed_reencoded.mp4
 #EXTINF:-1 group-title="hindi & dubbed movies" -1,The-Legend-Of-Aang-The-Last-Airbender-2026-1080p-English-WEBRip_reencoded
 https://server5.ftpbd.net/FTP-5/Animation%20Movies/%282026%29/The-Legend-Of-Aang-The-Last-Airbender-2026/The-Legend-Of-Aang-The-Last-Airbender-2026-1080p-English-WEBRip_reencoded.mp4
 #EXTINF:-1 group-title="hindi & dubbed movies" -1,Thor - Ragnarok (2017) 1080p 10bit Bluray x265 HEVC [Org BD 5.1 Hindi + DD 5.1 English] MSubs ~ TombDoc.mkv
 http://index2.circleftp.net/FILE/English%20%26%20Foreign%20Dubbed%20Movies/2017/Thor%20-%20Ragnarok%20%282017%29%201080p%2010bit%20Bluray%20x265%20HEVC%20%5BOrg%20BD%205.1%20Hindi%20%2B%20DD%205.1%20English%5D%20MSubs%20~%20TombDoc/Thor%20-%20Ragnarok%20%282017%29%201080p%2010bit%20Bluray%20x265%20HEVC%20%5BOrg%20BD%205.1%20Hindi%20%2B%20DD%205.1%20English%5D%20MSubs%20~%20TombDoc.mkv
-#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E01 171206 1080p HDTV x264-RAiN.mkv
-http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E01%20171206%201080p%20HDTV%20x264-RAiN.mkv
-#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E02 171207 1080p HDTV x264-RAiN.mkv
-http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E02%20171207%201080p%20HDTV%20x264-RAiN.mkv
-#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E03 171213 1080p HDTV x264-RAiN.mkv
-http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E03%20171213%201080p%20HDTV%20x264-RAiN.mkv
-#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E04 171214 1080p HDTV x264-RAiN.mkv
-http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E04%20171214%201080p%20HDTV%20x264-RAiN.mkv
-#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E05 171220 1080p HDTV x264-RAiN.mkv
-http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E05%20171220%201080p%20HDTV%20x264-RAiN.mkv
-#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E06 171221 1080p HDTV x264-RAiN.mkv
-http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E06%20171221%201080p%20HDTV%20x264-RAiN.mkv
-#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E07 171227 1080p HDTV x264-RAiN.mkv
-http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E07%20171227%201080p%20HDTV%20x264-RAiN.mkv
-#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E08 171228 1080p HDTV x264-RAiN.mkv
-http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E08%20171228%201080p%20HDTV%20x264-RAiN.mkv
-#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E09 180103 1080p HDTV x264-RAiN.mkv
-http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E09%20180103%201080p%20HDTV%20x264-RAiN.mkv
-#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E10 180104 1080p HDTV x264-RAiN.mkv
-http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E10%20180104%201080p%20HDTV%20x264-RAiN.mkv
-#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E11 180110 1080p HDTV x264-RAiN.mkv
-http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E11%20180110%201080p%20HDTV%20x264-RAiN.mkv
-#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E12 180111 1080p HDTV x264-RAiN.mkv
-http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E12%20180111%201080p%20HDTV%20x264-RAiN.mkv
-#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E13 180117 1080p HDTV x264-RAiN.mkv
-http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E13%20180117%201080p%20HDTV%20x264-RAiN.mkv
-#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E14 180118 1080p HDTV x264-RAiN.mkv
-http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E14%20180118%201080p%20HDTV%20x264-RAiN.mkv
-#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E15 180124 1080p HDTV x264-RAiN.mkv
-http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E15%20180124%201080p%20HDTV%20x264-RAiN.mkv
-#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E16 180125 1080p HDTV x264-RAiN.mkv
-http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E16%20180125%201080p%20HDTV%20x264-RAiN.mkv
-
 #EXTINF:-1 group-title="hindi & dubbed movies" -1,Mere Husband Ki Biwi (2025) 1080p WEB-DL Hindi x264
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/103207
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -784,21 +596,283 @@ http://index1.circleftp.net/FILE/Hindi%20Movies/2026/Hai%20Jawani%20Toh%20Ishq%2
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/105542
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://ftp13.circleftp.net/FILE/Tamil%20Telugu%20%26%20Others%20Hindi%20Dubbed/2025/Valavaara%20%282025%29%201080p%20WEB-DL%20%5BDual%20Audio%5D%20%5BHindi%2BKannada%5D%20x264/Valavaara%20%282025%29%201080p%20WEB-DL%20%5BDual%20Audio%5D%20%5BHindi%2BKannada%5D%20x264.mkv
-
-#EXTINF:-1 group-title="Akash" -1,Chillar Party (2011) 1080p WebRip Hindi x264
-#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/103709
+#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]KARIKAADA.2026.Dual.1080p
+#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/karikaada-2026-dual-audio-hindi-org-kannada-amazon-web-dl-1080p_jkfDKGP1xLiOGvG.html
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://index1.circleftp.net/FILE/Hindi%20Movies/2011/Chillar%20Party%20%282011%29%201080p%20WebRip%20Hindi%20x264/Chillar%20Party%20%282011%29%201080p%20WebRip%20Hindi%20x264.mkv
+https://ughnmm.b-cdn.net/s3/upload/videos/2026/05/[Fibwatch.Com]KARIKAADA.2026.Dual.1080p.mkv
+#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Lake.Placid.Legacy.2016.720p.WEB.DL.Hindi.Dual.Audio
+#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/lake-placid-legacy-2018-dual-audio-hindi-english-web-dl-720p_sZDZwf8Nrh55cVz.html
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ughnmm.b-cdn.net/upload/videos/2023/11/[Fibwatch.Com]Lake.Placid.Legacy.2016.720p.WEB.DL.Hindi.Dual.Audio.mkv
+#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Lake.Placid.The.Final.Chapter.(2012).Dual.1080p
+#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/lake-placid-the-final-chapter-2012-dual-audio-hindi-english-web-dl-1080p_Z7dJFz8r117r6wS.html
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ughnmm.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Lake.Placid.The.Final.Chapter.(2012).Dual.1080p.mkv
+#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Lake.Placid.3.(2010).Dual.1080p
+#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/lake-placid-3-2010-dual-audio-hindi-english-web-dl-1080p_AsEn6sA7LhprCF7.html
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ughnmm.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Lake.Placid.3.(2010).Dual.1080p.mkv
+#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Lake.Placid.2.(2007).Dual.1080p
+#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/lake-placid-2-2007-dual-audio-hindi-english-web-dl-1080p_sAElrQhwAu1Z2iw.html
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ughnmm.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Lake.Placid.2.(2007).Dual.1080p.mkv
+#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Lake.Placid.(1999).Dual.1080p
+#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/lake-placid-1999-dual-audio-hindi-english-bluray-1080p_xXLqAAV9AalbCib.html
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ughnmm.b-cdn.net/s3/upload/videos/2026/05/[Fibwatch.Com]Lake.Placid.(1999).Dual.1080p.mkv
+#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Peddi.(2026).Dual.HDTC.720p
+#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/peddi-2026-dual-audio-hindi-line-telugu-hdtc-720p_eyQShKfi7crMyF4.html
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ughnmm.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Peddi.(2026).Dual.HDTC.720p.mkv
+#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]My.Dearest.Assassin.Dual.720p
+#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/my-dearest-assassin-2026-dual-audio-hindi-thai-netflix-web-dl-720p_OAdu6E5vH8iOfkh.html
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ughnmm.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]My.Dearest.Assassin.Dual.720p.mkv
+#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Summer.House.2026.Dual.720p
+#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/yaz-evi-aka-summer-house-2026-dual-audio-hindi-turkish-amazon-web-dl-720p_i4GloxEjycWR39Q.html
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ughnmm.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Summer.House.2026.Dual.720p.mkv
+#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Boss.2025.Dual.1080p
+#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/boss-2025-dual-audio-hindi-korean-web-dl-1080p_DL12TqwGBO6HKDh.html
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ughnmm.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Boss.2025.Dual.1080p.mkv
+#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Revolver.Rita.(2025).Hindi.Dubbed.720p
+#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/revolver-rita-2025-hindi-dubbed-web-dl-720p_TrMkigo7Tgpw4E5.html
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ughnmm.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Revolver.Rita.(2025).Hindi.Dubbed.720p.mkv
+#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Boat.2024.Dual.720P
+#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/boat-2024-dual-audio-hindi-org-tamil-web-dl-720p_txnYP3ajYzNPsZ4.html
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ughnmm.b-cdn.net/upload/videos/2024/08/[Fibwatch.Com]Boat.2024.Dual.720P.mkv
+#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Azure.Dragon.Sword.(2023).Dual.720P
+#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/azure-dragon-sword-2023-dual-audio-hindi-chinese-amazon-web-dl-720p_SYIsFHD8cP3U8oP.html
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ughnmm.b-cdn.net/upload/videos/2023/10/[Fibwatch.Com]Azure.Dragon.Sword.(2023).Dual.720P.mkv
+#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Tales.of.the.Blood.Moon.(2024).Dual.720P
+#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/tales-of-the-blood-moon-2024-dual-hindi-chinese-amazon-web-dl-720p_bL56SbSHJc2XmCn.html
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ughnmm.b-cdn.net/upload/videos/2024/03/[Fibwatch.Com]Tales.of.the.Blood.Moon.(2024).Dual.720P.mkv
+#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Arjun.Son.Of.Vyjayanthi.(2025).Dual.720p
+#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/arjun-s-o-vyjayanthi-2025-dual-audio-hindi-telugu-uncut-amazon-web-dl-720p_82xukSxeOyMXiXF.html
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ughnmm.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Arjun.Son.Of.Vyjayanthi.(2025).Dual.720p.mkv
+#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Nameless.Gangster.Rules.of.the.Time.Dual.720p
+#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/nameless-gangster-2012-dual-audio-hindi-korean-web-dl-720p_VnuoEjlozDNt44l.html
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ughnmm.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Nameless.Gangster.Rules.of.the.Time.Dual.720p.mkv
+#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Shelter.2026.Dual.720p
+#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/shelter-2026-dual-audio-hindi-english-bluray-720p_JDxZ7KhwQ3VcamU.html
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ughnmm.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Shelter.2026.Dual.720p.mkv
+#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Latency.2024.Dual.1080p
+#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/latency-2024-dual-audio-hindi-english-bluray-1080p_roYvKWK8w9gMpCS.html
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ughnmm.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Latency.2024.Dual.1080p.mkv
+#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Karuppu.(2026).Dual.1080p
+#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/karuppu-2026-dual-audio-hindi-org-tamil-amazon-web-dl-1080p_a4gYobTcxlaXMuk.html
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ughnmm.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Karuppu.(2026).Dual.1080p.mkv
+#EXTINF:-1 group-title="hindi & dubbed movies" -1,Lost (2023) 1080p HQ ZEE5 WEB-DL Hindi H264
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/91384
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://index1.circleftp.net/FILE/Hindi%20Movies/2023/Lost%20%282023%29%201080p%20HQ%20ZEE5%20WEB-DL%20Hindi%20H264/Lost%20%282023%29%201080p%20HQ%20ZEE5%20WEB-DL%20Hindi%20H264.mkv
+
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E01.Back.From.The.Flames.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E01.Back.From.The.Flames.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E02.Echoes.Of.The.Past.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E02.Echoes.Of.The.Past.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E03.Virus.And.Venting.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E03.Virus.And.Venting.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E04.Spotlight.Stand-Up.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E04.Spotlight.Stand-Up.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E05.Camp.Competition.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E05.Camp.Competition.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E06.Camp.Trials.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E06.Camp.Trials.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E07.Team.Tensions.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E07.Team.Tensions.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E08.Confidants.In.Code.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E08.Confidants.In.Code.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E09.App.Trio.Formed.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E09.App.Trio.Formed.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E10.Sacrifice.and.Shield.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E10.Sacrifice.and.Shield.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E11.Secrets.Unfurled.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E11.Secrets.Unfurled.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E12.Lighters.Flame.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E12.Lighters.Flame.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E13.First.Sparks.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E13.First.Sparks.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E14.Princess.Dress.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E14.Princess.Dress.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E15.Rivals.Rise.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E15.Rivals.Rise.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E16.Betrayal.Brewed.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E16.Betrayal.Brewed.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E17.Fall.and.Fallout.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E17.Fall.and.Fallout.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E18.Loves.Time.Jump.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E18.Loves.Time.Jump.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E19.Hearts.On.Hold.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E19.Hearts.On.Hold.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E20.Campus.Closure.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E20.Campus.Closure.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E21.Graduation.Goodbye.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E21.Graduation.Goodbye.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E22.Professional.Alliance.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E22.Professional.Alliance.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E23.Scandal.and.Shares.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E23.Scandal.and.Shares.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E24.Toxic.Fallout.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E24.Toxic.Fallout.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E25.Rising.Phoenix.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E25.Rising.Phoenix.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E26.Rebuilding.Together.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E26.Rebuilding.Together.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E27.Deep.Confession.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E27.Deep.Confession.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E28.Healing.Light.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E28.Healing.Light.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E29.Together.Apart.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E29.Together.Apart.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E30.Promise.and.Proposal.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E30.Promise.and.Proposal.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E31.Yes.In.The.Flames.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E31.Yes.In.The.Flames.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E32.Homecoming.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E32.Homecoming.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E33.Jealous.Shadows.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E33.Jealous.Shadows.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E34.Phoenix.Wedding.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E34.Phoenix.Wedding.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E35.Legacy.Ignited.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E35.Legacy.Ignited.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+#EXTINF:-1 group-title="LIghter and princess" -1,Lighter.and.Princess.S01E36.Warm.Afterglow.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Lighter%20%26%20Princess%20%28TV%20Series%202022%29%20%5BDual%20Audio%5D%20%5BHin%2BChi%5D/Season%201%201080p/Lighter.and.Princess.S01E36.Warm.Afterglow.1080p.AMZN.WEB-DL.Hindi.DDP2.0-Chinese.DDP2.0.H.264-4kHdHub.Com.mkv
+
+#EXTINF:-1 group-title="Mother" -1,Mother.S01E01.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E01.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
+#EXTINF:-1 group-title="Mother" -1,Mother.S01E02.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E02.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
+#EXTINF:-1 group-title="Mother" -1,Mother.S01E03.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E03.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
+#EXTINF:-1 group-title="Mother" -1,Mother.S01E04.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mkv
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E04.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mkv
+#EXTINF:-1 group-title="Mother" -1,Mother.S01E05.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E05.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
+#EXTINF:-1 group-title="Mother" -1,Mother.S01E06.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E06.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
+#EXTINF:-1 group-title="Mother" -1,Mother.S01E07.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E07.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
+#EXTINF:-1 group-title="Mother" -1,Mother.S01E08.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E08.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
+#EXTINF:-1 group-title="Mother" -1,Mother.S01E09.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E09.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
+#EXTINF:-1 group-title="Mother" -1,Mother.S01E10.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E10.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
+#EXTINF:-1 group-title="Mother" -1,Mother.S01E11.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E11.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
+#EXTINF:-1 group-title="Mother" -1,Mother.S01E12.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E12.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
+#EXTINF:-1 group-title="Mother" -1,Mother.S01E13.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E13.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
+#EXTINF:-1 group-title="Mother" -1,Mother.S01E14.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E14.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
+#EXTINF:-1 group-title="Mother" -1,Mother.S01E15.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E15.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
+#EXTINF:-1 group-title="Mother" -1,Mother.S01E16.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Mother%20%28TV%20MIni%20Series%202018%29%20Hindi%20Dubbed/Season%201%20720p/Mother.S01E16.720p.WEB-DL.Hindi.x264-KatmovieHD.nz.mp4
+
+#EXTINF:-1 group-title="perfect crown" -1,Perfect.Crown.S01E01.1080p.WEB-DL.AAC2.0.H.264.mkv
+http://ftp7.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/Perfect%20Crown%20%28TV%20Min%20Series%202026-%29/Season%201%201080p/Perfect.Crown.S01E01.1080p.WEB-DL.AAC2.0.H.264.mkv
+#EXTINF:-1 group-title="perfect crown" -1,Perfect.Crown.S01E02.1080p.WEB-DL.AAC2.0.H.264.mkv
+http://ftp7.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/Perfect%20Crown%20%28TV%20Min%20Series%202026-%29/Season%201%201080p/Perfect.Crown.S01E02.1080p.WEB-DL.AAC2.0.H.264.mkv
+#EXTINF:-1 group-title="perfect crown" -1,Perfect.Crown.S01E03.1080p.WEB-DL.AAC2.0.H.264.mkv
+http://ftp7.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/Perfect%20Crown%20%28TV%20Min%20Series%202026-%29/Season%201%201080p/Perfect.Crown.S01E03.1080p.WEB-DL.AAC2.0.H.264.mkv
+#EXTINF:-1 group-title="perfect crown" -1,Perfect.Crown.S01E04.1080p.WEB-DL.AAC2.0.H.264.mkv
+http://ftp7.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/Perfect%20Crown%20%28TV%20Min%20Series%202026-%29/Season%201%201080p/Perfect.Crown.S01E04.1080p.WEB-DL.AAC2.0.H.264.mkv
+#EXTINF:-1 group-title="perfect crown" -1,Perfect.Crown.S01E05.1080p.WEB-DL.AAC2.0.H.264.mkv
+http://ftp7.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/Perfect%20Crown%20%28TV%20Min%20Series%202026-%29/Season%201%201080p/Perfect.Crown.S01E05.1080p.WEB-DL.AAC2.0.H.264.mkv
+#EXTINF:-1 group-title="perfect crown" -1,Perfect.Crown.S01E06.1080p.WEB-DL.AAC2.0.H.264.mkv
+http://ftp7.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/Perfect%20Crown%20%28TV%20Min%20Series%202026-%29/Season%201%201080p/Perfect.Crown.S01E06.1080p.WEB-DL.AAC2.0.H.264.mkv
+#EXTINF:-1 group-title="perfect crown" -1,Perfect.Crown.S01E07.1080p.WEB-DL.AAC2.0.H.264.mkv
+http://ftp7.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/Perfect%20Crown%20%28TV%20Min%20Series%202026-%29/Season%201%201080p/Perfect.Crown.S01E07.1080p.WEB-DL.AAC2.0.H.264.mkv
+#EXTINF:-1 group-title="perfect crown" -1,Perfect.Crown.S01E08.1080p.WEB-DL.AAC2.0.H.264.mkv
+http://ftp7.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/Perfect%20Crown%20%28TV%20Min%20Series%202026-%29/Season%201%201080p/Perfect.Crown.S01E08.1080p.WEB-DL.AAC2.0.H.264.mkv
+#EXTINF:-1 group-title="perfect crown" -1,Perfect.Crown.S01E09.1080p.WEB-DL.AAC2.0.H.264.mkv
+http://ftp7.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/Perfect%20Crown%20%28TV%20Min%20Series%202026-%29/Season%201%201080p/Perfect.Crown.S01E09.1080p.WEB-DL.AAC2.0.H.264.mkv
+#EXTINF:-1 group-title="perfect crown" -1,Perfect.Crown.S01E10.1080p.WEB-DL.AAC2.0.H.264.mkv
+http://ftp7.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/Perfect%20Crown%20%28TV%20Min%20Series%202026-%29/Season%201%201080p/Perfect.Crown.S01E10.1080p.WEB-DL.AAC2.0.H.264.mkv
+#EXTINF:-1 group-title="perfect crown" -1,Perfect.Crown.S01E11.1080p.WEB-DL.AAC2.0.H.264.mkv
+http://ftp7.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/Perfect%20Crown%20%28TV%20Min%20Series%202026-%29/Season%201%201080p/Perfect.Crown.S01E11.1080p.WEB-DL.AAC2.0.H.264.mkv
+#EXTINF:-1 group-title="perfect crown" -1,Perfect.Crown.S01E12.1080p.WEB-DL.AAC2.0.H.264.mkv
+http://ftp7.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/Perfect%20Crown%20%28TV%20Min%20Series%202026-%29/Season%201%201080p/Perfect.Crown.S01E12.1080p.WEB-DL.AAC2.0.H.264.mkv
+
+#EXTINF:-1 group-title="School 2017" -1,School.2017.S01E02.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E02.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
+#EXTINF:-1 group-title="School 2017" -1,School.2017.S01E03.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E03.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
+#EXTINF:-1 group-title="School 2017" -1,School.2017.S01E04.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E04.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
+#EXTINF:-1 group-title="School 2017" -1,School.2017.S01E05.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E05.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
+#EXTINF:-1 group-title="School 2017" -1,School.2017.S01E06.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E06.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
+#EXTINF:-1 group-title="School 2017" -1,School.2017.S01E07.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E07.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
+#EXTINF:-1 group-title="School 2017" -1,School.2017.S01E08.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E08.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
+#EXTINF:-1 group-title="School 2017" -1,School.2017.S01E09.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E09.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
+#EXTINF:-1 group-title="School 2017" -1,School.2017.S01E10.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E10.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
+#EXTINF:-1 group-title="School 2017" -1,School.2017.S01E11.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E11.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
+#EXTINF:-1 group-title="School 2017" -1,School.2017.S01E12.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E12.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
+#EXTINF:-1 group-title="School 2017" -1,School.2017.S01E13.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E13.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
+#EXTINF:-1 group-title="School 2017" -1,School.2017.S01E14.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E14.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
+#EXTINF:-1 group-title="School 2017" -1,School.2017.S01E15.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E15.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
+#EXTINF:-1 group-title="School 2017" -1,School.2017.S01E16.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E16.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
+
+#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E01 171206 1080p HDTV x264-RAiN.mkv
+http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E01%20171206%201080p%20HDTV%20x264-RAiN.mkv
+#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E02 171207 1080p HDTV x264-RAiN.mkv
+http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E02%20171207%201080p%20HDTV%20x264-RAiN.mkv
+#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E03 171213 1080p HDTV x264-RAiN.mkv
+http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E03%20171213%201080p%20HDTV%20x264-RAiN.mkv
+#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E04 171214 1080p HDTV x264-RAiN.mkv
+http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E04%20171214%201080p%20HDTV%20x264-RAiN.mkv
+#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E05 171220 1080p HDTV x264-RAiN.mkv
+http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E05%20171220%201080p%20HDTV%20x264-RAiN.mkv
+#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E06 171221 1080p HDTV x264-RAiN.mkv
+http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E06%20171221%201080p%20HDTV%20x264-RAiN.mkv
+#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E07 171227 1080p HDTV x264-RAiN.mkv
+http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E07%20171227%201080p%20HDTV%20x264-RAiN.mkv
+#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E08 171228 1080p HDTV x264-RAiN.mkv
+http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E08%20171228%201080p%20HDTV%20x264-RAiN.mkv
+#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E09 180103 1080p HDTV x264-RAiN.mkv
+http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E09%20180103%201080p%20HDTV%20x264-RAiN.mkv
+#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E10 180104 1080p HDTV x264-RAiN.mkv
+http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E10%20180104%201080p%20HDTV%20x264-RAiN.mkv
+#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E11 180110 1080p HDTV x264-RAiN.mkv
+http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E11%20180110%201080p%20HDTV%20x264-RAiN.mkv
+#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E12 180111 1080p HDTV x264-RAiN.mkv
+http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E12%20180111%201080p%20HDTV%20x264-RAiN.mkv
+#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E13 180117 1080p HDTV x264-RAiN.mkv
+http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E13%20180117%201080p%20HDTV%20x264-RAiN.mkv
+#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E14 180118 1080p HDTV x264-RAiN.mkv
+http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E14%20180118%201080p%20HDTV%20x264-RAiN.mkv
+#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E15 180124 1080p HDTV x264-RAiN.mkv
+http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E15%20180124%201080p%20HDTV%20x264-RAiN.mkv
+#EXTINF:-1 group-title="로봇이 아니야" -1,로봇이 아니야 E16 180125 1080p HDTV x264-RAiN.mkv
+http://ftp6.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/I'm%20Not%20a%20Robot%20(TV%20Series%202017-2018)/Season%201%201080p/%eb%a1%9c%eb%b4%87%ec%9d%b4%20%ec%95%84%eb%8b%88%ec%95%bc%20E16%20180125%201080p%20HDTV%20x264-RAiN.mkv
 
 
-#EXTINF:-1 group-title="From" -1,From.S04E06.1080p.AMZN.WEB-DL.Hindi.DDP5.1-English.DDP5.1.H.264
-#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/100576
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/From%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%204%201080p/From.S04E06.1080p.AMZN.WEB-DL.Hindi.DDP5.1-English.DDP5.1.H.264.mkv
-#EXTINF:-1 group-title="From" -1,From.S04E07.1080p.AMZN.WEB-DL.Hindi.DDP5.1-English.DDP5.1.H.264
-#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/100576
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/From%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%204%201080p/From.S04E07.1080p.AMZN.WEB-DL.Hindi.DDP5.1-English.DDP5.1.H.264.mkv
 
 #EXTINF:-1 group-title="Horror" -1,Tumbbad (2018) Hindi 1080p WEB-DL ESub DD5.1 H264
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/47827
@@ -1467,87 +1541,9 @@ https://ughnmm.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Sultan.Abdul.Ham
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://ughnmm.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E149.Bengali.ORG.1080p.mkv
 
-#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]KARIKAADA.2026.Dual.1080p
-#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/karikaada-2026-dual-audio-hindi-org-kannada-amazon-web-dl-1080p_jkfDKGP1xLiOGvG.html
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://ughnmm.b-cdn.net/s3/upload/videos/2026/05/[Fibwatch.Com]KARIKAADA.2026.Dual.1080p.mkv
-#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Lake.Placid.Legacy.2016.720p.WEB.DL.Hindi.Dual.Audio
-#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/lake-placid-legacy-2018-dual-audio-hindi-english-web-dl-720p_sZDZwf8Nrh55cVz.html
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://ughnmm.b-cdn.net/upload/videos/2023/11/[Fibwatch.Com]Lake.Placid.Legacy.2016.720p.WEB.DL.Hindi.Dual.Audio.mkv
-#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Lake.Placid.The.Final.Chapter.(2012).Dual.1080p
-#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/lake-placid-the-final-chapter-2012-dual-audio-hindi-english-web-dl-1080p_Z7dJFz8r117r6wS.html
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://ughnmm.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Lake.Placid.The.Final.Chapter.(2012).Dual.1080p.mkv
-#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Lake.Placid.3.(2010).Dual.1080p
-#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/lake-placid-3-2010-dual-audio-hindi-english-web-dl-1080p_AsEn6sA7LhprCF7.html
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://ughnmm.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Lake.Placid.3.(2010).Dual.1080p.mkv
-#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Lake.Placid.2.(2007).Dual.1080p
-#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/lake-placid-2-2007-dual-audio-hindi-english-web-dl-1080p_sAElrQhwAu1Z2iw.html
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://ughnmm.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Lake.Placid.2.(2007).Dual.1080p.mkv
-#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Lake.Placid.(1999).Dual.1080p
-#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/lake-placid-1999-dual-audio-hindi-english-bluray-1080p_xXLqAAV9AalbCib.html
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://ughnmm.b-cdn.net/s3/upload/videos/2026/05/[Fibwatch.Com]Lake.Placid.(1999).Dual.1080p.mkv
-#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Peddi.(2026).Dual.HDTC.720p
-#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/peddi-2026-dual-audio-hindi-line-telugu-hdtc-720p_eyQShKfi7crMyF4.html
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://ughnmm.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Peddi.(2026).Dual.HDTC.720p.mkv
-#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]My.Dearest.Assassin.Dual.720p
-#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/my-dearest-assassin-2026-dual-audio-hindi-thai-netflix-web-dl-720p_OAdu6E5vH8iOfkh.html
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://ughnmm.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]My.Dearest.Assassin.Dual.720p.mkv
-#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Summer.House.2026.Dual.720p
-#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/yaz-evi-aka-summer-house-2026-dual-audio-hindi-turkish-amazon-web-dl-720p_i4GloxEjycWR39Q.html
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://ughnmm.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Summer.House.2026.Dual.720p.mkv
-#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Boss.2025.Dual.1080p
-#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/boss-2025-dual-audio-hindi-korean-web-dl-1080p_DL12TqwGBO6HKDh.html
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://ughnmm.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Boss.2025.Dual.1080p.mkv
-#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Revolver.Rita.(2025).Hindi.Dubbed.720p
-#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/revolver-rita-2025-hindi-dubbed-web-dl-720p_TrMkigo7Tgpw4E5.html
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://ughnmm.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Revolver.Rita.(2025).Hindi.Dubbed.720p.mkv
-#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Boat.2024.Dual.720P
-#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/boat-2024-dual-audio-hindi-org-tamil-web-dl-720p_txnYP3ajYzNPsZ4.html
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://ughnmm.b-cdn.net/upload/videos/2024/08/[Fibwatch.Com]Boat.2024.Dual.720P.mkv
-#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Azure.Dragon.Sword.(2023).Dual.720P
-#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/azure-dragon-sword-2023-dual-audio-hindi-chinese-amazon-web-dl-720p_SYIsFHD8cP3U8oP.html
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://ughnmm.b-cdn.net/upload/videos/2023/10/[Fibwatch.Com]Azure.Dragon.Sword.(2023).Dual.720P.mkv
-#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Tales.of.the.Blood.Moon.(2024).Dual.720P
-#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/tales-of-the-blood-moon-2024-dual-hindi-chinese-amazon-web-dl-720p_bL56SbSHJc2XmCn.html
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://ughnmm.b-cdn.net/upload/videos/2024/03/[Fibwatch.Com]Tales.of.the.Blood.Moon.(2024).Dual.720P.mkv
-#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Arjun.Son.Of.Vyjayanthi.(2025).Dual.720p
-#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/arjun-s-o-vyjayanthi-2025-dual-audio-hindi-telugu-uncut-amazon-web-dl-720p_82xukSxeOyMXiXF.html
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://ughnmm.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Arjun.Son.Of.Vyjayanthi.(2025).Dual.720p.mkv
-#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Nameless.Gangster.Rules.of.the.Time.Dual.720p
-#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/nameless-gangster-2012-dual-audio-hindi-korean-web-dl-720p_VnuoEjlozDNt44l.html
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://ughnmm.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Nameless.Gangster.Rules.of.the.Time.Dual.720p.mkv
-#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Shelter.2026.Dual.720p
-#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/shelter-2026-dual-audio-hindi-english-bluray-720p_JDxZ7KhwQ3VcamU.html
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://ughnmm.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Shelter.2026.Dual.720p.mkv
-#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Latency.2024.Dual.1080p
-#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/latency-2024-dual-audio-hindi-english-bluray-1080p_roYvKWK8w9gMpCS.html
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://ughnmm.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Latency.2024.Dual.1080p.mkv
-#EXTINF:-1 group-title="hindi & dubbed movies" -1,[Fibwatch.Com]Karuppu.(2026).Dual.1080p
-#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/karuppu-2026-dual-audio-hindi-org-tamil-amazon-web-dl-1080p_a4gYobTcxlaXMuk.html
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://ughnmm.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Karuppu.(2026).Dual.1080p.mkv
 
-#EXTINF:-1 group-title="From" -1,From.S04E08.1080p.AMZN.WEB-DL.Hindi.DDP5.1-English.DDP5.1.H.264
-#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/100576
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/From%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%204%201080p/From.S04E08.1080p.AMZN.WEB-DL.Hindi.DDP5.1-English.DDP5.1.H.264.mkv
+
+
 
 #EXTINF:-1 group-title="Doraemon" -1,Doraemon Nobita's Diary Of The Creation Of The World (1995) x264 720p DVDRiP {Dual Audio} [Hin DD 2.0 + Jap 2.0]-DREDD
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/46897
@@ -3056,10 +3052,7 @@ http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/True%20Detect
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/True%20Detective%20%28TV%20Series%202014-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%204%201080p/True.Detective.S04E05.1080p.WEB-DL.AAC2.0.H.264.mkv
 
-#EXTINF:-1 group-title="hindi & dubbed movies" -1,Lost (2023) 1080p HQ ZEE5 WEB-DL Hindi H264
-#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/91384
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://index1.circleftp.net/FILE/Hindi%20Movies/2023/Lost%20%282023%29%201080p%20HQ%20ZEE5%20WEB-DL%20Hindi%20H264/Lost%20%282023%29%201080p%20HQ%20ZEE5%20WEB-DL%20Hindi%20H264.mkv
+
 
 #EXTINF:-1 group-title="Breaking Bad" -1,Breaking Bad S01 E01 BluRay 1080p Hindi DDP 2.0 Eglish DTS 5.1 x264 ESub - mkvCinemas
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/96032
