@@ -3057,6 +3057,10 @@ http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/True%20Detect
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/91384
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://index1.circleftp.net/FILE/Hindi%20Movies/2023/Lost%20%282023%29%201080p%20HQ%20ZEE5%20WEB-DL%20Hindi%20H264/Lost%20%282023%29%201080p%20HQ%20ZEE5%20WEB-DL%20Hindi%20H264.mkv
+#EXTINF:-1 group-title="hindi & dubbed movies" -1,Reborn.Rookie.2026.S01E01.1080p.VIKI.WEB-DL.DUAL.AAC2.0.H.264
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/105506
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp7.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/Reborn%20Rookie%20%28TV%20Series%202026%29%20Eng%2BKor/Season%201%201080p/Reborn.Rookie.2026.S01E01.1080p.VIKI.WEB-DL.DUAL.AAC2.0.H.264.mkv
 
 #EXTINF:-1 group-title="Breaking Bad" -1,Breaking Bad S01 E01 BluRay 1080p Hindi DDP 2.0 Eglish DTS 5.1 x264 ESub - mkvCinemas
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/96032
@@ -3599,4 +3603,3 @@ http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Game%20of%20T
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/96981
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Game%20of%20Thrones%20%28TV%20Series%202011-2019%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%208%201080p/Game.of.Thrones.S08E06.The.Iron.Throne.1080p.JIO.WEB-DL.AAC2.0.x264-Telly.mkv
-
