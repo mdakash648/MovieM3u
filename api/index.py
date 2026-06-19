@@ -213,6 +213,16 @@ def _parse_auto_search_blocks(content: str):
             if is_direct:
                 season  = _highest_seas or "S01"
                 last_ep = _highest_ep
+                # Also derive series_name from group_title if still empty
+                if not series_name and group_title:
+                    series_name = group_title
+            else:
+                # Search mode: if playlist entries have a higher episode than URL keyword,
+                # use the playlist highest (handles double-episodes like E41-42 correctly)
+                if _highest_ep > last_ep:
+                    last_ep = _highest_ep
+                if _highest_seas:
+                    season = _highest_seas
 
             # Trim block_end: find the last media URL that belongs to THIS
             # group-title (scan from block_end back to block_start).
