@@ -267,11 +267,12 @@ def _search_direct_page(page_url: str, season: str, next_ep: int):
     """
     Fetch a direct listing page (e.g. circleftp) and find the next episode entry.
 
-    The page contains a list of episode links where each link text or href
-    contains the episode identifier like S04E41, S04E42 etc.
-    Each episode link is a DIRECT .mkv/.mp4 file URL — no sub-page needed.
+    Handles:
+    - Both zero-padded (S04E01) and non-padded (S4E1) formats in labels/hrefs
+    - Season rollover: if next_ep not found in current season, tries S(N+1)E01
+    - Multi-season pages (all season tabs present in static HTML)
 
-    Returns dict {href, title, media_url} or None if not found.
+    Returns dict {href, title, media_url, season} or None if not found.
     """
     try:
         resp = requests.get(page_url, headers=HEADERS, timeout=10)
@@ -283,41 +284,49 @@ def _search_direct_page(page_url: str, season: str, next_ep: int):
 
     soup = BeautifulSoup(html, "html.parser")
 
-    # Build flexible season pattern that matches both S4 and S04
-    season_num_int = int(re.search(r'\d+', season).group())
-    season_pat = rf'S0*{season_num_int}'
-
-    # Matches SxxEyy or SxxEy — both zero-padded and non-padded episode numbers
-    ep_pattern = re.compile(
-        rf'{season_pat}E0*{next_ep}(?!\s*[-–]\d)',
-        re.IGNORECASE
-    )
-    range_pattern = re.compile(
-        rf'{season_pat}E\d+[-–]\d+',
-        re.IGNORECASE
-    )
-
+    # Collect all <a> entries with direct .mkv/.mp4 hrefs from the page once
+    all_links = []
     for a in soup.find_all("a", href=True):
-        href  = a["href"].strip()
-        label = (a.get_text(strip=True) or a.get("title", "")).strip()
-        # Also grab the full <tr> row text (catches "<td>From S4E1</td>" style labels)
+        href = a["href"].strip()
+        if not re.search(r'\.(mkv|mp4)(\?|$)', href, re.IGNORECASE):
+            continue
+        label     = (a.get_text(strip=True) or a.get("title", "")).strip()
         parent_tr = a.find_parent("tr")
         row_text  = parent_tr.get_text(" ", strip=True) if parent_tr else ""
         combined  = label + " " + href + " " + row_text
+        all_links.append({"href": href, "label": label, "combined": combined})
 
-        # Must match the episode number
-        if not ep_pattern.search(combined):
-            continue
+    def _find_ep(s_num: int, ep_num: int):
+        """Search collected links for season s_num episode ep_num."""
+        season_pat    = rf'S0*{s_num}'
+        ep_pattern    = re.compile(rf'{season_pat}E0*{ep_num}(?!\s*[-–]\d)', re.IGNORECASE)
+        range_pattern = re.compile(rf'{season_pat}E\d+[-–]\d+', re.IGNORECASE)
+        for link in all_links:
+            combined = link["combined"]
+            if not ep_pattern.search(combined):
+                continue
+            if range_pattern.search(combined):
+                continue
+            title = link["label"] or link["href"].rstrip("/").split("/")[-1]
+            return {
+                "href": page_url,
+                "title": title,
+                "media_url": link["href"],
+                "season": f"S{s_num:02d}",
+            }
+        return None
 
-        # Skip multi-episode ranges like S04E41-42
-        if range_pattern.search(combined):
-            continue
+    season_num = int(re.search(r'\d+', season).group())
 
-        # href must be a direct media file
-        if re.search(r'\.(mkv|mp4)(\?|$)', href, re.IGNORECASE):
-            media_url = href
-            title     = label or href.rstrip("/").split("/")[-1]
-            return {"href": page_url, "title": title, "media_url": media_url}
+    # 1. Try the expected next episode in the current season
+    result = _find_ep(season_num, next_ep)
+    if result:
+        return result
+
+    # 2. Season rollover: current season finished, try S(N+1)E01
+    result = _find_ep(season_num + 1, 1)
+    if result:
+        return result
 
     return None
 
@@ -546,6 +555,13 @@ def run_auto_update() -> dict:
             page_url    = block["search_url"]   # referrer = same listing page
             title_label = _make_title_label(result["title"], media_url)
             group_title = block["group_title"] or block["series_name"]
+
+            # Season rollover: result may have a different season than block["season"]
+            actual_season = result.get("season", block["season"])
+            if actual_season != block["season"]:
+                # Reset next_ep to 1 for the new season
+                next_ep = 1
+                block["season"] = actual_season
 
             new_entry = _build_m3u_entry(
                 group_title=group_title,
