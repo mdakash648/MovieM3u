@@ -6,18 +6,20 @@ http://100.100.100.100:3255/BanglaV/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/53/2/somoy-tv-logo-png_seeklogo-536972.png" group-title="BANGLA",SOMOY TV
 https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
+http://100.100.100.100:3255/somyyt/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0c/Channel_1_Logo_Bangladesh.png" group-title="BANGLA",channel 1
 https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://dl.dropbox.com/s/leielj83em5kg7h/somoy_news.png" group-title="BANGLA",SOMOY TV-[2]
 
 #EXTINF:-1 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Ekattor TV" tvg-logo="https://s4.gifyu.com/images/imagea02f4314e761661d.png" group-title="BANGLA",Ekattor TV
 https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8
+http://100.100.100.100:3255/ekattor_nk/index.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJAK7In6cczqA2X2OnUv9uVh11IYC9qMR2BBfDvrmWtg&s=10" group-title="BANGLA",Channel 24
 https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8
+http://100.100.100.100:3255/CH24/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Independent_Television_Logo.svg/1280px-Independent_Television_Logo.svg.png" group-title="BANGLA",INDEPENDENT TV
 #http://xtv.ooo:8080/213112/213112/245916
@@ -96,6 +98,7 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8
 #EXTINF:-1 group-title="BANGLA" tvg-logo="https://i.ibb.co/xgfM1sf/2021-06-14-fff22-19-07.jpg",Channel 9
 #https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channel9hd.stream/playlist.m3u8
 https://owrcovcrpy.gpcdn.net/bpk-tv/1729/output/index.m3u8
+http://100.100.100.100:3255/ch9_nk/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/pQGXzMP/images-1-removebg-preview.png" group-title="BANGLA", GAZI TV
 #https://mflixott.com/tv/plusbox/live/GaziTVHD/index.m3u8
@@ -136,14 +139,6 @@ http://alvetv.com/moviebanglatv/8080/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/CPmLfGs/Amar-Bangla.png" group-title="BANGLA",Amar Digital
 
 
-
-
-#EXTINF:-1 tvg-logo="http://100.100.100.100/static/images/somoy-news-tv_1.jpg" group-title="BANGLA",somynews
-http://100.100.100.100:3255/somyyt/index.m3u8
-
-#EXTINF:-1 tvg-logo="http://100.100.100.100/static/images/Logo_of_Cha.png" group-title="BANGLA",Ch24
-http://100.100.100.100:3255/CH24/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://www.jamuna.tv/wp-content/themes/jtv-news/img/logo.png" group-title="BANGLA",JamunaTv
 http://100.100.100.100:3255/JAMUNATV/index.m3u8
 
@@ -166,14 +161,10 @@ http://100.100.100.100:3255/DeshTV/index.m3u8
 #EXTINF:-1 tvg-logo="http://100.100.100.100/static/images/atnbangla.jpg" group-title="BANGLA",Atnbd
 http://100.100.100.100:3255/atnbd_nk/index.m3u8
 
-#EXTINF:-1 tvg-logo="http://100.100.100.100/static/images/channel9.jpg" group-title="BANGLA",Ch9
-http://100.100.100.100:3255/ch9_nk/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://100.100.100.100/static/images/deepto.jpg" group-title="BANGLA",Deeptho
 http://100.100.100.100:3255/deeptho_nk/index.m3u8
 
-#EXTINF:-1 tvg-logo="http://100.100.100.100/static/images/images.jpg" group-title="BANGLA",Ekattor
-http://100.100.100.100:3255/ekattor_nk/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://100.100.100.100/static/images/20260110181825_channels4_profile_5.jpg" group-title="BANGLA",Independent Television
 http://100.100.100.100:3255/indopendettv/index.m3u8
