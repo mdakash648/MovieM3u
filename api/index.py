@@ -180,6 +180,22 @@ def _parse_auto_search_blocks(content: str):
                 block_end = j
                 j += 1
 
+            # Trim block_end: find the last media URL that belongs to THIS
+            # group-title (scan from block_end back to block_start).
+            # This avoids bleeding into a different group after a blank line.
+            real_end = i  # fallback to auto_search_update line itself
+            current_group = ""
+            for k in range(i + 1, block_end + 1):
+                ls = lines[k].strip() if k < len(lines) else ""
+                gt_m = re.search(r'group-title="([^"]+)"', ls)
+                if gt_m:
+                    current_group = gt_m.group(1)
+                # Only count lines that belong to the same group-title
+                if group_title and current_group and current_group != group_title:
+                    continue
+                if ls.startswith("#EXTINF") or ls.startswith("#EXTVLCOPT") or re.match(r'https?://', ls):
+                    real_end = k
+
             blocks.append({
                 "search_url": search_url,
                 "series_name": series_name,
@@ -187,7 +203,7 @@ def _parse_auto_search_blocks(content: str):
                 "last_ep": last_ep,
                 "group_title": group_title,
                 "block_start": i,
-                "block_end": block_end,
+                "block_end": real_end,
             })
         i += 1
     return blocks
@@ -349,9 +365,7 @@ def _github_get_file():
     data = resp.json()
     sha = data["sha"]
     # GitHub wraps base64 at 60 chars — strip all whitespace before decoding
-    raw_b64 = data["content"].replace("
-", "").replace("
-", "").strip()
+    raw_b64 = data["content"].replace("\n", "").replace("\r", "").strip()
     content = base64.b64decode(raw_b64).decode("utf-8")
     return content, sha
 
@@ -406,7 +420,7 @@ def run_auto_update() -> dict:
 
     date_str = _get_bd_date_str()
     added_episodes = []
-    new_content = content  # we'll append to this
+    lines = content.splitlines(keepends=True)
 
     for block in blocks:
         next_ep = block["last_ep"] + 1
@@ -438,18 +452,41 @@ def run_auto_update() -> dict:
             date_str=date_str,
         )
 
-        # Append after the last line of this block
-        # We insert after block_end in the current new_content
-        # Since we're appending sequentially, just add to end of content
-        if not new_content.endswith("\n"):
-            new_content += "\n"
-        new_content += new_entry
+        # ── Fix 1: Update auto_search_update line to next episode number ──
+        new_search_url = _build_next_search_url(block["search_url"], next_ep)
+        for li, line in enumerate(lines):
+            if line.strip() == f'auto_search_update: "{block["search_url"]}"':
+                lines[li] = f'auto_search_update: "{new_search_url}"\n'
+                break
+
+        # ── Fix 2: Insert new entry right after the last media URL of this block ──
+        insert_after = block["block_end"]
+        for idx in range(min(block["block_end"], len(lines) - 1), block["block_start"], -1):
+            if idx < len(lines) and re.match(r'https?://', lines[idx].strip()):
+                insert_after = idx
+                break
+
+        if not new_entry.endswith("\n"):
+            new_entry += "\n"
+
+        lines.insert(insert_after + 1, new_entry)
+
+        # Shift subsequent block offsets since we inserted lines
+        entry_line_count = new_entry.count("\n")
+        for b in blocks:
+            if b["block_start"] > insert_after:
+                b["block_start"] += entry_line_count
+                b["block_end"]   += entry_line_count
+            elif b["block_end"] > insert_after:
+                b["block_end"] += entry_line_count
 
         added_episodes.append({
             "episode": f"{block['season']}E{next_ep:02d}",
             "title": title_label,
             "media_url": media_url,
         })
+
+    new_content = "".join(lines)
 
     if not added_episodes:
         return {"status": "ok", "message": "No new episodes found", "checked": [b["series_name"] for b in blocks]}
