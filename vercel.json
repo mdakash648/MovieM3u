@@ -15,14 +15,22 @@
             "destination": "/api/index.py"
         },
         {
+            "source": "/auto-update",
+            "destination": "/api/index.py"
+        },
+        {
+            "source": "/audioinfo",
+            "destination": "/api/index.py"
+        },
+        {
             "source": "/",
             "destination": "/api/index.py"
         }
     ],
     "crons": [
         {
-            "path": "/playlist.m3u",
-            "schedule": "30 18 * * *"
+            "path": "/auto-update",
+            "schedule": "0 18 * * *"
         }
     ]
 }
