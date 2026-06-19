@@ -339,6 +339,7 @@ http://index2.circleftp.net/FILE/English%20%26%20Foreign%20Dubbed%20Movies/2022/
 #EXTINF:-1 group-title="The.Sopranos" -1,Dhurandhar The Revenge (2026) 1080p WEB-DL Hindi x264.mkv
 http://index1.circleftp.net/FILE/Hindi%20Movies/2026/Dhurandhar%20The%20Revenge%20%282026%29%201080p%20WEB-DL%20Hindi%20x264/Dhurandhar%20The%20Revenge%20%282026%29%201080p%20WEB-DL%20Hindi%20x264.mkv
 
+auto_search_update: "http://new.circleftp.net/content/100576"
 #EXTINF:-1 group-title="From" -1,From.S01E01.Long.Days.Journey.Into.Night.1080p.x264.Hindi.English.Esubs.MoviesMod.org.mkv
 http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/From%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%201%201080p/From.S01E01.Long.Days.Journey.Into.Night.1080p.x264.Hindi.English.Esubs.MoviesMod.org.mkv
 #EXTINF:-1 group-title="From" -1,From.S01E02.The.Way.Things.Are.Now.1080p.x264.Hindi.English.Esubs.MoviesMod.org.mkv
@@ -417,10 +418,7 @@ http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/From%20%28TV%
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/100576
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/From%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%204%201080p/From.S04E07.1080p.AMZN.WEB-DL.Hindi.DDP5.1-English.DDP5.1.H.264.mkv
-#EXTINF:-1 group-title="From" -1,From.S04E08.1080p.AMZN.WEB-DL.Hindi.DDP5.1-English.DDP5.1.H.264
-#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/100576
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/From%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%204%201080p/From.S04E08.1080p.AMZN.WEB-DL.Hindi.DDP5.1-English.DDP5.1.H.264.mkv
+
 
 #EXTINF:-1 group-title="Gyaarah" -1,Gyaarah Gyaarah S01E01 Hindi 1080p Zee5 WEBRip x264 AAC 5.1 ESub - DownloadHub
 http://172.16.50.12/DHAKA-FLIX-12/TV-WEB-Series/TV%20Series%20%E2%99%A5%20%20A%20%20%E2%80%94%20%20L/Gyaarah%20Gyaarah%20%28TV%20Series%202024%E2%80%93%20%29%201080p/Season%201%20%28Hindi%20Language%29/Gyaarah%20Gyaarah%20S01E01%20Hindi%201080p%20Zee5%20WEBRip%20x264%20AAC%205.1%20ESub%20-%20DownloadHub.mkv

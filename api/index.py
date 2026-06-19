@@ -156,19 +156,40 @@ def _parse_auto_search_blocks(content: str):
         m = re.match(r'^auto_search_update\s*:\s*"(.+)"', stripped)
         if m:
             search_url = m.group(1)
-            # Extract series name, season, episode from the URL keyword
-            kw_match = re.search(r'keyword=(.+)$', search_url)
-            keyword = requests.utils.unquote(kw_match.group(1)) if kw_match else ""
-            # e.g. "Naagin (2025) S07E49"
-            ep_match = re.search(r'(S\d+)E(\d+)', keyword, re.IGNORECASE)
-            series_match = re.match(r'^([^\(]+)', keyword)
-            series_name = series_match.group(1).strip() if series_match else keyword
-            season = ep_match.group(1).upper() if ep_match else "S01"
-            last_ep = int(ep_match.group(2)) if ep_match else 1
 
-            # Scan forward to find the group-title used for this series block
+            # ── Detect mode: "direct" vs "search" ──
+            # Direct mode: URL has no search query param (no ?keyword=, ?q=, ?search= etc.)
+            # and ends with a numeric ID  e.g. http://new.circleftp.net/content/100576
+            is_direct = (
+                not re.search(r'[?&](keyword|q|search|query)=', search_url, re.IGNORECASE)
+                and re.search(r'/\d+\s*$', search_url.rstrip('/'))
+            )
+
+            if is_direct:
+                # Direct mode — derive last_id from URL tail number
+                id_match = re.search(r'/(\d+)\s*$', search_url.rstrip('/'))
+                last_id  = int(id_match.group(1)) if id_match else 0
+                # Series name / season / ep come from the existing playlist entries below
+                series_name = ""
+                season      = ""
+                last_ep     = 0
+            else:
+                # Search mode — extract keyword info as before
+                kw_match = re.search(r'keyword=(.+)$', search_url)
+                keyword  = requests.utils.unquote(kw_match.group(1)) if kw_match else ""
+                ep_match    = re.search(r'(S\d+)E(\d+)', keyword, re.IGNORECASE)
+                series_match = re.match(r'^([^\(]+)', keyword)
+                series_name  = series_match.group(1).strip() if series_match else keyword
+                season   = ep_match.group(1).upper() if ep_match else "S01"
+                last_ep  = int(ep_match.group(2)) if ep_match else 1
+                last_id  = 0
+
+            # Scan forward to find group-title, and for direct mode: season + last_ep
             group_title = ""
-            block_end = i
+            block_end   = i
+            # Track highest single episode seen (for direct mode last_ep detection)
+            _highest_ep  = 0
+            _highest_seas = ""
             j = i + 1
             while j < len(lines):
                 ls = lines[j].strip()
@@ -177,8 +198,21 @@ def _parse_auto_search_blocks(content: str):
                 gt_match = re.search(r'group-title="([^"]+)"', ls)
                 if gt_match and not group_title:
                     group_title = gt_match.group(1)
+                # Pick up season/episode from #EXTINF lines (for direct mode)
+                if ls.startswith("#EXTINF"):
+                    seas_m = re.search(r'(S\d+)E(\d+)(?!\s*[-–]\d)', ls, re.IGNORECASE)
+                    if seas_m:
+                        ep_num = int(seas_m.group(2))
+                        if ep_num > _highest_ep:
+                            _highest_ep   = ep_num
+                            _highest_seas = seas_m.group(1).upper()
                 block_end = j
                 j += 1
+
+            # For direct mode fill in season/last_ep from playlist entries
+            if is_direct:
+                season  = _highest_seas or "S01"
+                last_ep = _highest_ep
 
             # Trim block_end: find the last media URL that belongs to THIS
             # group-title (scan from block_end back to block_start).
@@ -198,6 +232,8 @@ def _parse_auto_search_blocks(content: str):
 
             blocks.append({
                 "search_url": search_url,
+                "mode": "direct" if is_direct else "search",
+                "last_id": last_id,          # used in direct mode
                 "series_name": series_name,
                 "season": season,
                 "last_ep": last_ep,
@@ -215,6 +251,57 @@ def _build_next_search_url(search_url: str, next_ep: int) -> str:
         return m.group(1) + str(next_ep)
     new_url = re.sub(r'(S\d+E)(\d+)', replace_ep, search_url, flags=re.IGNORECASE)
     return new_url
+
+
+def _search_direct_page(page_url: str, season: str, next_ep: int):
+    """
+    Fetch a direct listing page (e.g. circleftp) and find the next episode entry.
+
+    The page contains a list of episode links where each link text or href
+    contains the episode identifier like S04E41, S04E42 etc.
+    Each episode link is a DIRECT .mkv/.mp4 file URL — no sub-page needed.
+
+    Returns dict {href, title, media_url} or None if not found.
+    """
+    try:
+        resp = requests.get(page_url, headers=HEADERS, timeout=10)
+        if resp.status_code != 200:
+            return None
+        html = resp.text
+    except Exception:
+        return None
+
+    soup = BeautifulSoup(html, "html.parser")
+
+    ep_pattern = re.compile(
+        rf'{re.escape(season)}E{next_ep:02d}(?!\s*[-–]\d)',
+        re.IGNORECASE
+    )
+    ep_pattern_alt = re.compile(
+        rf'{re.escape(season)}E{next_ep}(?!\s*[-–]\d)',
+        re.IGNORECASE
+    )
+
+    for a in soup.find_all("a", href=True):
+        href  = a["href"].strip()
+        label = (a.get_text(strip=True) or a.get("title", "")).strip()
+        combined = label + " " + href
+
+        # Must match the episode number (single episode only, no ranges)
+        if not (ep_pattern.search(combined) or ep_pattern_alt.search(combined)):
+            continue
+
+        # Skip multi-episode ranges like S04E41-42
+        if re.search(rf'{re.escape(season)}E\d+[-–]\d+', combined, re.IGNORECASE):
+            continue
+
+        # href must be a direct media file
+        if re.search(r'\.(mkv|mp4)(\?|$)', href, re.IGNORECASE):
+            media_url = href
+            title     = label or href.rstrip("/").split("/")[-1]
+            return {"href": page_url, "title": title, "media_url": media_url}
+
+    return None
 
 
 def _search_fibwatch(search_url: str, series_name: str, season: str, next_ep: int):
@@ -424,40 +511,72 @@ def run_auto_update() -> dict:
 
     for block in blocks:
         next_ep = block["last_ep"] + 1
-        next_search_url = _build_next_search_url(block["search_url"], next_ep)
 
-        result = _search_fibwatch(
-            next_search_url,
-            block["series_name"],
-            block["season"],
-            next_ep,
-        )
-        if not result:
-            # No new episode found — stop processing this block
-            continue
+        # ════════════════════════════════════════
+        #  DIRECT MODE  (e.g. circleftp listing)
+        # ════════════════════════════════════════
+        if block["mode"] == "direct":
+            result = _search_direct_page(
+                block["search_url"],
+                block["season"],
+                next_ep,
+            )
+            if not result:
+                continue
 
-        page_url = result["href"]
-        media_url = _extract_media_from_page(page_url)
-        if not media_url:
-            continue
+            media_url   = result["media_url"]
+            page_url    = block["search_url"]   # referrer = same listing page
+            title_label = _make_title_label(result["title"], media_url)
+            group_title = block["group_title"] or block["series_name"]
 
-        title_label = _make_title_label(result["title"], media_url)
-        group_title = block["group_title"] or block["series_name"]
+            new_entry = _build_m3u_entry(
+                group_title=group_title,
+                title_label=title_label,
+                page_url=page_url,
+                media_url=media_url,
+                date_str=date_str,
+            )
 
-        new_entry = _build_m3u_entry(
-            group_title=group_title,
-            title_label=title_label,
-            page_url=page_url,
-            media_url=media_url,
-            date_str=date_str,
-        )
+            # Direct mode: auto_search_update URL stays UNCHANGED (same page always)
+            # No need to update the auto_search_update line
 
-        # ── Fix 1: Update auto_search_update line to next episode number ──
-        new_search_url = _build_next_search_url(block["search_url"], next_ep)
-        for li, line in enumerate(lines):
-            if line.strip() == f'auto_search_update: "{block["search_url"]}"':
-                lines[li] = f'auto_search_update: "{new_search_url}"\n'
-                break
+        # ════════════════════════════════════════
+        #  SEARCH MODE  (e.g. fibwatch search)
+        # ════════════════════════════════════════
+        else:
+            next_search_url = _build_next_search_url(block["search_url"], next_ep)
+
+            result = _search_fibwatch(
+                next_search_url,
+                block["series_name"],
+                block["season"],
+                next_ep,
+            )
+            if not result:
+                continue
+
+            page_url  = result["href"]
+            media_url = _extract_media_from_page(page_url)
+            if not media_url:
+                continue
+
+            title_label = _make_title_label(result["title"], media_url)
+            group_title = block["group_title"] or block["series_name"]
+
+            new_entry = _build_m3u_entry(
+                group_title=group_title,
+                title_label=title_label,
+                page_url=page_url,
+                media_url=media_url,
+                date_str=date_str,
+            )
+
+            # Search mode: update auto_search_update to next episode number
+            new_search_url = _build_next_search_url(block["search_url"], next_ep)
+            for li, line in enumerate(lines):
+                if line.strip() == f'auto_search_update: "{block["search_url"]}"':
+                    lines[li] = f'auto_search_update: "{new_search_url}"\n'
+                    break
 
         # ── Fix 2: Insert new entry right after the last media URL of this block ──
         insert_after = block["block_end"]
