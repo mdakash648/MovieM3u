@@ -283,26 +283,34 @@ def _search_direct_page(page_url: str, season: str, next_ep: int):
 
     soup = BeautifulSoup(html, "html.parser")
 
+    # Build flexible season pattern that matches both S4 and S04
+    season_num_int = int(re.search(r'\d+', season).group())
+    season_pat = rf'S0*{season_num_int}'
+
+    # Matches SxxEyy or SxxEy — both zero-padded and non-padded episode numbers
     ep_pattern = re.compile(
-        rf'{re.escape(season)}E{next_ep:02d}(?!\s*[-–]\d)',
+        rf'{season_pat}E0*{next_ep}(?!\s*[-–]\d)',
         re.IGNORECASE
     )
-    ep_pattern_alt = re.compile(
-        rf'{re.escape(season)}E{next_ep}(?!\s*[-–]\d)',
+    range_pattern = re.compile(
+        rf'{season_pat}E\d+[-–]\d+',
         re.IGNORECASE
     )
 
     for a in soup.find_all("a", href=True):
         href  = a["href"].strip()
         label = (a.get_text(strip=True) or a.get("title", "")).strip()
-        combined = label + " " + href
+        # Also grab the full <tr> row text (catches "<td>From S4E1</td>" style labels)
+        parent_tr = a.find_parent("tr")
+        row_text  = parent_tr.get_text(" ", strip=True) if parent_tr else ""
+        combined  = label + " " + href + " " + row_text
 
-        # Must match the episode number (single episode only, no ranges)
-        if not (ep_pattern.search(combined) or ep_pattern_alt.search(combined)):
+        # Must match the episode number
+        if not ep_pattern.search(combined):
             continue
 
         # Skip multi-episode ranges like S04E41-42
-        if re.search(rf'{re.escape(season)}E\d+[-–]\d+', combined, re.IGNORECASE):
+        if range_pattern.search(combined):
             continue
 
         # href must be a direct media file
