@@ -334,35 +334,48 @@ def _make_title_label(page_title: str, media_url: str) -> str:
 # ─────────────────────────────────────────────
 
 def _github_get_file():
-    """Fetch playlist.m3u from GitHub and return (content_str, sha)."""
+    """
+    Fetch playlist.m3u from GitHub API and return (content_str, sha).
+    Strips base64 line-wraps (GitHub wraps at 60 chars) before decoding.
+    """
     url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{GITHUB_FILE}"
-    headers = {
+    gh_headers = {
         "Authorization": f"token {GITHUB_TOKEN}",
         "Accept": "application/vnd.github.v3+json",
     }
-    resp = requests.get(url, headers=headers, params={"ref": GITHUB_BRANCH}, timeout=10)
+    resp = requests.get(url, headers=gh_headers, params={"ref": GITHUB_BRANCH}, timeout=10)
     if resp.status_code != 200:
         raise RuntimeError(f"GitHub GET failed: {resp.status_code} {resp.text}")
     data = resp.json()
-    content = base64.b64decode(data["content"]).decode("utf-8")
-    return content, data["sha"]
+    sha = data["sha"]
+    # GitHub wraps base64 at 60 chars — strip all whitespace before decoding
+    raw_b64 = data["content"].replace("
+", "").replace("
+", "").strip()
+    content = base64.b64decode(raw_b64).decode("utf-8")
+    return content, sha
 
 
 def _github_push_file(new_content: str, sha: str, commit_msg: str):
-    """Push updated playlist.m3u to GitHub."""
+    """Push updated playlist.m3u to GitHub. Re-fetches sha right before PUT to avoid 409."""
     url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{GITHUB_FILE}"
-    headers = {
+    gh_headers = {
         "Authorization": f"token {GITHUB_TOKEN}",
         "Accept": "application/vnd.github.v3+json",
         "Content-Type": "application/json",
     }
+    # Re-fetch latest sha just before PUT to avoid race-condition 409
+    check = requests.get(url, headers=gh_headers, params={"ref": GITHUB_BRANCH}, timeout=10)
+    if check.status_code == 200:
+        sha = check.json()["sha"]
+    encoded = base64.b64encode(new_content.encode("utf-8")).decode("utf-8")
     payload = {
         "message": commit_msg,
-        "content": base64.b64encode(new_content.encode("utf-8")).decode("utf-8"),
+        "content": encoded,
         "sha": sha,
         "branch": GITHUB_BRANCH,
     }
-    resp = requests.put(url, headers=headers, json=payload, timeout=15)
+    resp = requests.put(url, headers=gh_headers, json=payload, timeout=15)
     if resp.status_code not in (200, 201):
         raise RuntimeError(f"GitHub PUT failed: {resp.status_code} {resp.text}")
     return resp.json()
