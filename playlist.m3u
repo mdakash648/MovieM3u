@@ -3474,13 +3474,6 @@ http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/From%20%28TV%
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/From%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%204%201080p/From.S04E08.1080p.AMZN.WEB-DL.Hindi.DDP5.1-English.DDP5.1.H.264.mkv
 
-# ==========================================
-# Add : 23 JUNE 2026
-# CONTENT - The.Great.Indian.Kapil.Show.S01E01 - S01E13.1080p.WEB-DL.DDP5.1.x264
-# CONTENT - The.Great.Indian.Kapil.Show.S02E01 - S02E13.1080p.WEB-DL.DDP5.1.x264
-# CONTENT - The.Great.Indian.Kapil.Show.S03E01 - S03E14.1080p.WEB-DL.DDP5.1.x264
-# CONTENT - The.Great.Indian.Kapil.Show.S04E01 - S04E14.1080p.WEB-DL.DDP5.1.x264
-# ==========================================
 #EXTINF:-1 group-title="The Great Indian Kapil Show" -1,The.Great.Indian.Kapil.Show.S01E01.1080p.WEB-DL.DDP5.1.x264
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/98650
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -3697,3 +3690,95 @@ http://ftp8.circleftp.net/FILE/Indian%20TV%20Shows/The%20Great%20Indian%20Kapil%
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/98650
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://ftp8.circleftp.net/FILE/Indian%20TV%20Shows/The%20Great%20Indian%20Kapil%20Show%20%28TV%20Series%202024-%29/Season%204%201080p/The.Great.Indian.Kapil.Show.S04E14.1080p.WEB-DL.DDP5.1.x264.mkv
+
+# ==========================================
+# Add : 23 JUNE 2026
+# CONTENT - House.of.the.Dragon.S01E01.The.Heirs.of.the.Dragon.1080p.x264.BluRay.Hindi.English.Esubs
+# CONTENT - House.of.the.Dragon.S01E02.The.Rogue.Prince.1080p.x264.BluRay.Hindi.English.Esubs
+# CONTENT - House.of.the.Dragon.S01E03.Second.of.His.Name.1080p.x264.BluRay.Hindi.English.Esubs
+# CONTENT - House.of.the.Dragon.S01E04.King.of.the.Narrow.Sea.1080p.x264.BluRay.Hindi.English.Esubs
+# CONTENT - House.of.the.Dragon.S01E05.We.Light.the.Way.1080p.x264.BluRay.Hindi.English.Esubs
+# CONTENT - House.of.the.Dragon.S01E06.The.Princess.and.the.Queen.1080p.x264.BluRay.Hindi.English.Esubs
+# CONTENT - House.of.the.Dragon.S01E07.Driftmark.1080p.x264.BluRay.Hindi.English.Esubs
+# CONTENT - House.of.the.Dragon.S01E08.The.Lord.of.the.Tides.1080p.x264.BluRay.Hindi.English.Esubs
+# CONTENT - House.of.the.Dragon.S01E09.The.Green.Council.1080p.x264.BluRay.Hindi.English.Esubs
+# CONTENT - House.of.the.Dragon.S01E10.The.Black.Queen.1080p.x264.BluRay.Hindi.English.Esubs
+# CONTENT - House.of.the.Dragon.S02E01 - S02E08.1080p.AMZN.WEB-DL.DDP5.1.H.264
+# CONTENT - House.of.the.Dragon.S03E01.1080p.AMZN.WEB-DL.Hindi.AAC2.0.English.DDP5.1.Atmos.H.264
+# ==========================================
+#EXTINF:-1 group-title="House Of The Dragon" -1,House.of.the.Dragon.S01E01.The.Heirs.of.the.Dragon.1080p.x264.BluRay.Hindi.English.Esubs
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/99449
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/House%20of%20the%20Dragon%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%201%201080p/House.of.the.Dragon.S01E01.The.Heirs.of.the.Dragon.1080p.x264.BluRay.Hindi.English.Esubs.mkv
+#EXTINF:-1 group-title="House Of The Dragon" -1,House.of.the.Dragon.S01E02.The.Rogue.Prince.1080p.x264.BluRay.Hindi.English.Esubs
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/99449
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/House%20of%20the%20Dragon%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%201%201080p/House.of.the.Dragon.S01E02.The.Rogue.Prince.1080p.x264.BluRay.Hindi.English.Esubs.mkv
+#EXTINF:-1 group-title="House Of The Dragon" -1,House.of.the.Dragon.S01E03.Second.of.His.Name.1080p.x264.BluRay.Hindi.English.Esubs
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/99449
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/House%20of%20the%20Dragon%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%201%201080p/House.of.the.Dragon.S01E03.Second.of.His.Name.1080p.x264.BluRay.Hindi.English.Esubs.mkv
+#EXTINF:-1 group-title="House Of The Dragon" -1,House.of.the.Dragon.S01E04.King.of.the.Narrow.Sea.1080p.x264.BluRay.Hindi.English.Esubs
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/99449
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/House%20of%20the%20Dragon%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%201%201080p/House.of.the.Dragon.S01E04.King.of.the.Narrow.Sea.1080p.x264.BluRay.Hindi.English.Esubs.mkv
+#EXTINF:-1 group-title="House Of The Dragon" -1,House.of.the.Dragon.S01E05.We.Light.the.Way.1080p.x264.BluRay.Hindi.English.Esubs
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/99449
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/House%20of%20the%20Dragon%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%201%201080p/House.of.the.Dragon.S01E05.We.Light.the.Way.1080p.x264.BluRay.Hindi.English.Esubs.mkv
+#EXTINF:-1 group-title="House Of The Dragon" -1,House.of.the.Dragon.S01E06.The.Princess.and.the.Queen.1080p.x264.BluRay.Hindi.English.Esubs
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/99449
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/House%20of%20the%20Dragon%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%201%201080p/House.of.the.Dragon.S01E06.The.Princess.and.the.Queen.1080p.x264.BluRay.Hindi.English.Esubs.mkv
+#EXTINF:-1 group-title="House Of The Dragon" -1,House.of.the.Dragon.S01E07.Driftmark.1080p.x264.BluRay.Hindi.English.Esubs
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/99449
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/House%20of%20the%20Dragon%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%201%201080p/House.of.the.Dragon.S01E07.Driftmark.1080p.x264.BluRay.Hindi.English.Esubs.mkv
+#EXTINF:-1 group-title="House Of The Dragon" -1,House.of.the.Dragon.S01E08.The.Lord.of.the.Tides.1080p.x264.BluRay.Hindi.English.Esubs
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/99449
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/House%20of%20the%20Dragon%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%201%201080p/House.of.the.Dragon.S01E08.The.Lord.of.the.Tides.1080p.x264.BluRay.Hindi.English.Esubs.mkv
+#EXTINF:-1 group-title="House Of The Dragon" -1,House.of.the.Dragon.S01E09.The.Green.Council.1080p.x264.BluRay.Hindi.English.Esubs
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/99449
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/House%20of%20the%20Dragon%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%201%201080p/House.of.the.Dragon.S01E09.The.Green.Council.1080p.x264.BluRay.Hindi.English.Esubs.mkv
+#EXTINF:-1 group-title="House Of The Dragon" -1,House.of.the.Dragon.S01E10.The.Black.Queen.1080p.x264.BluRay.Hindi.English.Esubs
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/99449
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/House%20of%20the%20Dragon%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%201%201080p/House.of.the.Dragon.S01E10.The.Black.Queen.1080p.x264.BluRay.Hindi.English.Esubs.mkv
+#EXTINF:-1 group-title="House Of The Dragon" -1,House.of.the.Dragon.S02E01.1080p.AMZN.WEB-DL.DDP5.1.H.264
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/99449
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/House%20of%20the%20Dragon%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%202%201080p/House.of.the.Dragon.S02E01.1080p.AMZN.WEB-DL.DDP5.1.H.264.mkv
+#EXTINF:-1 group-title="House Of The Dragon" -1,House.of.the.Dragon.S02E02.1080p.AMZN.WEB-DL.DDP5.1.H.264
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/99449
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/House%20of%20the%20Dragon%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%202%201080p/House.of.the.Dragon.S02E02.1080p.AMZN.WEB-DL.DDP5.1.H.264.mkv
+#EXTINF:-1 group-title="House Of The Dragon" -1,House.of.the.Dragon.S02E03.1080p.AMZN.WEB-DL.DDP5.1.H.264
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/99449
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/House%20of%20the%20Dragon%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%202%201080p/House.of.the.Dragon.S02E03.1080p.AMZN.WEB-DL.DDP5.1.H.264.mkv
+#EXTINF:-1 group-title="House Of The Dragon" -1,House.of.the.Dragon.S02E04.1080p.AMZN.WEB-DL.DDP5.1.H.264
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/99449
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/House%20of%20the%20Dragon%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%202%201080p/House.of.the.Dragon.S02E04.1080p.AMZN.WEB-DL.DDP5.1.H.264.mkv
+#EXTINF:-1 group-title="House Of The Dragon" -1,House.of.the.Dragon.S02E05.1080p.AMZN.WEB-DL.DDP5.1.H.264
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/99449
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/House%20of%20the%20Dragon%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%202%201080p/House.of.the.Dragon.S02E05.1080p.AMZN.WEB-DL.DDP5.1.H.264.mkv
+#EXTINF:-1 group-title="House Of The Dragon" -1,House.of.the.Dragon.S02E06.1080p.AMZN.WEB-DL.DDP5.1.H.264
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/99449
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/House%20of%20the%20Dragon%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%202%201080p/House.of.the.Dragon.S02E06.1080p.AMZN.WEB-DL.DDP5.1.H.264.mkv
+#EXTINF:-1 group-title="House Of The Dragon" -1,House.of.the.Dragon.S02E07.1080p.AMZN.WEB-DL.DDP5.1.H.264
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/99449
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/House%20of%20the%20Dragon%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%202%201080p/House.of.the.Dragon.S02E07.1080p.AMZN.WEB-DL.DDP5.1.H.264.mkv
+#EXTINF:-1 group-title="House Of The Dragon" -1,House.of.the.Dragon.S02E08.1080p.AMZN.WEB-DL.DDP5.1.H.264
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/99449
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/House%20of%20the%20Dragon%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%202%201080p/House.of.the.Dragon.S02E08.1080p.AMZN.WEB-DL.DDP5.1.H.264.mkv
+#EXTINF:-1 group-title="House Of The Dragon" -1,House.of.the.Dragon.S03E01.1080p.AMZN.WEB-DL.Hindi.AAC2.0.English.DDP5.1.Atmos.H.264
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/99449
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/House%20of%20the%20Dragon%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%203%201080p/House.of.the.Dragon.S03E01.1080p.AMZN.WEB-DL.Hindi.AAC2.0.English.DDP5.1.Atmos.H.264.mkv
