@@ -4285,3 +4285,72 @@ http://index1.circleftp.net/FILE/Hindi%20Movies/1994%26%20Before/Andaz%20Apna%20
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/64797
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://index1.circleftp.net/FILE/Hindi%20Movies/2000/Hera%20Pheri%20%282000%29%201080p%20Web-Dl%20AVC%20AAC/Hera%20Pheri%20%282000%29%201080p%20Web-Dl%20AVC%20AAC%20%5BDrC%5D.mp4
+
+# ==========================================
+# Add : 29 JUNE 2026
+# CONTENT - Chak De! India (2007) Hindi 1080p BluRay DD 5.1 ESub x264
+# CONTENT - Jawan (2023) EXTENDED 1080p BluRay Hindi x264
+# CONTENT - Baazigar Hindi (1993) 1080p WEBDL x265 By SagarSingha(TeamDMR) 1st On Net
+# CONTENT - Kal Ho Naa Ho 2003 Hindi 1080p BluRay x264 DTS 5.1 Esub - Hon3y
+# CONTENT - Veer-Zaara (2004) 1080p BluRay Hindi x264
+# CONTENT - Kuch Kuch Hota Hai (1998) 1080p BluRay x265 HEVC 10bit AAC 5.1 Hindi Natty
+# CONTENT - Dilwale Dulhania Le Jayenge 1995 BluRay Hindi 1080p x264 AAC 5.1 ESub - mkvCinemas [Telly]
+# CONTENT - Rab Ne Bana Di Jodi 2008 BluRay 1080p Hindi DD 5.1 x264 ESub
+# CONTENT - Phir Bhi Dil Hai Hindustani.2000.1080p.WEB-DL.H264.AAC-Telly
+# CONTENT - Duplicate (1998) 1080p h264
+# CONTENT - Om Shanti Om (2007) 1080p BluRay Hindi x264
+# CONTENT - Happy New Year (2014) 1080p Hindi BluRay x264
+# CONTENT - Chennai Express 2013 1080p BluRay x264 Hindi AAC - Ozlem
+# ==========================================
+#EXTINF:-1 group-title="S.R.K Movie" -1,Chak De! India (2007) Hindi 1080p BluRay DD 5.1 ESub x264
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/72276
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://index1.circleftp.net/FILE/Hindi%20Movies/2007/Chak%20De%21%20India%20%282007%29%20Hindi%201080p%20BluRay%20DD%205.1%20ESub%20x264/Chak%20De%21%20India%20%282007%29%20Hindi%201080p%20BluRay%20DD%205.1%20ESub%20x264.mkv
+#EXTINF:-1 group-title="S.R.K Movie" -1,Jawan (2023) EXTENDED 1080p BluRay Hindi x264
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/103368
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://index1.circleftp.net/FILE/Hindi%20Movies/2023/Jawan%20%282023%29%20EXTENDED%201080p%20BluRay%20Hindi%20x264/Jawan%20%282023%29%20EXTENDED%201080p%20BluRay%20Hindi%20x264.mkv
+#EXTINF:-1 group-title="S.R.K Movie" -1,Baazigar Hindi (1993) 1080p WEBDL x265 By SagarSingha(TeamDMR) 1st On Net
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/62530
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://index1.circleftp.net/FILE/Hindi%20Movies/1994%26%20Before/Baazigar%20Hindi%20%281993%29%201080p%20WEBDL%20x265%20By%20SagarSingha%28TeamDMR%29%201st%20On%20Net/Baazigar%20Hindi%20%281993%29%201080p%20WEBDL%20x265%20By%20SagarSingha%28TeamDMR%29%201st%20On%20Net.mkv
+#EXTINF:-1 group-title="S.R.K Movie" -1,Kal Ho Naa Ho 2003 Hindi 1080p BluRay x264 DTS 5.1 Esub - Hon3y
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/62536
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://index1.circleftp.net/FILE/Hindi%20Movies/2003/Kal%20Ho%20Naa%20Ho%202003%20Hindi%201080p%20BluRay%20x264%20DTS%205.1%20Esub%20-%20Hon3y/Kal%20Ho%20Naa%20Ho%202003%20Hindi%201080p%20BluRay%20x264%20DTS%205.1%20Esub%20-%20Hon3y.mkv
+#EXTINF:-1 group-title="S.R.K Movie" -1,Veer-Zaara (2004) 1080p BluRay Hindi x264
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/59446
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://index1.circleftp.net/FILE/Hindi%20Movies/2004/Veer-Zaara%20%282004%29%201080p%20BluRay%20Hindi%20x264/Veer-Zaara%20%282004%29%201080p%20BluRay%20Hindi%20x264.mp4
+#EXTINF:-1 group-title="S.R.K Movie" -1,Kuch Kuch Hota Hai (1998) 1080p BluRay x265 HEVC 10bit AAC 5.1 Hindi Natty
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/62535
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://index1.circleftp.net/FILE/Hindi%20Movies/1998/Kuch%20Kuch%20Hota%20Hai%20%281998%29%201080p%20BluRay%20x265%20HEVC%2010bit%20AAC%205.1%20Hindi%20Natty/Kuch%20Kuch%20Hota%20Hai%20%281998%29%201080p%20BluRay%20x265%20HEVC%2010bit%20AAC%205.1%20Hindi%20Natty.mkv
+#EXTINF:-1 group-title="S.R.K Movie" -1,Dilwale Dulhania Le Jayenge 1995 BluRay Hindi 1080p x264 AAC 5.1 ESub - mkvCinemas [Telly]
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/66852
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://index1.circleftp.net/FILE/Hindi%20Movies/1995/Dilwale%20Dulhania%20Le%20Jayenge%201995%20BluRay%20Hindi%201080p%20x264%20AAC%205.1%20ESub%20-%20mkvCinemas%20%5BTelly%5D/Dilwale%20Dulhania%20Le%20Jayenge%201995%20BluRay%20Hindi%201080p%20x264%20AAC%205.1%20ESub%20-%20mkvCinemas%20%5BTelly%5D.mkv
+#EXTINF:-1 group-title="S.R.K Movie" -1,Rab Ne Bana Di Jodi 2008 BluRay 1080p Hindi DD 5.1 x264 ESub
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/86922
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://index1.circleftp.net/FILE/Hindi%20Movies/2008/Rab%20Ne%20Bana%20Di%20Jodi%202008%20BluRay%201080p%20Hindi%20DD%205.1%20x264%20ESub/Rab%20Ne%20Bana%20Di%20Jodi%202008%20BluRay%201080p%20Hindi%20DD%205.1%20x264%20ESub.mkv
+#EXTINF:-1 group-title="S.R.K Movie" -1,Phir Bhi Dil Hai Hindustani.2000.1080p.WEB-DL.H264.AAC-Telly
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/63055
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://index1.circleftp.net/FILE/Hindi%20Movies/2000/Phir%20Bhi%20Dil%20Hai%20Hindustani.2000.1080p.WEB-DL.H264.AAC-Telly/Phir%20Bhi%20Dil%20Hai%20Hindustani.2000.1080p.WEB-DL.H264.AAC-Telly.mkv
+#EXTINF:-1 group-title="S.R.K Movie" -1,Duplicate (1998) 1080p h264
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/84733
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://index1.circleftp.net/FILE/Hindi%20Movies/1998/Duplicate%20%281998%29%201080p%20h264/Duplicate%20%281998%29%201080p%20h264.mkv
+#EXTINF:-1 group-title="S.R.K Movie" -1,Om Shanti Om (2007) 1080p BluRay Hindi x264
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/81025
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://index1.circleftp.net/FILE/Hindi%20Movies/2007/Om%20Shanti%20Om%20%282007%29%201080p%20BluRay%20Hindi%20x264/Om%20Shanti%20Om%20%282007%29%201080p%20BluRay%20Hindi%20x264.mp4
+#EXTINF:-1 group-title="S.R.K Movie" -1,Happy New Year (2014) 1080p Hindi BluRay x264
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/60879
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://index1.circleftp.net/FILE/Hindi%20Movies/2014/Happy%20New%20Year%20%282014%29%201080p%20Hindi%20BluRay%20x264/Happy%20New%20Year%20%282014%29%201080p%20Hindi%20BluRay%20x264.mp4
+#EXTINF:-1 group-title="S.R.K Movie" -1,Chennai Express 2013 1080p BluRay x264 Hindi AAC - Ozlem
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/54914
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://index1.circleftp.net/FILE/Hindi%20Movies/2013/Chennai%20Express%202013%201080p%20BluRay%20x264%20Hindi%20AAC%20-%20Ozlem/Chennai%20Express%202013%201080p%20BluRay%20x264%20Hindi%20AAC%20-%20Ozlem.mp4
