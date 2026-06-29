@@ -4221,3 +4221,67 @@ http://ftp11.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/Happiness%
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/72323
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://ftp11.circleftp.net/FILE/English%20%26%20Foreign%20TV%20Series/Happiness%20%28TV%20Series%202021-%29/Season%201%201080p/Happiness.S01E12.1080p.WEB-DL.H264.AAC-AppleTor.mp4
+
+# ==========================================
+# Add : 29 JUNE 2026
+# CONTENT - Stree 2 Sarkate Ka Aatank (2024) 1080p WEB-DL Hindi H265
+# CONTENT - Stree (2018) Hindi 1080p WEBRip x264 AAC - Ranvijay
+# CONTENT - Badhaai Ho (2018) 1080p BluRay Hindi x264
+# CONTENT - Fukrey.2013.1080p.BluRay.x264
+# CONTENT - Jatt & Juliet 3 (2024) Punjabi 1080p WEB-DL H265
+# CONTENT - Chup Chup Ke (2006) Hindi 1080p WEBRip x264 ESub
+# CONTENT - Dhamaal 2007 Hindi 1080p NF WEBRip x264 DD 5.1 ESubs - LOKiHD - Telly
+# CONTENT - Double Dhamaal 2011 Hindi 1080p BluRay x264 DD 5.1 MSubs - LOKiHD - Telly
+# CONTENT - Total Dhamaal (2019) Hindi 1080p WEB-DL x264
+# CONTENT - Hotchpotch Fun Unlimited (Golmaal Fun Unlimited) (2006) Hindi HD 1080p Ajay Devgn
+# CONTENT - Andaz Apna Apna 1994 Hindi 1080p BluRay x264 DD 5.1 ESubs
+# CONTENT - Hera Pheri (2000) 1080p Web-Dl AVC AAC [DrC]
+# ==========================================
+#EXTINF:-1 group-title="comedy movies" -1,Stree 2 Sarkate Ka Aatank (2024) 1080p WEB-DL Hindi H265
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/100138
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://index1.circleftp.net/FILE/Hindi%20Movies/2024/Stree%202%20Sarkate%20Ka%20Aatank%20%282024%29%201080p%20WEB-DL%20Hindi%20H265/Stree%202%20Sarkate%20Ka%20Aatank%20%282024%29%201080p%20WEB-DL%20Hindi%20H265.mkv
+#EXTINF:-1 group-title="comedy movies" -1,Stree (2018) Hindi 1080p WEBRip x264 AAC - Ranvijay
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/52059
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://index1.circleftp.net/FILE/Hindi%20Movies/2018/Stree%20%282018%29%20Hindi%201080p%20WEBRip%20x264%20AAC/Stree%20%282018%29%20Hindi%201080p%20WEBRip%20x264%20AAC%20-%20Ranvijay.mp4
+#EXTINF:-1 group-title="comedy movies" -1,Badhaai Ho (2018) 1080p BluRay Hindi x264
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/76390
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://index1.circleftp.net/FILE/Hindi%20Movies/2018/Badhaai%20Ho%20%282018%29%201080p%20BluRay%20Hindi%20x264/Badhaai%20Ho%20%282018%29%201080p%20BluRay%20Hindi%20x264.mp4
+#EXTINF:-1 group-title="comedy movies" -1,Fukrey.2013.1080p.BluRay.x264
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/62686
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://index1.circleftp.net/FILE/Hindi%20Movies/2013/Fukrey%20%282013%29%20%5BBluRay%5D%20%5B1080p%5D/Fukrey.2013.1080p.BluRay.x264.mp4
+#EXTINF:-1 group-title="comedy movies" -1,Jatt & Juliet 3 (2024) Punjabi 1080p WEB-DL H265
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/100665
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp13.circleftp.net/FILE/Tamil%20Telugu%20%26%20Others/2024/Jatt%20%26%20Juliet%203%20%282024%29%20Punjabi%201080p%20WEB-DL%20H265/Jatt%20%26%20Juliet%203%20%282024%29%20Punjabi%201080p%20WEB-DL%20H265.mkv
+#EXTINF:-1 group-title="comedy movies" -1,Chup Chup Ke (2006) Hindi 1080p WEBRip x264 ESub
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/59136
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://index1.circleftp.net/FILE/Hindi%20Movies/2006/Chup%20Chup%20Ke%20%282006%29%20Hindi%201080p%20WEBRip%20x264%20ESub/Chup%20Chup%20Ke%20%282006%29%20Hindi%201080p%20WEBRip%20x264%20ESub.mkv
+#EXTINF:-1 group-title="comedy movies" -1,Dhamaal 2007 Hindi 1080p NF WEBRip x264 DD 5.1 ESubs - LOKiHD - Telly
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/65182
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://index1.circleftp.net/FILE/Hindi%20Movies/2007/Dhamaal%202007%20Hindi%201080p%20NF%20WEBRip%20x264%20DD%205.1%20ESubs%20-%20LOKiHD%20-%20Telly/Dhamaal%202007%20Hindi%201080p%20NF%20WEBRip%20x264%20DD%205.1%20ESubs%20-%20LOKiHD%20-%20Telly.mkv
+#EXTINF:-1 group-title="comedy movies" -1,Double Dhamaal 2011 Hindi 1080p BluRay x264 DD 5.1 MSubs - LOKiHD - Telly
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/65189
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://index1.circleftp.net/FILE/Hindi%20Movies/2011/Double%20Dhamaal%202011%20Hindi%201080p%20BluRay%20x264%20DD%205.1%20MSubs%20-%20LOKiHD%20-%20Telly/Double%20Dhamaal%202011%20Hindi%201080p%20BluRay%20x264%20DD%205.1%20MSubs%20-%20LOKiHD%20-%20Telly.mkv
+#EXTINF:-1 group-title="comedy movies" -1,Total Dhamaal (2019) Hindi 1080p WEB-DL x264
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/81165
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://index1.circleftp.net/FILE/Hindi%20Movies/2019/Total%20Dhamaal%20%282019%29%20Hindi%201080p%20WEB-DL%20x264/Total%20Dhamaal%20%282019%29%20Hindi%201080p%20WEB-DL%20x264.mkv
+#EXTINF:-1 group-title="comedy movies" -1,Hotchpotch Fun Unlimited (Golmaal Fun Unlimited) (2006) Hindi HD 1080p Ajay Devgn
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/63944
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://index1.circleftp.net/FILE/Hindi%20Movies/2006/Hotchpotch%20Fun%20Unlimited%20%28Golmaal%20Fun%20Unlimited%29%20%282006%29%20Hindi%20HD%201080p%20Ajay%20Devgn/Hotchpotch%20Fun%20Unlimited%20%28Golmaal%20Fun%20Unlimited%29%20%282006%29%20Hindi%20HD%201080p%20Ajay%20Devgn.mkv
+#EXTINF:-1 group-title="comedy movies" -1,Andaz Apna Apna 1994 Hindi 1080p BluRay x264 DD 5.1 ESubs
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/53336
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://index1.circleftp.net/FILE/Hindi%20Movies/1994%26%20Before/Andaz%20Apna%20Apna%201994%20Hindi%201080p%20BluRay%20x264%20DD%205.1%20ESubs/Andaz%20Apna%20Apna%201994%20Hindi%201080p%20BluRay%20x264%20DD%205.1%20ESubs.mkv
+#EXTINF:-1 group-title="comedy movies" -1,Hera Pheri (2000) 1080p Web-Dl AVC AAC [DrC]
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/64797
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://index1.circleftp.net/FILE/Hindi%20Movies/2000/Hera%20Pheri%20%282000%29%201080p%20Web-Dl%20AVC%20AAC/Hera%20Pheri%20%282000%29%201080p%20Web-Dl%20AVC%20AAC%20%5BDrC%5D.mp4
