@@ -1657,7 +1657,6 @@ http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Narcos%20Mexi
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/71407
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Narcos%20Mexico%20%28TV%20Series%202018-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%203%201080p/Narcos.Mexico.S03E10.Life.in.Wartime.1080p.NF.WEB-DL.DD%2B5.1.Atmos.x264-Telly.mkv
-
 #EXTINF:-1 group-title="Narcos Mexico" , agroup-title="The.Sopranos" , hddevils.ts.s01.e01.1080
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/72669
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -4401,3 +4400,12 @@ http://ftp5.circleftp.net/FILE/Animation%20Dubbed%20Movies/2011/Puss%20In%20Boot
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/104780
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://ftp5.circleftp.net/FILE/Animation%20Dubbed%20Movies/2016/Your%20Name%20%282016%29%201080p%20BluRay%20%5BMulti%20Audio%5D%20%5BHin%2BEng%2BJap%5D%20x264/Your%20Name%20%282016%29%201080p%20BluRay%20%5BMulti%20Audio%5D%20%5BHin%2BEng%2BJap%5D%20x264.mkv
+
+# ==========================================
+# Add : 30 JUNE 2026
+# CONTENT - Tuck Jagadish (2021) 1080p WEB-DL [Dual Audio] [Hindi+Telugu] x264
+# ==========================================
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMWUzNjk5NzUtYzU2Ny00MzU2LTk2ZGItZDBiNjM4Y2NmODViXkEyXkFqcGc@._V1_SX300.jpg" group-title="test" , Tuck Jagadish (2021) 1080p WEB-DL [Dual Audio] [Hindi+Telugu] x264
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/68414
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp17.circleftp.net/FILE/Tamil%20Telugu%20%26%20Others%20Hindi%20Dubbed/2021/Tuck%20Jagadish%20%282021%29%201080p%20WEB-DL%20%5BDual%20Audio%5D%20%5BHindi%2BTelugu%5D%20x264/Tuck%20Jagadish%20%282021%29%201080p%20WEB-DL%20%5BDual%20Audio%5D%20%5BHindi%2BTelugu%5D%20x264.mkv
