@@ -4393,3 +4393,11 @@ http://ftp5.circleftp.net/FILE/Animation%20Dubbed%20Movies/2017/Coco%20%282017%2
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/95721
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://ftp5.circleftp.net/FILE/Animation%20Dubbed%20Movies/2011/Puss%20In%20Boots%20%282011%29%201080p%20BluRay%20%5BDual%20Audio%5D%20%5BHindi%2BEnglish%5D%20x264/Puss%20In%20Boots%20%282011%29%201080p%20BluRay%20%5BDual%20Audio%5D%20%5BHindi%2BEnglish%5D%20x264.mkv
+# ==========================================
+# Add : 30 JUNE 2026
+# CONTENT - Your Name (2016) 1080p BluRay [Multi Audio] [Hin+Eng+Jap] x264
+# ==========================================
+#EXTINF:-1 group-title="Animated Movies" -1,Your Name (2016) 1080p BluRay [Multi Audio] [Hin+Eng+Jap] x264
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/104780
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ftp5.circleftp.net/FILE/Animation%20Dubbed%20Movies/2016/Your%20Name%20%282016%29%201080p%20BluRay%20%5BMulti%20Audio%5D%20%5BHin%2BEng%2BJap%5D%20x264/Your%20Name%20%282016%29%201080p%20BluRay%20%5BMulti%20Audio%5D%20%5BHin%2BEng%2BJap%5D%20x264.mkv
