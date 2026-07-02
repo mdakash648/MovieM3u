@@ -167,55 +167,55 @@ http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Agatha%20All%
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMDcyZTNjOTEtNzc5Yy00Y2UzLThkMWYtNTY4YmM4OWI5OTMzXkEyXkFqcGc@._V1_SX300.jpg" group-title="Agatha All Along" , Agatha.All.Along.S01E09.1080p.DSNP.WEB-DL.DDP5.1.Atmos.H.264.mkv
 http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Agatha%20All%20Along%20%28TV%20Mini%20Series%202024-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%201%201080p/Agatha.All.Along.S01E09.1080p.DSNP.WEB-DL.DDP5.1.Atmos.H.264.mkv
 
-#EXTINF:-1 group-title="What if"  ,  What If S01E01, 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEfX49ZCrr5-3wVJeVqEyiZ47su2KIcKvIUiixuZWow&s" group-title="What if"  ,  What If S01E01, 
 http://media.ftpbd.net:8096/emby/videos/1537985/stream.mp4?DeviceId=d7add3b3-7880-40d4-bec4-7367d918f8c7&MediaSourceId=4075e1cf9557399402ce66846c4c3bbc&Static=true&PlaySessionId=d0c20ea9aa494f3b9bb083eab8efd5e6&api_key=54a5925eb3bc4a05b93bd34af690dcb6
-#EXTINF:-1 group-title="What if"  , what if S01E02.mp4, 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEfX49ZCrr5-3wVJeVqEyiZ47su2KIcKvIUiixuZWow&s" group-title="What if"  , what if S01E02.mp4, 
 http://media.ftpbd.net:8096/emby/videos/1537987/stream.mp4?DeviceId=d7add3b3-7880-40d4-bec4-7367d918f8c7&MediaSourceId=615eaf1d7df293c7a0e77b8033f337eb&Static=true&PlaySessionId=7aaaf48e02914946a0f17e0908ada7a2&api_key=54a5925eb3bc4a05b93bd34af690dcb6
-#EXTINF:-1 group-title="What if"  , what if S01E03.mp4, 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEfX49ZCrr5-3wVJeVqEyiZ47su2KIcKvIUiixuZWow&s" group-title="What if"  , what if S01E03.mp4, 
 http://media.ftpbd.net:8096/emby/videos/1537982/stream.mp4?DeviceId=d7add3b3-7880-40d4-bec4-7367d918f8c7&MediaSourceId=e04544d4a5c25c52f4f2c855d71ded87&Static=true&PlaySessionId=f9ee23e7496d44dd852ee8cb0b41941b&api_key=54a5925eb3bc4a05b93bd34af690dcb6
-#EXTINF:-1 group-title="What if"  , what if S01E04.mp4, 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEfX49ZCrr5-3wVJeVqEyiZ47su2KIcKvIUiixuZWow&s" group-title="What if"  , what if S01E04.mp4, 
 http://media.ftpbd.net:8096/emby/videos/1537988/stream.mp4?DeviceId=d7add3b3-7880-40d4-bec4-7367d918f8c7&MediaSourceId=a4f4805f3d3f4b0f1e3a502f98aaf5ae&Static=true&PlaySessionId=93fe2560ce6d463d8f748fe4defae2be&api_key=54a5925eb3bc4a05b93bd34af690dcb6
-#EXTINF:-1 group-title="What if"  , what if S01E05.mp4, 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEfX49ZCrr5-3wVJeVqEyiZ47su2KIcKvIUiixuZWow&s" group-title="What if"  , what if S01E05.mp4, 
 http://media.ftpbd.net:8096/emby/videos/1537986/stream.mp4?DeviceId=d7add3b3-7880-40d4-bec4-7367d918f8c7&MediaSourceId=47a177e90258f5fa19ae0e28be6208f9&Static=true&PlaySessionId=508b9f2bcf0b4f219c7e18da990d227b&api_key=54a5925eb3bc4a05b93bd34af690dcb6
-#EXTINF:-1 group-title="What if"  , what if S01E06.mp4, 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEfX49ZCrr5-3wVJeVqEyiZ47su2KIcKvIUiixuZWow&s" group-title="What if"  , what if S01E06.mp4, 
 http://media.ftpbd.net:8096/emby/videos/1537981/stream.mp4?DeviceId=d7add3b3-7880-40d4-bec4-7367d918f8c7&MediaSourceId=ca176f4bc507f6d13ac966641e0fdfa9&Static=true&PlaySessionId=3acbe70c8a634007a8a18e858ccc50aa&api_key=54a5925eb3bc4a05b93bd34af690dcb6
-#EXTINF:-1 group-title="What if"  , what if S01E07.mp4, 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEfX49ZCrr5-3wVJeVqEyiZ47su2KIcKvIUiixuZWow&s" group-title="What if"  , what if S01E07.mp4, 
 http://media.ftpbd.net:8096/emby/videos/1537983/stream.mp4?DeviceId=d7add3b3-7880-40d4-bec4-7367d918f8c7&MediaSourceId=5204527f5481c45e41f2260bf54b61bd&Static=true&PlaySessionId=bcc28c77c47a49e8b43a240bc79dcdda&api_key=54a5925eb3bc4a05b93bd34af690dcb6
-#EXTINF:-1 group-title="What if"  , what if S01E08.mp4, 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEfX49ZCrr5-3wVJeVqEyiZ47su2KIcKvIUiixuZWow&s" group-title="What if"  , what if S01E08.mp4, 
 http://media.ftpbd.net:8096/emby/videos/1537989/stream.mp4?DeviceId=d7add3b3-7880-40d4-bec4-7367d918f8c7&MediaSourceId=7930b4540d7d046d816eef17afdcb47c&Static=true&PlaySessionId=d5465b0150a34e648648ecb298de7e6c&api_key=54a5925eb3bc4a05b93bd34af690dcb6
-#EXTINF:-1 group-title="What if"  , what if S01E09.mp4, 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEfX49ZCrr5-3wVJeVqEyiZ47su2KIcKvIUiixuZWow&s" group-title="What if"  , what if S01E09.mp4, 
 http://media.ftpbd.net:8096/emby/videos/1537984/stream.mp4?DeviceId=d7add3b3-7880-40d4-bec4-7367d918f8c7&MediaSourceId=eccfc2eeeddce95ce4a3d955a4a80ef1&Static=true&PlaySessionId=610876c6d7a142189ab89b87b6e26d26&api_key=54a5925eb3bc4a05b93bd34af690dcb6
-#EXTINF:-1 group-title="What if"  , what if S02E01.mp4, 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEfX49ZCrr5-3wVJeVqEyiZ47su2KIcKvIUiixuZWow&s" group-title="What if"  , what if S02E01.mp4, 
 http://media.ftpbd.net:8096/emby/videos/1537997/stream.mp4?DeviceId=d7add3b3-7880-40d4-bec4-7367d918f8c7&MediaSourceId=c06dd773428e612bff820c333fc28e6e&Static=true&PlaySessionId=af8ef22ba24946648697ad5ee0ab6e10&api_key=54a5925eb3bc4a05b93bd34af690dcb6
-#EXTINF:-1 group-title="What if"  , what if S02E02.mp4, 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEfX49ZCrr5-3wVJeVqEyiZ47su2KIcKvIUiixuZWow&s" group-title="What if"  , what if S02E02.mp4, 
 http://media.ftpbd.net:8096/emby/videos/1537995/stream.mp4?DeviceId=d7add3b3-7880-40d4-bec4-7367d918f8c7&MediaSourceId=e1d6097663f975d9ef5d7152b8df94c7&Static=true&PlaySessionId=e4271cdf1b0344e18c0bc85e807eacec&api_key=54a5925eb3bc4a05b93bd34af690dcb6
-#EXTINF:-1 group-title="What if"  , what if S02E03.mp4, 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEfX49ZCrr5-3wVJeVqEyiZ47su2KIcKvIUiixuZWow&s" group-title="What if"  , what if S02E03.mp4, 
 http://media.ftpbd.net:8096/emby/videos/1537990/stream.mp4?DeviceId=d7add3b3-7880-40d4-bec4-7367d918f8c7&MediaSourceId=555329514925fede8693b3e84f3ac3ec&Static=true&PlaySessionId=0964a73f78fe4cc5bea9479fe4597239&api_key=54a5925eb3bc4a05b93bd34af690dcb6
-#EXTINF:-1 group-title="What if"  , what if S02E04.mp4, 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEfX49ZCrr5-3wVJeVqEyiZ47su2KIcKvIUiixuZWow&s" group-title="What if"  , what if S02E04.mp4, 
 http://media.ftpbd.net:8096/emby/videos/1537992/stream.mp4?DeviceId=d7add3b3-7880-40d4-bec4-7367d918f8c7&MediaSourceId=20f19ec58983279e1726b8c1be3816d0&Static=true&PlaySessionId=3ee6910dedde4b038e65220ba5af8ea6&api_key=54a5925eb3bc4a05b93bd34af690dcb6
-#EXTINF:-1 group-title="What if"  , what if S02E05.mp4, 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEfX49ZCrr5-3wVJeVqEyiZ47su2KIcKvIUiixuZWow&s" group-title="What if"  , what if S02E05.mp4, 
 http://media.ftpbd.net:8096/emby/videos/1537996/stream.mp4?DeviceId=d7add3b3-7880-40d4-bec4-7367d918f8c7&MediaSourceId=ddb2209a57b6c080720de7de092ff601&Static=true&PlaySessionId=0b9c7a439d044de4b020b4ddecf487ad&api_key=54a5925eb3bc4a05b93bd34af690dcb6
-#EXTINF:-1 group-title="What if"  , what if S02E06.mp4, 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEfX49ZCrr5-3wVJeVqEyiZ47su2KIcKvIUiixuZWow&s" group-title="What if"  , what if S02E06.mp4, 
 http://media.ftpbd.net:8096/emby/videos/1537994/stream.mp4?DeviceId=d7add3b3-7880-40d4-bec4-7367d918f8c7&MediaSourceId=479aabd1ed23fd567b6c5e6957ba5636&Static=true&PlaySessionId=252dfb99484046a7b55ceb776b8786cf&api_key=54a5925eb3bc4a05b93bd34af690dcb6
-#EXTINF:-1 group-title="What if"  , what if S02E07.mp4, 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEfX49ZCrr5-3wVJeVqEyiZ47su2KIcKvIUiixuZWow&s" group-title="What if"  , what if S02E07.mp4, 
 http://media.ftpbd.net:8096/emby/videos/1537991/stream.mp4?DeviceId=d7add3b3-7880-40d4-bec4-7367d918f8c7&MediaSourceId=3b06d02979c3037c4a7acf8d1c430c90&Static=true&PlaySessionId=74c9897b035b4dab93eea66b9c5c4de3&api_key=54a5925eb3bc4a05b93bd34af690dcb6
-#EXTINF:-1 group-title="What if"  , what if S02E08.mp4, 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEfX49ZCrr5-3wVJeVqEyiZ47su2KIcKvIUiixuZWow&s" group-title="What if"  , what if S02E08.mp4, 
 http://media.ftpbd.net:8096/emby/videos/1537993/stream.mp4?DeviceId=d7add3b3-7880-40d4-bec4-7367d918f8c7&MediaSourceId=23d6f2fc09dd8910359c5675631d3c2b&Static=true&PlaySessionId=1e73508b1fb34d8cb30bb3ba275c8ec5&api_key=54a5925eb3bc4a05b93bd34af690dcb6
-#EXTINF:-1 group-title="What if"  , what if S02E09.mp4, 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEfX49ZCrr5-3wVJeVqEyiZ47su2KIcKvIUiixuZWow&s" group-title="What if"  , what if S02E09.mp4, 
 http://media.ftpbd.net:8096/emby/videos/1537998/stream.mp4?DeviceId=d7add3b3-7880-40d4-bec4-7367d918f8c7&MediaSourceId=ec377c2d2dc1bc5f72cc0e0c59ab101c&Static=true&PlaySessionId=f663e8b1a4524eecbb017b1bfc20f9ba&api_key=54a5925eb3bc4a05b93bd34af690dcb6
-#EXTINF:-1 group-title="What if"  , what if S03E01.mp4, 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEfX49ZCrr5-3wVJeVqEyiZ47su2KIcKvIUiixuZWow&s" group-title="What if"  , what if S03E01.mp4, 
 http://media.ftpbd.net:8096/emby/videos/1537977/stream.mp4?DeviceId=d7add3b3-7880-40d4-bec4-7367d918f8c7&MediaSourceId=cd28e2836cf3a35b488e4f7ec1a6c92d&Static=true&PlaySessionId=137cacb4cfa64f32a5ad5319f099c25d&api_key=54a5925eb3bc4a05b93bd34af690dcb6
-#EXTINF:-1 group-title="What if"  , what if S03E02.mp4, 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEfX49ZCrr5-3wVJeVqEyiZ47su2KIcKvIUiixuZWow&s" group-title="What if"  , what if S03E02.mp4, 
 http://media.ftpbd.net:8096/emby/videos/1537977/stream.mp4?DeviceId=d7add3b3-7880-40d4-bec4-7367d918f8c7&MediaSourceId=cd28e2836cf3a35b488e4f7ec1a6c92d&Static=true&PlaySessionId=137cacb4cfa64f32a5ad5319f099c25d&api_key=54a5925eb3bc4a05b93bd34af690dcb6
-#EXTINF:-1 group-title="What if"  , what if S03E03.mp4, 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEfX49ZCrr5-3wVJeVqEyiZ47su2KIcKvIUiixuZWow&s" group-title="What if"  , what if S03E03.mp4, 
 https://static.vecteezy.com/system/resources/thumbnails/057/068/323/small/single-fresh-red-strawberry-on-table-green-background-food-fruit-sweet-macro-juicy-plant-image-photo.jpg
-#EXTINF:-1 group-title="What if"  , what if S03E04.mp4, 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEfX49ZCrr5-3wVJeVqEyiZ47su2KIcKvIUiixuZWow&s" group-title="What if"  , what if S03E04.mp4, 
 http://media.ftpbd.net:8096/emby/videos/1537974/stream.mp4?DeviceId=d7add3b3-7880-40d4-bec4-7367d918f8c7&MediaSourceId=6847304b6da4db0a43fee4967b46be62&Static=true&PlaySessionId=24e9460c64e64806b1c79311982a9ca3&api_key=54a5925eb3bc4a05b93bd34af690dcb6
-#EXTINF:-1 group-title="What if"  , what if S03E05.mp4, 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEfX49ZCrr5-3wVJeVqEyiZ47su2KIcKvIUiixuZWow&s" group-title="What if"  , what if S03E05.mp4, 
 http://media.ftpbd.net:8096/emby/videos/1537980/stream.mp4?DeviceId=d7add3b3-7880-40d4-bec4-7367d918f8c7&MediaSourceId=5d32ccc642d75cdb3446529d8dad209a&Static=true&PlaySessionId=f16f3d1934e549d0aaa94198f467987a&api_key=54a5925eb3bc4a05b93bd34af690dcb6
-#EXTINF:-1 group-title="What if"  , what if S03E06.mp4, 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEfX49ZCrr5-3wVJeVqEyiZ47su2KIcKvIUiixuZWow&s" group-title="What if"  , what if S03E06.mp4, 
 http://media.ftpbd.net:8096/emby/videos/1537976/stream.mp4?DeviceId=d7add3b3-7880-40d4-bec4-7367d918f8c7&MediaSourceId=2faf858c68ec1e7068568881c1686378&Static=true&PlaySessionId=f35402efe6954fa4aeb7181bc377c0d4&api_key=54a5925eb3bc4a05b93bd34af690dcb6
-#EXTINF:-1 group-title="What if"  , what if S03E07.mp4, 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEfX49ZCrr5-3wVJeVqEyiZ47su2KIcKvIUiixuZWow&s" group-title="What if"  , what if S03E07.mp4, 
 http://media.ftpbd.net:8096/emby/videos/1537973/stream.mp4?DeviceId=d7add3b3-7880-40d4-bec4-7367d918f8c7&MediaSourceId=5c3ef6409ffd75832fa67576ab4869c8&Static=true&PlaySessionId=9ab1c10c3c774783a84958af09dfa7db&api_key=54a5925eb3bc4a05b93bd34af690dcb6
 
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BY2JiOTlhYTUtZTk5Zi00MjA1LTkxYmQtOTgyODJmNmJmYmZlXkEyXkFqcGc@._V1_SX300.jpg" group-title="Gyaarah"  , Gyaarah Gyaarah S01E01 Hindi 1080p Zee5 WEBRip x264 AAC 5.1 ESub - DownloadHub
@@ -266,7 +266,7 @@ http://index2.circleftp.net/FILE/English%20&%20Foreign%20Dubbed%20Movies/2025/No
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMTk2ZmFhYjctYWZiYy00N2IxLWEzMWItZGRiMDY4ZDQwZWFlXkEyXkFqcGc@._V1_SX300.jpg" group-title="hindi & dubbed movies" , Saiyaara (2025) 1080p WEBRip Hindi x264.mkv
 http://index1.circleftp.net/FILE/Hindi%20Movies/2025/Saiyaara%20(2025)%201080p%20WEBRip%20Hindi%20x264/Saiyaara%20(2025)%201080p%20WEBRip%20Hindi%20x264.mkv
 
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BYmJhNWU1NzktZDJiYi00ZjgwLTk1ZjQtM2QzMGMwNzI3YWJlXkEyXkFqcGdeQXVyMTA5MDIxMzQ1._V1_SX300.jpg" group-title="School 2017" , School.2017.S01E01.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz1OC_z7siQdlWO1gSPMqg2zJQYLvHNIpR5GFPu-yEMw&s=10" group-title="School 2017" , School.2017.S01E01.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas
 http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/School%202017%20%28TV%20Series%202017%29%20Hindi%20Dubbed/Season%201%201080p/School.2017.S01E01.1080p.NF.WEB-DL.DDP2.0.x264-mkvCinemas.mkv
 
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNGE0YTVjNzUtNzJjOS00NGNlLTgxMzctZTY4YTE1Y2Y1ZTU4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg" group-title="hindi & dubbed movies" , The-Avengers-2012-1080p-Hindi-Dubbed_reencoded
@@ -295,7 +295,7 @@ http://index1.circleftp.net/FILE/Hindi%20Movies/2025/Jaat%20%282025%29%201080p%2
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/103454
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://index1.circleftp.net/FILE/Hindi%20Movies/2025/Sister%20Midnight%20%282025%29%201080p%20WEBRip%20Hindi%20x264/Sister%20Midnight%20%282025%29%201080p%20WEBRip%20Hindi%20x264.mkv
-#EXTINF:-1 group-title="hindi & dubbed movies" , Chillar Party (2011) 1080p WebRip Hindi x264
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKnwrJR8Xk9Ht3YIvINwRrTHkVC5_KJcgKjY7TO6eYFw&s=10" group-title="hindi & dubbed movies" , Chillar Party (2011) 1080p WebRip Hindi x264
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/103709
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://index1.circleftp.net/FILE/Hindi%20Movies/2011/Chillar%20Party%20%282011%29%201080p%20WebRip%20Hindi%20x264/Chillar%20Party%20%282011%29%201080p%20WebRip%20Hindi%20x264.mkv
@@ -319,7 +319,7 @@ http://index1.circleftp.net/FILE/Hindi%20Movies/2025/120%20Bahadur%20%282025%29%
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/104587
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://index1.circleftp.net/FILE/Hindi%20Movies/2025/Sunny%20Sanskari%20Ki%20Tulsi%20Kumari%20%282025%29%201080p%20WEB-DL%20Hindi%20x264/Sunny%20Sanskari%20Ki%20Tulsi%20Kumari%20%282025%29%201080p%20WEB-DL%20Hindi%20x264.mkv
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BOGY1YzYzODktN2VmOC00NGI2LWFmMTktODY1NDJiZjcyY2EyXkEyXkFqcGdeQXVyODgzMzg2MDg@._V1_SX300.jpg" group-title="hindi & dubbed movies" , Jolly LLB 3 (2025) 1080p WEB-DL Hindi x264
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyZf1drOJkO4JmpZT4MKmB3lsGt1eeEUeXGRcNL2iEug&s=10" group-title="hindi & dubbed movies" , Jolly LLB 3 (2025) 1080p WEB-DL Hindi x264
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/104453
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://index1.circleftp.net/FILE/Hindi%20Movies/2025/Jolly%20LLB%203%20%282025%29%201080p%20WEB-DL%20Hindi%20x264/Jolly%20LLB%203%20%282025%29%201080p%20WEB-DL%20Hindi%20x264.mkv
@@ -331,7 +331,7 @@ http://index1.circleftp.net/FILE/Hindi%20Movies/2025/De%20De%20Pyaar%20De%202%20
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/104865
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://index1.circleftp.net/FILE/Hindi%20Movies/2025/Tere%20Ishk%20Mein%20%282025%29%201080p%20WEB-DL%20Hindi%20x264/Tere%20Ishk%20Mein%20%282025%29%201080p%20WEB-DL%20Hindi%20x264.mkv
-#EXTINF:-1 group-title="hindi & dubbed movies" , Mastiii 4 (2025) 1080p WEB-DL Hindi x264
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQkKcSPwplQMnVkxhc5yZpbwDSbvdEeZIgZkFVngK0Kw&s=10" group-title="hindi & dubbed movies" , Mastiii 4 (2025) 1080p WEB-DL Hindi x264
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/104866
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://index1.circleftp.net/FILE/Hindi%20Movies/2025/Mastiii%204%20%282025%29%201080p%20WEB-DL%20Hindi%20x264/Mastiii%204%20%282025%29%201080p%20WEB-DL%20Hindi%20x264.mkv
