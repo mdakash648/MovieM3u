@@ -4602,17 +4602,3 @@ http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Who%20Killed%
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/75498
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/Who%20Killed%20Sara%20%28TV%20Series%202021-%29%20%5BDual%20Audio%5D%20%5BHin%2BEnglish%5D/Season%203%201080p/Who.Killed.Sara.S03E07.What.Did.You.Do.Sara.1080p.NF.WEB-DL.DDP5.1.x264-mkvCinemas.mkv
-
-# ==========================================
-# Add : 2 JULY 2026
-# CONTENT - [Fibwatch.Com]Myself.Allen.Swapan.(2025).S02.1080p
-# CONTENT - [Fibwatch.Com]Myself.Allen.Swapan.2023.S01.1080p
-# ==========================================
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMjcyOTQ4MWEtY2I1MC00MTMwLWFjMjItZjk1ZDExM2MwYmJlXkEyXkFqcGc@._V1_SX300.jpg" group-title="Myself Allen Swapan (2025)" , Myself.Allen.Swapan.(2025).S02.1080p [Fibwatch.Com]
-#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/myself-allen-swapan-2025-s02-bengali-chorki-web-dl-1080p_QsddozFr7ss4BEZ.html
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://srtyhh.b-cdn.net/s2/upload/videos/2025/03/[Fibwatch.Com]Myself.Allen.Swapan.(2025).S02.1080p.mkv
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMjcyOTQ4MWEtY2I1MC00MTMwLWFjMjItZjk1ZDExM2MwYmJlXkEyXkFqcGc@._V1_SX300.jpg" group-title="Myself Allen Swapan (2025)" , Myself.Allen.Swapan.2023.S01.1080p [Fibwatch.Com]
-#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/myself-allen-swapan-2023-s01-complete-bengali-chorki-web-dl-1080p_3mHkCQzJJZZUKsT.html
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://srtyhh.b-cdn.net/upload/videos/2023/04/[Fibwatch.Com]Myself.Allen.Swapan.2023.S01.1080p.mkv
