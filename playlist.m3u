@@ -4914,3 +4914,11 @@ http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/From%20%28TV%
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/100576
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/From%20%28TV%20Series%202022-%29%20%5BDual%20Audio%5D%20%5BHin%2BEng%5D/Season%204%201080p/From.S04E10.1080p.AMZN.WEB-DL.Hindi.DDP5.1-English.DDP5.1.H.264.mkv
+# ==========================================
+# Add : 11 JULY 2026
+# CONTENT - [Fibwatch.Com]Atonko.(2026).S01E01-06.Bengali.1080p
+# ==========================================
+#EXTINF:-1 group-title="test" , Atonko.(2026).S01E01-06.Bengali.1080p [Fibwatch.Com]
+#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/atonko-2026-s01e01-06-bengali-amzn-web-dl-1080p_dtGLv5RNVsHY5sn.html
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ntyuhh.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Atonko.(2026).S01E01-06.Bengali.1080p.mkv
