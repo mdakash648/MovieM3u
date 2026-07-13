@@ -331,7 +331,7 @@ http://index1.circleftp.net/FILE/Hindi%20Movies/2025/De%20De%20Pyaar%20De%202%20
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/104865
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://index1.circleftp.net/FILE/Hindi%20Movies/2025/Tere%20Ishk%20Mein%20%282025%29%201080p%20WEB-DL%20Hindi%20x264/Tere%20Ishk%20Mein%20%282025%29%201080p%20WEB-DL%20Hindi%20x264.mkv
-#EXTINF: 1  group-title="hindi & dubbed movies" , Mastiii 4 (2025) 1080p WEB-DL Hindi x264
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BY2UwYWZkNjgtYjZkMC00NjQ5LThjN2EtMzljYjI1ZTNkNDU1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1  group-title="hindi & dubbed movies" , Mastiii 4 (2025) 1080p WEB-DL Hindi x264
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/104866
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://index1.circleftp.net/FILE/Hindi%20Movies/2025/Mastiii%204%20%282025%29%201080p%20WEB-DL%20Hindi%20x264/Mastiii%204%20%282025%29%201080p%20WEB-DL%20Hindi%20x264.mkv
@@ -427,7 +427,7 @@ https://rhjklm.b-cdn.net/s3/upload/videos/2026/05/[Fibwatch.Com]Lake.Placid.(199
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/peddi-2026-dual-audio-hindi-line-telugu-hdtc-720p_eyQShKfi7crMyF4.html
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Peddi.(2026).Dual.HDTC.720p.mkv
-#EXTINF: 1 group-title="hindi & dubbed movies" , My.Dearest.Assassin.Dual.720p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BZTMyMDM1ZjMtZjIyZS00MGMwLThiOTItZDk0MWE4MzNlZjExXkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="hindi & dubbed movies" , My.Dearest.Assassin.Dual.720p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/my-dearest-assassin-2026-dual-audio-hindi-thai-netflix-web-dl-720p_OAdu6E5vH8iOfkh.html
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]My.Dearest.Assassin.Dual.720p.mkv
@@ -447,7 +447,7 @@ https://rhjklm.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Revolver.Rita.(2
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/boat-2024-dual-audio-hindi-org-tamil-web-dl-720p_txnYP3ajYzNPsZ4.html
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/upload/videos/2024/08/[Fibwatch.Com]Boat.2024.Dual.720P.mkv
-#EXTINF: 1 group-title="hindi & dubbed movies" , Azure.Dragon.Sword.(2023).Dual.720P [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BZjA4NmI0NTUtMGE3MS00YzdlLWFlZDYtMDUwOTQ1MjViMzhiXkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="hindi & dubbed movies" , Azure.Dragon.Sword.(2023).Dual.720P [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/azure-dragon-sword-2023-dual-audio-hindi-chinese-amazon-web-dl-720p_SYIsFHD8cP3U8oP.html
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/upload/videos/2023/10/[Fibwatch.Com]Azure.Dragon.Sword.(2023).Dual.720P.mkv
@@ -844,399 +844,399 @@ https://rhjklm.b-cdn.net/s3/upload/videos/2026/05/[Fibwatch.Com]Bachelor.Point.S
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/07/[Fibwatch.Com]Bachelor.Point.S05E97-100.720p.mkv
 
 auto_search_update: "https://fibwatch.art/search?keyword=Sultan%20Abdul%20Hamid%20(2025)%20S01E160"
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E01.Bengali.ORG.1080P [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E01.Bengali.ORG.1080P [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/obozDtAqicDKny4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/09/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E01.Bengali.ORG.1080P.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E02.Bengali.ORG.1080P [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E02.Bengali.ORG.1080P [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/2OQEJCrWGpxoUYE
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/09/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E02.Bengali.ORG.1080P.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E03.Bengali.ORG.1080P [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E03.Bengali.ORG.1080P [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/RfiZwyLxtCIKSA8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/09/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E03.Bengali.ORG.1080P.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E04.Bengali.ORG.1080P [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E04.Bengali.ORG.1080P [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/v3OYpGKaGyEhsis
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/09/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E04.Bengali.ORG.1080P.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E05.Bengali.ORG.1080P [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E05.Bengali.ORG.1080P [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/qRB4JRkrYjy4Qo1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/09/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E05.Bengali.ORG.1080P.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E06.Bengali.ORG.1080P [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E06.Bengali.ORG.1080P [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/vOO5eRguTLehNCo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/09/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E06.Bengali.ORG.1080P.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E07.Bengali.ORG [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E07.Bengali.ORG [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/PClGCORlXuqt3hC
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/09/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E07.Bengali.ORG.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E08.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E08.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/IS2HvtdLMP7tlFs
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/09/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E08.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E09.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E09.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/JKCLax7afBaGYRl
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/09/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E09.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E10.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E10.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/LvOZqFOwvnhkbV8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/09/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E10.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E11.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E11.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/r4DxoMf38IW2R1f
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/09/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E11.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E12.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E12.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/BDBZzx5BZgLJjZz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/09/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E12.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E13.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E13.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/Zi3WYH65uxmDjuS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/09/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E13.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E14.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E14.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/kp6QslZa4OFG5Np
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/09/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E14.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E15.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E15.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/nOjBKNgMUTtlRVO
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/09/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E15.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E16.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E16.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/sBZLLJSshdtIfIT
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/09/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E16.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E17.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E17.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/7ke8L9MebL19AuR
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/09/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E17.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E18.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E18.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/Sca32QXsJsr7fu7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/09/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E18.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E19.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E19.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/RonSqJWTqKAziYd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/10/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E19.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E20.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E20.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/Q6oDvsMzm62qSbD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/10/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E20.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E21.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E21.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/af9JMvgkFfKeN4a
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/10/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E21.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E22.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E22.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/xtjSpw86Vt74ONu
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/10/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E22.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E23.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E23.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/7vHanwU8MswNenm
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/10/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E23.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E24.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E24.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/wFwYbYsM4cN7Uh7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/10/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E24.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E25.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E25.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/bAMPdJi7BqMtQB9
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/10/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E25.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E26.Bengali.ORG.1080p.n [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E26.Bengali.ORG.1080p.n [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/aqrKnCjadfdjEPc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/10/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E26.Bengali.ORG.1080p.n.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E27.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E27.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/VwYRLeOHXYfzhgy
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/10/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E27.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E28.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E28.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/Bh7QZP681EznEf4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/10/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E28.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E29.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E29.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/ZH9VJQsa56PkNUh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/10/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E29.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E30.Bengali.ORG.1080p.n [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E30.Bengali.ORG.1080p.n [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/fjYxzqwdojkWyJ4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/10/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E30.Bengali.ORG.1080p.n.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E31.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E31.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/sDETnTBEGgTkctx
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/10/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E31.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E32.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E32.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/eFhSP99jeDbaohO
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/10/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E32.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E33.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E33.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/fFCeZU7B6TQZlYS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/10/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E33.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E34.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E34.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/CcndSeyBFSKhVuz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/10/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E34.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E35.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E35.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/SuIVktCSQrxmXrQ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E35.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E36.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E36.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/VJOGcHkZrwhkICi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E36.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E37.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E37.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/9wUgbOzAutTdVxT
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E37.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E38.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E38.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/4jwqnHnOwpfFc55
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E38.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E39.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E39.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/8zRKHN6jY7pI9Z9
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E39.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E40.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E40.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/lgF8ywjk9G6XVAV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E40.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E41.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E41.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/VWZ2gFfpwAcr2EQ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E41.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E42.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E42.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/CsrKebI7wV6ZFs7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E42.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E43.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E43.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/fHHoxnPO6kA1I5U
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E43.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E44.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E44.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/lVRdTRVQHPNfwJp
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E44.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E45.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E45.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/VMcLKFfFyr7XOnC
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E45.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E46.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E46.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/HX2PBB36xdhJjZC
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E46.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E47.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E47.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/MWbKdvXR96aKXHj
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E47.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E48.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E48.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/fRWGfoIE94f11cl
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E48.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E49.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E49.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/QNcCpvkTfxibd3L
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E49.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E50.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E50.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/GxWDkGY3crnomjz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E50.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E51.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E51.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/OhKJd7hCqZezfOu
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2025/12/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E51.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E52.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E52.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/hCQMkfcIiOOzB5C
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2025/12/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E52.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E53.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E53.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/sReSoQjtX66xzxe
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2025/12/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E53.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E54.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E54.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/k1oxko6uPqwvxrL
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2025/12/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E54.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E55.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E55.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/ByjiOqxoVqhPyUJ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2025/12/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E55.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E56.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E56.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/UkZgWu8asKvqVcu
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2025/12/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E56.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E57.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E57.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/zyiYaolq36krv4H
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2025/12/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E57.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E58.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E58.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/FKT2ZHIKbedPFt9
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2025/12/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E58.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E59.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E59.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/EIw1NIdrXlCFZjs
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2025/12/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E59.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E60.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E60.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/8uDncQTSUCiCe8S
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2025/12/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E60.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E61.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E61.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/V92Z7gN31xWlgQS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2025/12/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E61.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E62.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E62.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/RVaoUPaitMSpQ3J
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2025/12/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E62.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E63.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E63.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/jnbE7cLbGxUoHhT
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2025/12/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E63.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E64.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E64.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/S4N65kuFBFZdyQB
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2025/12/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E64.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E65.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E65.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/OWNPymfQFkh27RI
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2025/12/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E65.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E66.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E66.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/jCD3MRw6IjweCg1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2025/12/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E66.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E67.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E67.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/MTn83XT6XMLOhTd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2025/12/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E67.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E68.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E68.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/BOIPZc4yiRo5c17
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2025/12/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E68.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E69.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E69.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/2zzHLNTcw1gcfQb
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2025/12/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E69.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E70.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E70.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/jO7r4Udl62eZT8w
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/01/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E70.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E71.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E71.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/LzqJJVcGcUXwLkS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/01/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E71.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E72.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E72.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/BgXJseSahcdpGCO
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/01/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E72.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E73.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E73.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/QpQL7buRXrO6B7z
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/01/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E73.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E74.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E74.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/vK3vo6dKms78aae
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/01/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E74.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E75.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E75.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/qV24NhgwAdFkYGE
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/01/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E75.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E76.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E76.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/xErQD5Xll6JCsQy
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/01/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E76.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E77.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E77.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/aZFMB6Vcd6fMe9R
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/01/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E77.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E78.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E78.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/IPwVfgme2fZeawT
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/01/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E78.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E79.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E79.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/KtCfdEaCu8EIeFC
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/01/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E79.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E80.Bengali.ORG.1080p. [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E80.Bengali.ORG.1080p. [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/rWeKMYI943pYrgb
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/01/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E80.Bengali.ORG.1080p..mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E81.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E81.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/T3uA5haBCCTwOg6
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/01/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E81.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E82.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E82.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/Z4k1KYAUDMSrHgk
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/01/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E82.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E83.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E83.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/YQu8cEqVay5P6Ki
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/01/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E83.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E84.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E84.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/uP7ECUk5x2cOmyK
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/01/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E84.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E85.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E85.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/chEJ9kSQlRhDiyN
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/01/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E85.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E86.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E86.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/OyHzonrLIi5SDIa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E86.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E87.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E87.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/gVXfvkRgXNvYpSQ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E87.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E88.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E88.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/3LH18k78qdpFGzE
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E88.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E89.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E89.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/1r2jMkGU5Ppl7lY
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E89.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E90.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E90.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/OF3LHDlC75XDpS7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E90.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E91.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E91.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/UftKrVJTOsIT68q
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E91.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E92.Bengali.ORG.1080p. [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E92.Bengali.ORG.1080p. [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/uJTBrHMpUq3vjcQ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E92.Bengali.ORG.1080p..mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E93.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E93.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/1VLJijQc16pDDlG
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E93.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E94.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E94.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/b4ZJUOTETeUSkjo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E94.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E95.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E95.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/1hUc3BVLodZ3zHA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E95.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E96.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E96.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/tm8M8joGfKdzvlj
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E96.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E97.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E97.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/vtveR4RUBkMoluV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E97.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E98.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E98.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/EPwjNtG9n7CukdH
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E98.Bengali.ORG.1080p.mkv
-#EXTINF: 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E99.Bengali.ORG.1080p [Fibwatch.Com]
+#EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BYjhlZjQxZDQtNTQzOC00OGZkLWE0N2UtN2E3YjQ2NTkzNjY1XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg" 1 group-title="Sultan.Abdul.Hamid" , Sultan.Abdul.Hamid.S01E99.Bengali.ORG.1080p [Fibwatch.Com]
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/wByWdKhaGomkSOK
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rhjklm.b-cdn.net/s3/upload/videos/2026/03/[Fibwatch.Com]Sultan.Abdul.Hamid.S01E99.Bengali.ORG.1080p.mkv
