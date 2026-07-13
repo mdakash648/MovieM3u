@@ -1541,7 +1541,6 @@ http://index.circleftp.net/FILE/Animation%20Movies/Hindi%20Dubbed%20Cartoon/Dora
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/76176
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://ftp5.circleftp.net/FILE/Animation%20Dubbed%20Movies/2011/Doraemon%20Nobita%20and%20the%20New%20Steel%20Troops%20Angel%20Wings%20%282011%29%201080p%20BDRip%20%5BDual%20Audio%5D%20%5BHin%2BJap%5D%20DD2.0%20ESub%20x264/Doraemon%20Nobita%20and%20the%20New%20Steel%20Troops%20Angel%20Wings%20%282011%29%201080p%20BDRip%20%5BDual%20Audio%5D%20%5BHin%2BJap%5D%20DD2.0%20ESub%20x264.mkv
-
 #EXTINF: tvg-logo="https://m.media-amazon.com/images/M/MV5BY2EzNThjYzMtMmYwNS00NzhlLTkwZDktMWE5YWQ0YzczZmYwXkEyXkFqcGc@._V1_SX300.jpg" 1 group-title="Doraemon" , Doraemon Nobita and the Galaxy Super-express (1996) Remastered Hindi Dubbed 1080p WEB-DL
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/56670
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -3614,6 +3613,14 @@ https://pyujhkk.b-cdn.net/upload/videos/2023/08/[Fibwatch.Com]Surongo.(2023).108
 #EXTVLCOPT:http-referrer=https://fibwatch.art/watch/omimangshito-2025-bengali-iscreen-web-dl-1080p_SIcUP9zrUT3zhnr.html
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pyujhkk.b-cdn.net/s3/upload/videos/2025/12/[Fibwatch.Com]Omimangshito.(2025).1080P.mkv
+# ==========================================
+# Add : 13 JULY 2026
+# CONTENT - [Fibwatch.Com]Surongo.(2023).1080p
+# ==========================================
+#EXTINF:1 tvg-logo="https://m.media-amazon.com/images/M/MV5BZTVhYmNhNTgtN2UwMi00NjYwLWE5ZDYtNjhiZGZmOGQ2MGQxXkEyXkFqcGc@._V1_SX300.jpg" group-title="Bangla" , Surongo.(2023).1080p [Fibwatch.Com]
+#EXTVLCOPT:http-referrer=https://fibwatch.art/watch/surongo-2023-bengali-chorki-web-dl-1080p_QGxxpiSiyrPiorP.html
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://pyujhkk.b-cdn.net/upload/videos/2023/08/[Fibwatch.Com]Surongo.(2023).1080p.mkv
 
 # ==========================================
 # Add : 26 JUNE 2026
