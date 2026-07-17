@@ -263,21 +263,27 @@ def sync_playlist_cdn_domain(new_domain: str) -> dict:
     new_domain, and push back if anything actually changed.
     """
     if not GITHUB_TOKEN:
+        print("[cdn-sync] GITHUB_TOKEN is empty/missing — check Vercel env vars")
         return {"status": "error", "message": "GITHUB_TOKEN not set"}
 
     try:
         content, sha = _github_get_file()
+        print(f"[cdn-sync] fetched playlist.m3u, sha={sha[:7]}")
     except Exception as e:
+        print(f"[cdn-sync] GitHub GET failed: {e}")
         return {"status": "error", "message": f"GitHub GET failed: {e}"}
 
     new_content, changed = _swap_fibwatch_domains(content, new_domain)
     if not changed:
+        print(f"[cdn-sync] no Fibwatch entries needed updating for domain={new_domain}")
         return {"status": "ok", "message": "No Fibwatch entries needed updating", "domain": new_domain}
 
     commit_msg = f"Auto CDN domain sync -> {new_domain} [{_get_bd_date_str()}]"
     try:
         _github_push_file(new_content, sha, commit_msg)
+        print(f"[cdn-sync] pushed commit: {commit_msg}")
     except Exception as e:
+        print(f"[cdn-sync] GitHub push failed: {e}")
         return {"status": "error", "message": f"GitHub push failed: {e}"}
 
     return {"status": "ok", "message": "Playlist synced", "domain": new_domain}
@@ -285,25 +291,43 @@ def sync_playlist_cdn_domain(new_domain: str) -> dict:
 
 def _trigger_playlist_cdn_sync(new_domain: str) -> None:
     """
-    Fire-and-forget background sync so the user's video request isn't
-    delayed by a GitHub round-trip. Skips if we already synced this exact
-    domain recently (avoids hammering the GitHub API on every request).
+    Push the CDN-domain sync to GitHub *synchronously*, before the HTTP
+    response goes out.
+
+    NOTE: this used to fire a background daemon thread so the user's video
+    request wasn't delayed by the GitHub round-trip. That works fine on a
+    normal long-running server, but breaks silently on Vercel (and most
+    other serverless platforms): as soon as the function returns its HTTP
+    response, the runtime freezes/kills the instance, so the background
+    thread's GitHub API calls never get to finish. The domain swap in the
+    response looked correct, but GitHub was never actually updated.
+
+    Making this synchronous costs an extra ~0.5-1.5s only on requests where
+    the domain actually changed (rare, and cooled down for _SYNC_COOLDOWN
+    seconds), in exchange for the push actually completing.
     """
     now = time.time()
     with _sync_lock:
         if (_last_synced_domain["domain"] == new_domain
                 and (now - _last_synced_domain["ts"] < _SYNC_COOLDOWN)):
+            print(f"[cdn-sync] skip: '{new_domain}' already synced "
+                  f"{now - _last_synced_domain['ts']:.0f}s ago (cooldown={_SYNC_COOLDOWN}s)")
             return
         _last_synced_domain["domain"] = new_domain
         _last_synced_domain["ts"] = now
 
-    def _worker():
-        try:
-            sync_playlist_cdn_domain(new_domain)
-        except Exception:
-            pass
-
-    threading.Thread(target=_worker, daemon=True).start()
+    print(f"[cdn-sync] starting sync -> {new_domain}")
+    try:
+        result = sync_playlist_cdn_domain(new_domain)
+        print(f"[cdn-sync] result: {result}")
+    except Exception as e:
+        print(f"[cdn-sync] FAILED: {e}")
+        # Let a real failure be retried on the next request instead of
+        # being remembered as "already synced".
+        with _sync_lock:
+            if _last_synced_domain["domain"] == new_domain:
+                _last_synced_domain["domain"] = None
+                _last_synced_domain["ts"] = 0
 
 
 # ─────────────────────────────────────────────
