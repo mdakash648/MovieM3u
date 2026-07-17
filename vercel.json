@@ -7,23 +7,7 @@
     ],
     "rewrites": [
         {
-            "source": "/playlist.m3u",
-            "destination": "/api/index.py"
-        },
-        {
-            "source": "/proxy",
-            "destination": "/api/index.py"
-        },
-        {
-            "source": "/auto-update",
-            "destination": "/api/index.py"
-        },
-        {
-            "source": "/audioinfo",
-            "destination": "/api/index.py"
-        },
-        {
-            "source": "/",
+            "source": "/(.*)",
             "destination": "/api/index.py"
         }
     ],
@@ -31,7 +15,8 @@
         {
             "path": "/auto-update",
             "schedule": "0 18 * * *"
-        }, {
+        },
+        {
             "path": "/auto-update",
             "schedule": "0 6 * * *"
         }
