@@ -5,6 +5,8 @@ import requests
 import json
 import base64
 import os
+import time
+import threading
 from datetime import datetime, timezone, timedelta
 from bs4 import BeautifulSoup
 
@@ -24,6 +26,14 @@ HEADERS = {
                   "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "Referer": WATCH_URL,
 }
+
+# Generic, domain-level headers used for proxy/reachability checks on ANY
+# movie's CDN link (bunny's hotlink protection checks the Referer's domain,
+# not the exact page — this matches the #EXTVLCOPT headers your M3U player
+# already sends). A per-request "referer"/"ua" query param can still override
+# this if a stricter, page-exact referer is ever needed.
+DEFAULT_REFERER    = "https://fibwatch.art/"
+DEFAULT_USER_AGENT = HEADERS["User-Agent"]
 # ================================================
 
 
@@ -121,6 +131,179 @@ def cors_headers(response: Response) -> Response:
     response.headers['Access-Control-Allow-Headers'] = 'Range, Content-Type'
     response.headers['Access-Control-Expose-Headers'] = 'Content-Range, Content-Length, Accept-Ranges'
     return response
+
+
+# ─────────────────────────────────────────────
+#  Live CDN domain resolver
+#  (fixes dead/rotated b-cdn.net links at play-time)
+# ─────────────────────────────────────────────
+
+_CDN_CACHE_TTL = 300  # seconds — how long we trust a discovered "active" domain
+_cdn_cache = {"domain": None, "ts": 0}
+
+
+def _is_url_reachable(url: str, req_headers: dict | None = None) -> bool:
+    """Quick HEAD check. Treat 405 (HEAD not allowed) as reachable too."""
+    try:
+        resp = requests.head(url, headers=req_headers or HEADERS, timeout=6, allow_redirects=True)
+        return resp.status_code < 400 or resp.status_code == 405
+    except Exception:
+        return False
+
+
+def get_active_cdn_domain(force: bool = False) -> str | None:
+    """
+    Return the currently-active CDN domain (e.g. 'https://hrtujkk.b-cdn.net'),
+    discovered by re-scraping WATCH_URL (which always reflects the latest
+    working domain, same as the existing playlist auto-updater does).
+    Cached for _CDN_CACHE_TTL seconds so we don't hit fibwatch on every request.
+    """
+    now = time.time()
+    if not force and _cdn_cache["domain"] and (now - _cdn_cache["ts"] < _CDN_CACHE_TTL):
+        return _cdn_cache["domain"]
+
+    media_url = extract_media_url(WATCH_URL)
+    if media_url:
+        domain = extract_domain(media_url)
+        if domain:
+            _cdn_cache["domain"] = domain
+            _cdn_cache["ts"] = now
+            return domain
+
+    # scrape failed — fall back to whatever we last knew (may be None)
+    return _cdn_cache["domain"]
+
+
+def resolve_working_url(video_url: str, req_headers: dict | None = None) -> str:
+    """
+    Given a video URL the user is trying to play, make sure it actually works.
+    If the CDN domain in it is dead (rotated), swap in the currently active
+    domain (same path/filename kept) and return the fixed URL.
+    If the original URL already works, or nothing better can be found,
+    return it unchanged.
+
+    Side-effect: if a dead domain is detected, this also kicks off a
+    background job that rewrites EVERY Fibwatch entry's CDN domain inside
+    playlist.m3u on GitHub — so the whole playlist self-heals, not just the
+    one URL the user happened to click.
+    """
+    if not video_url:
+        return video_url
+
+    if _is_url_reachable(video_url, req_headers):
+        return video_url
+
+    old_domain = extract_domain(video_url)
+    if not old_domain:
+        return video_url
+
+    new_domain = get_active_cdn_domain()
+    if new_domain and new_domain != old_domain:
+        fixed_url = video_url.replace(old_domain, new_domain, 1)
+        _trigger_playlist_cdn_sync(new_domain)
+        return fixed_url
+
+    return video_url
+
+
+# ─────────────────────────────────────────────
+#  Playlist-wide CDN domain sync (auto-push to GitHub)
+#  Triggered whenever resolve_working_url() discovers a rotated domain.
+# ─────────────────────────────────────────────
+
+_sync_lock = threading.Lock()
+_last_synced_domain = {"domain": None, "ts": 0}
+_SYNC_COOLDOWN = _CDN_CACHE_TTL  # don't re-push for the same domain within this window
+
+
+def _swap_fibwatch_domains(content: str, new_domain: str):
+    """
+    Rewrite the CDN domain for every playlist entry that belongs to Fibwatch
+    (detected via the '[Fibwatch.Com]' title tag on #EXTINF, or a
+    fibwatch.art referrer on the #EXTVLCOPT line right above the media URL).
+    Non-Fibwatch entries (e.g. circleftp links) are left untouched.
+    Returns (new_content, changed: bool).
+    """
+    lines = content.splitlines(keepends=True)
+    new_lines = []
+    is_fibwatch_entry = False
+    changed = False
+
+    for line in lines:
+        stripped = line.strip()
+        if stripped.startswith("#EXTINF"):
+            is_fibwatch_entry = "fibwatch" in stripped.lower()
+            new_lines.append(line)
+        elif stripped.startswith("#EXTVLCOPT"):
+            if "referrer" in stripped.lower() and "fibwatch" in stripped.lower():
+                is_fibwatch_entry = True
+            new_lines.append(line)
+        elif not stripped:
+            new_lines.append(line)
+        elif re.match(r'https?://', stripped) and re.search(r'\.(mkv|mp4)', stripped, re.IGNORECASE):
+            if is_fibwatch_entry:
+                old_domain = extract_domain(stripped)
+                if old_domain and old_domain != new_domain:
+                    new_lines.append(stripped.replace(old_domain, new_domain, 1) + "\n")
+                    changed = True
+                else:
+                    new_lines.append(line)
+            else:
+                new_lines.append(line)
+            is_fibwatch_entry = False
+        else:
+            new_lines.append(line)
+
+    return "".join(new_lines), changed
+
+
+def sync_playlist_cdn_domain(new_domain: str) -> dict:
+    """
+    Pull playlist.m3u from GitHub, swap every Fibwatch entry's CDN domain to
+    new_domain, and push back if anything actually changed.
+    """
+    if not GITHUB_TOKEN:
+        return {"status": "error", "message": "GITHUB_TOKEN not set"}
+
+    try:
+        content, sha = _github_get_file()
+    except Exception as e:
+        return {"status": "error", "message": f"GitHub GET failed: {e}"}
+
+    new_content, changed = _swap_fibwatch_domains(content, new_domain)
+    if not changed:
+        return {"status": "ok", "message": "No Fibwatch entries needed updating", "domain": new_domain}
+
+    commit_msg = f"Auto CDN domain sync -> {new_domain} [{_get_bd_date_str()}]"
+    try:
+        _github_push_file(new_content, sha, commit_msg)
+    except Exception as e:
+        return {"status": "error", "message": f"GitHub push failed: {e}"}
+
+    return {"status": "ok", "message": "Playlist synced", "domain": new_domain}
+
+
+def _trigger_playlist_cdn_sync(new_domain: str) -> None:
+    """
+    Fire-and-forget background sync so the user's video request isn't
+    delayed by a GitHub round-trip. Skips if we already synced this exact
+    domain recently (avoids hammering the GitHub API on every request).
+    """
+    now = time.time()
+    with _sync_lock:
+        if (_last_synced_domain["domain"] == new_domain
+                and (now - _last_synced_domain["ts"] < _SYNC_COOLDOWN)):
+            return
+        _last_synced_domain["domain"] = new_domain
+        _last_synced_domain["ts"] = now
+
+    def _worker():
+        try:
+            sync_playlist_cdn_domain(new_domain)
+        except Exception:
+            pass
+
+    threading.Thread(target=_worker, daemon=True).start()
 
 
 # ─────────────────────────────────────────────
@@ -657,6 +840,19 @@ def run_auto_update() -> dict:
     }
 
 
+def _build_request_headers() -> dict:
+    """
+    Build headers for an upstream CDN request, using ?referer= / ?ua= query
+    params if the client supplies them (e.g. pulled from the M3U's own
+    #EXTVLCOPT lines for that specific movie), otherwise falling back to the
+    generic fibwatch.art domain-level defaults.
+    """
+    return {
+        "User-Agent": request.args.get('ua') or DEFAULT_USER_AGENT,
+        "Referer": request.args.get('referer') or DEFAULT_REFERER,
+    }
+
+
 # ─────────────────────────────────────────────
 #  Routes
 # ─────────────────────────────────────────────
@@ -691,6 +887,26 @@ def auto_update_endpoint():
     )
 
 
+@app.route('/sync-cdn', methods=['GET'])
+def sync_cdn_endpoint():
+    """
+    Manual/debug trigger — force-resolve the current active CDN domain and
+    push a full playlist-wide domain sync to GitHub right now (bypasses the
+    cooldown). Useful for testing without needing a dead link first.
+    """
+    domain = get_active_cdn_domain(force=True)
+    if not domain:
+        return cors_headers(
+            Response(json.dumps({"status": "error", "message": "Could not resolve active CDN domain"}),
+                     status=502, mimetype='application/json')
+        )
+    result = sync_playlist_cdn_domain(domain)
+    status_code = 200 if result.get("status") == "ok" else 500
+    return cors_headers(
+        Response(json.dumps(result, ensure_ascii=False), status=status_code, mimetype='application/json')
+    )
+
+
 @app.route('/audioinfo', methods=['GET', 'OPTIONS'])
 def audio_info():
     if request.method == 'OPTIONS':
@@ -700,6 +916,9 @@ def audio_info():
     if not video_url or not re.match(r'https?://', video_url):
         return cors_headers(Response('{"error":"Invalid URL"}', status=400, mimetype='application/json'))
 
+    req_headers = _build_request_headers()
+    video_url = resolve_working_url(video_url, req_headers)
+
     try:
         result = subprocess.run(
             [
@@ -707,7 +926,7 @@ def audio_info():
                 '-print_format', 'json',
                 '-show_streams',
                 '-select_streams', 'a',
-                '-headers', f'User-Agent: {HEADERS["User-Agent"]}\r\nReferer: {HEADERS["Referer"]}\r\n',
+                '-headers', f'User-Agent: {req_headers["User-Agent"]}\r\nReferer: {req_headers["Referer"]}\r\n',
                 video_url
             ],
             capture_output=True, text=True, timeout=20
@@ -736,6 +955,11 @@ def proxy_video():
     if not re.match(r'https?://', video_url):
         return cors_headers(Response('Invalid URL', status=400))
 
+    req_headers = _build_request_headers()
+
+    # Auto-fix dead/rotated CDN domain before we try to stream this URL
+    video_url = resolve_working_url(video_url, req_headers)
+
     audio_track = request.args.get('audio', None)
 
     if audio_track is not None:
@@ -747,7 +971,7 @@ def proxy_video():
         def generate_ffmpeg():
             cmd = [
                 'ffmpeg', '-v', 'quiet',
-                '-headers', f'User-Agent: {HEADERS["User-Agent"]}\r\nReferer: {HEADERS["Referer"]}\r\n',
+                '-headers', f'User-Agent: {req_headers["User-Agent"]}\r\nReferer: {req_headers["Referer"]}\r\n',
                 '-i', video_url,
                 '-map', '0:v:0',
                 '-map', f'0:a:{track_idx}',
@@ -772,7 +996,6 @@ def proxy_video():
         return cors_headers(resp)
 
     range_header = request.headers.get('Range', None)
-    req_headers  = dict(HEADERS)
     if range_header:
         req_headers['Range'] = range_header
 
