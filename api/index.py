@@ -911,6 +911,109 @@ def auto_update_endpoint():
     )
 
 
+@app.route('/debug-github', methods=['GET'])
+def debug_github_endpoint():
+    """
+    Isolates GitHub connectivity from the rest of the CDN-sync flow, so you
+    can tell in one request whether the problem is:
+      - GITHUB_TOKEN missing/not loaded in this deployment
+      - token present but invalid / expired / wrong repo access
+      - token valid but missing 'Contents: Read and write' permission
+      - or none of the above (in which case the problem is upstream —
+        the dead-link detection never fired, see /sync-cdn instead)
+    Token itself is never returned, only masked info + GitHub's own verdict.
+    """
+    token_present = bool(GITHUB_TOKEN)
+    token_preview = f"{GITHUB_TOKEN[:8]}...{GITHUB_TOKEN[-4:]}" if token_present and len(GITHUB_TOKEN) > 12 else None
+
+    out = {
+        "github_token_env_var_present": token_present,
+        "token_preview": token_preview,
+        "target_repo": GITHUB_REPO,
+        "target_branch": GITHUB_BRANCH,
+        "target_file": GITHUB_FILE,
+    }
+
+    if not token_present:
+        out["verdict"] = ("GITHUB_TOKEN not visible to this running deployment. "
+                           "Set it in Vercel Project Settings -> Environment Variables "
+                           "for the Production environment (and Preview, if you test preview "
+                           "URLs), then REDEPLOY — Vercel does not hot-reload env vars into "
+                           "already-running deployments.")
+        return cors_headers(Response(json.dumps(out, ensure_ascii=False, indent=2), status=500, mimetype='application/json'))
+
+    # 1) Can we even authenticate?
+    gh_headers = {"Authorization": f"token {GITHUB_TOKEN}", "Accept": "application/vnd.github.v3+json"}
+    try:
+        user_resp = requests.get("https://api.github.com/user", headers=gh_headers, timeout=10)
+    except Exception as e:
+        out["verdict"] = f"Network error reaching GitHub API: {e}"
+        return cors_headers(Response(json.dumps(out, ensure_ascii=False, indent=2), status=502, mimetype='application/json'))
+
+    out["auth_status_code"] = user_resp.status_code
+    if user_resp.status_code == 401:
+        out["verdict"] = "Token is invalid/expired/revoked (401 Unauthorized). Generate a new token."
+        return cors_headers(Response(json.dumps(out, ensure_ascii=False, indent=2), status=500, mimetype='application/json'))
+    out["authenticated_as"] = user_resp.json().get("login") if user_resp.status_code == 200 else None
+
+    # 2) Can we read the target file with this token?
+    file_url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{GITHUB_FILE}"
+    try:
+        get_resp = requests.get(file_url, headers=gh_headers, params={"ref": GITHUB_BRANCH}, timeout=10)
+    except Exception as e:
+        out["verdict"] = f"Network error reading target file: {e}"
+        return cors_headers(Response(json.dumps(out, ensure_ascii=False, indent=2), status=502, mimetype='application/json'))
+
+    out["read_status_code"] = get_resp.status_code
+    if get_resp.status_code == 404:
+        out["verdict"] = (f"404 on {GITHUB_REPO}/{GITHUB_FILE} — either the repo/file/branch name is wrong, "
+                           f"or (for a fine-grained token) this repo isn't in the token's repository access list.")
+        return cors_headers(Response(json.dumps(out, ensure_ascii=False, indent=2), status=500, mimetype='application/json'))
+    if get_resp.status_code != 200:
+        out["verdict"] = f"Unexpected error reading file: {get_resp.status_code} {get_resp.text[:300]}"
+        return cors_headers(Response(json.dumps(out, ensure_ascii=False, indent=2), status=500, mimetype='application/json'))
+
+    sha = get_resp.json().get("sha")
+    out["current_sha"] = sha
+
+    # 3) Can we actually WRITE? Do a harmless no-op PUT (same content, same sha)
+    #    so it doesn't create a real commit unless GitHub rejects for permission reasons.
+    raw_b64 = get_resp.json()["content"].replace("\n", "").replace("\r", "").strip()
+    current_content = base64.b64decode(raw_b64)
+    test_headers = {**gh_headers, "Content-Type": "application/json"}
+    put_payload = {
+        "message": "debug-github: permission check (no content change)",
+        "content": base64.b64encode(current_content).decode("utf-8"),
+        "sha": sha,
+        "branch": GITHUB_BRANCH,
+    }
+    try:
+        put_resp = requests.put(file_url, headers=test_headers, json=put_payload, timeout=15)
+    except Exception as e:
+        out["verdict"] = f"Network error during write test: {e}"
+        return cors_headers(Response(json.dumps(out, ensure_ascii=False, indent=2), status=502, mimetype='application/json'))
+
+    out["write_status_code"] = put_resp.status_code
+    if put_resp.status_code in (200, 201):
+        out["verdict"] = "Everything works — token can read AND write. A real sync SHOULD succeed. If it still doesn't, the problem is upstream (dead-link detection never firing) — check /sync-cdn and Vercel Runtime Logs for '[cdn-sync]' lines."
+        return cors_headers(Response(json.dumps(out, ensure_ascii=False, indent=2), status=200, mimetype='application/json'))
+    elif put_resp.status_code == 403:
+        out["verdict"] = ("403 Forbidden on write — token can READ but not WRITE. For a fine-grained PAT: "
+                           "go to the token's settings and set 'Contents' permission to 'Read and write' "
+                           "for this repo. For a classic PAT: it needs the full 'repo' scope.")
+        out["github_response"] = put_resp.text[:500]
+    elif put_resp.status_code == 404:
+        out["verdict"] = "404 on write — same repo-access issue as the read check above."
+        out["github_response"] = put_resp.text[:500]
+    elif put_resp.status_code == 409:
+        out["verdict"] = "409 Conflict — sha changed between read and write (something else committed in between). Not a permission issue; try again."
+    else:
+        out["verdict"] = f"Unexpected write failure: {put_resp.status_code}"
+        out["github_response"] = put_resp.text[:500]
+
+    return cors_headers(Response(json.dumps(out, ensure_ascii=False, indent=2), status=500, mimetype='application/json'))
+
+
 @app.route('/sync-cdn', methods=['GET'])
 def sync_cdn_endpoint():
     """
