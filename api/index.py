@@ -1135,58 +1135,32 @@ def get_new_referrer(cleaned_title: str, original_title: str) -> str | None:
     try:
         resp2 = requests.get(single_page_url, headers=HEADERS, timeout=10)
         if resp2.status_code != 200: return None
-        soup2 = BeautifulSoup(resp2.text, "html.parser")
+        html = resp2.text
     except Exception:
         return None
 
-    download_url = None
-    btn = soup2.find("a", id="fwDownloadBtn")
-    if btn: download_url = btn.get("href")
-    if not download_url:
-        for a in soup2.find_all("a", href=True):
-            if "download" in a.get_text(strip=True).lower():
-                download_url = a["href"]
-                break
-    if not download_url: return None
-    if download_url.startswith("/"): download_url = "https://fibwatch.art" + download_url
-
-    # Step 4: Wait 4s
-    time.sleep(4)
-
-    # Step 5: Fetch safelink redirect URL
+    # Extract JS variables
+    video_url_match = re.search(r'var\s+VIDEO_URL\s*=\s*[\'"]([^\'"]+)[\'"]', html)
+    shortlink_base_match = re.search(r'var\s+SHORTLINK_BASE\s*=\s*[\'"]([^\'"]+)[\'"]', html)
+    
+    if not video_url_match or not shortlink_base_match:
+        return None
+        
+    video_url = video_url_match.group(1)
+    shortlink_base = shortlink_base_match.group(1)
+    
+    # Step 4: Generate new referer via API
+    api_url = shortlink_base.replace('/st?api=', '/api?api=') + urllib.parse.quote(video_url)
     try:
-        resp3 = requests.get(download_url, headers=HEADERS, timeout=15)
-        if resp3.status_code != 200: return None
-        soup3 = BeautifulSoup(resp3.text, "html.parser")
+        resp3 = requests.get(api_url, timeout=15)
+        data = resp3.json()
+        if data.get('status') == 'success':
+            alias = data['shortenedUrl'].split('/')[-1]
+            return f"https://urlshortlink.top/{alias}"
     except Exception:
-        return None
-
-    safelink_redirect_url = None
-    wpsafe = soup3.find(id="wpsafe-link")
-    if wpsafe:
-        a_tag = wpsafe.find("a", href=True)
-        if a_tag: safelink_redirect_url = a_tag["href"]
-    if not safelink_redirect_url: return None
-
-    # Parse Base64 URL
-    qs = urllib.parse.parse_qs(urllib.parse.urlparse(safelink_redirect_url).query)
-    safelink = None
-    if "safelink_redirect" in qs:
-        b64_str = qs["safelink_redirect"][0]
-        padding = '=' * (4 - len(b64_str) % 4)
-        try:
-            data = json.loads(base64.b64decode(b64_str + padding).decode())
-            safelink = data.get("safelink")
-        except Exception:
-            pass
-
-    if not safelink: return None
-
-    # Step 6: Wait 2s
-    time.sleep(2)
-
-    # Step 7: Return URL
-    return safelink
+        pass
+        
+    return None
 
 
 @app.route('/fix-referrers', methods=['GET', 'POST'])
@@ -1257,8 +1231,8 @@ def fix_referrers_endpoint():
     fixed_titles = []
     
     # Process fixes sequentially because it requires time.sleep() and multiple page loads.
-    # Limit to 2 fixes per request to avoid Vercel 10s timeout limit.
-    for block in failed_blocks[:2]:
+    # With the new fast API logic, we can process up to 10 fixes per request.
+    for block in failed_blocks[:10]:
         cleaned = clean_title_for_search(block["title"])
         new_ref = get_new_referrer(cleaned, block["title"])
         if new_ref and new_ref != block["referer"]:
@@ -1267,7 +1241,7 @@ def fix_referrers_endpoint():
             updates_count += 1
             fixed_titles.append(cleaned)
 
-    has_more = len(failed_blocks) > 2
+    has_more = len(failed_blocks) > 10
 
     if changed:
         new_content = "".join(lines)
