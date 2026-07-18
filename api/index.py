@@ -9,6 +9,8 @@ import time
 import threading
 from datetime import datetime, timezone, timedelta
 from bs4 import BeautifulSoup
+import concurrent.futures
+import urllib.parse
 
 app = Flask(__name__)
 
@@ -1069,6 +1071,219 @@ def audio_info():
         return cors_headers(Response(json.dumps({'tracks': tracks}), mimetype='application/json'))
     except Exception as e:
         return cors_headers(Response(json.dumps({'tracks': [], 'error': str(e)}), mimetype='application/json'))
+
+
+# ─────────────────────────────────────────────
+#  HTTP Referrer Auto-Fixer
+# ─────────────────────────────────────────────
+
+def clean_title_for_search(extinf_line: str) -> str:
+    parts = extinf_line.split(',', 1)
+    if len(parts) > 1:
+        title = parts[1].strip()
+    else:
+        title = extinf_line.strip()
+    t = re.sub(r'\[(?i:Fibwatch\.Com)\]', '', title)
+    t = re.sub(r'(?i)1080p|720p|480p', '', t)
+    t = re.sub(r'(?i)\bDual\b', '', t)
+    t = re.sub(r'(?i)\bAudio\b', '', t)
+    t = re.sub(r'(?i)\bHQ\b', '', t)
+    t = re.sub(r'(?i)\bWEB-DL\b', '', t)
+    t = t.replace('.', ' ').replace('-', ' ')
+    t = re.sub(r'\s+', ' ', t).strip()
+    return t
+
+def get_new_referrer(cleaned_title: str, original_title: str) -> str | None:
+    # Step 1: Search movie
+    search_url = f"https://fibwatch.art/search?keyword={urllib.parse.quote(cleaned_title)}"
+    try:
+        resp = requests.get(search_url, headers=HEADERS, timeout=10)
+        if resp.status_code != 200: return None
+        html = resp.text
+    except Exception:
+        return None
+
+    # Step 2: Pick best match
+    soup = BeautifulSoup(html, "html.parser")
+    candidates = []
+    target_res = '1080' if '1080' in original_title else ('720' if '720' in original_title else ('480' if '480' in original_title else ''))
+    has_hindi = 'hindi' in original_title.lower()
+    has_bangla = 'bangla' in original_title.lower() or 'bengali' in original_title.lower()
+
+    for a in soup.find_all("a", href=True):
+        title_text = (a.get_text(strip=True) or a.get("title", "")).strip()
+        href = a["href"]
+        if not title_text: continue
+        if href.startswith("/"): href = "https://fibwatch.art" + href
+        c_res = '1080' if '1080' in title_text else ('720' if '720' in title_text else ('480' if '480' in title_text else ''))
+        candidates.append({
+            "title": title_text,
+            "href": href,
+            "res": c_res,
+            "hindi": 'hindi' in title_text.lower(),
+            "bangla": 'bangla' in title_text.lower() or 'bengali' in title_text.lower()
+        })
+
+    if not candidates: return None
+    res_filtered = [c for c in candidates if c["res"] == target_res] if target_res else candidates
+    if not res_filtered: res_filtered = candidates
+    lang_filtered = [c for c in res_filtered if c["hindi"]] if has_hindi else ([c for c in res_filtered if c["bangla"]] if has_bangla else res_filtered)
+    if not lang_filtered: lang_filtered = res_filtered
+    single_page_url = lang_filtered[0]["href"]
+
+    # Step 3: Fetch single page and find download URL
+    try:
+        resp2 = requests.get(single_page_url, headers=HEADERS, timeout=10)
+        if resp2.status_code != 200: return None
+        soup2 = BeautifulSoup(resp2.text, "html.parser")
+    except Exception:
+        return None
+
+    download_url = None
+    btn = soup2.find("a", id="fwDownloadBtn")
+    if btn: download_url = btn.get("href")
+    if not download_url:
+        for a in soup2.find_all("a", href=True):
+            if "download" in a.get_text(strip=True).lower():
+                download_url = a["href"]
+                break
+    if not download_url: return None
+    if download_url.startswith("/"): download_url = "https://fibwatch.art" + download_url
+
+    # Step 4: Wait 4s
+    time.sleep(4)
+
+    # Step 5: Fetch safelink redirect URL
+    try:
+        resp3 = requests.get(download_url, headers=HEADERS, timeout=15)
+        if resp3.status_code != 200: return None
+        soup3 = BeautifulSoup(resp3.text, "html.parser")
+    except Exception:
+        return None
+
+    safelink_redirect_url = None
+    wpsafe = soup3.find(id="wpsafe-link")
+    if wpsafe:
+        a_tag = wpsafe.find("a", href=True)
+        if a_tag: safelink_redirect_url = a_tag["href"]
+    if not safelink_redirect_url: return None
+
+    # Parse Base64 URL
+    qs = urllib.parse.parse_qs(urllib.parse.urlparse(safelink_redirect_url).query)
+    safelink = None
+    if "safelink_redirect" in qs:
+        b64_str = qs["safelink_redirect"][0]
+        padding = '=' * (4 - len(b64_str) % 4)
+        try:
+            data = json.loads(base64.b64decode(b64_str + padding).decode())
+            safelink = data.get("safelink")
+        except Exception:
+            pass
+
+    if not safelink: return None
+
+    # Step 6: Wait 2s
+    time.sleep(2)
+
+    # Step 7: Return URL
+    return safelink
+
+
+@app.route('/fix-referrers', methods=['GET', 'POST'])
+def fix_referrers_endpoint():
+    """
+    Checks Fibwatch movies for dead HTTP referers and dynamically resolves new ones using Fibwatch search.
+    Due to serverless timeouts, fixes max 3 referers per request.
+    """
+    try:
+        content, sha = _github_get_file()
+    except Exception as e:
+        return cors_headers(Response(json.dumps({"error": str(e)}), status=500, mimetype='application/json'))
+
+    lines = content.splitlines(keepends=True)
+    blocks_to_check = []
+
+    # Parse M3U into blocks for fast checking
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        if line.strip().startswith("#EXTINF") and "fibwatch.com" in line.lower():
+            start_idx = i
+            j = i + 1
+            referer_idx = -1
+            video_idx = -1
+            while j < len(lines):
+                next_line = lines[j]
+                if next_line.strip().startswith("#EXTVLCOPT:http-referrer="):
+                    referer_idx = j
+                elif next_line.strip().startswith("http") and not next_line.strip().startswith("#"):
+                    video_idx = j
+                    break
+                elif next_line.strip().startswith("#EXTINF"):
+                    break
+                j += 1
+            if video_idx != -1 and referer_idx != -1:
+                title = line.strip()
+                current_referer = lines[referer_idx].strip().split("=", 1)[1]
+                video_url = lines[video_idx].strip()
+                blocks_to_check.append({
+                    "title": title,
+                    "referer": current_referer,
+                    "video_url": video_url,
+                    "referer_idx": referer_idx
+                })
+            i = j
+        else:
+            i += 1
+
+    # Check reachability concurrently (very fast)
+    failed_blocks = []
+    def check_reach(b):
+        if not _is_url_reachable(b["video_url"], {"Referer": b["referer"], "User-Agent": DEFAULT_USER_AGENT}):
+            return b
+        return None
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
+        results = executor.map(check_reach, blocks_to_check)
+        for r in results:
+            if r is not None:
+                failed_blocks.append(r)
+
+    if not failed_blocks:
+        return cors_headers(Response(json.dumps({"status": "ok", "message": "All referers are working"}), status=200, mimetype='application/json'))
+
+    changed = False
+    updates_count = 0
+    fixed_titles = []
+    
+    # Process fixes sequentially because it requires time.sleep() and multiple page loads.
+    # Limit to 2 fixes per request to avoid Vercel 10s timeout limit.
+    for block in failed_blocks[:2]:
+        cleaned = clean_title_for_search(block["title"])
+        new_ref = get_new_referrer(cleaned, block["title"])
+        if new_ref and new_ref != block["referer"]:
+            lines[block["referer_idx"]] = f"#EXTVLCOPT:http-referrer={new_ref}\n"
+            changed = True
+            updates_count += 1
+            fixed_titles.append(cleaned)
+
+    has_more = len(failed_blocks) > 2
+
+    if changed:
+        new_content = "".join(lines)
+        commit_msg = f"Auto referer sync: Fixed {updates_count} links"
+        try:
+            _github_push_file(new_content, sha, commit_msg)
+        except Exception as e:
+            return cors_headers(Response(json.dumps({"error": f"GitHub push failed: {e}"}), status=500, mimetype='application/json'))
+
+    return cors_headers(Response(json.dumps({
+        "status": "ok",
+        "fixed": updates_count,
+        "titles": fixed_titles,
+        "total_failed_remaining": len(failed_blocks) - updates_count,
+        "has_more": has_more
+    }, ensure_ascii=False), status=200, mimetype='application/json'))
 
 
 @app.route('/proxy', methods=['GET', 'OPTIONS'])
