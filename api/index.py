@@ -1093,15 +1093,15 @@ def clean_title_for_search(extinf_line: str) -> str:
     t = re.sub(r'\s+', ' ', t).strip()
     return t
 
-def get_new_referrer(cleaned_title: str, original_title: str) -> str | None:
+def get_new_referrer(cleaned_title: str, original_title: str) -> tuple[str | None, str]:
     # Step 1: Search movie
     search_url = f"https://fibwatch.art/search?keyword={urllib.parse.quote(cleaned_title)}"
     try:
         resp = requests.get(search_url, headers=HEADERS, timeout=10)
-        if resp.status_code != 200: return None
+        if resp.status_code != 200: return None, f"Search failed: HTTP {resp.status_code}"
         html = resp.text
-    except Exception:
-        return None
+    except Exception as e:
+        return None, f"Search error: {str(e)}"
 
     # Step 2: Pick best match
     soup = BeautifulSoup(html, "html.parser")
@@ -1124,7 +1124,7 @@ def get_new_referrer(cleaned_title: str, original_title: str) -> str | None:
             "bangla": 'bangla' in title_text.lower() or 'bengali' in title_text.lower()
         })
 
-    if not candidates: return None
+    if not candidates: return None, "No candidates found"
     res_filtered = [c for c in candidates if c["res"] == target_res] if target_res else candidates
     if not res_filtered: res_filtered = candidates
     lang_filtered = [c for c in res_filtered if c["hindi"]] if has_hindi else ([c for c in res_filtered if c["bangla"]] if has_bangla else res_filtered)
@@ -1134,17 +1134,17 @@ def get_new_referrer(cleaned_title: str, original_title: str) -> str | None:
     # Step 3: Fetch single page and find download URL
     try:
         resp2 = requests.get(single_page_url, headers=HEADERS, timeout=10)
-        if resp2.status_code != 200: return None
-        html = resp2.text
-    except Exception:
-        return None
+        if resp2.status_code != 200: return None, f"Single page failed: HTTP {resp2.status_code}"
+        html2 = resp2.text
+    except Exception as e:
+        return None, f"Single page error: {str(e)}"
 
     # Extract JS variables
-    video_url_match = re.search(r'var\s+VIDEO_URL\s*=\s*[\'"]([^\'"]+)[\'"]', html)
-    shortlink_base_match = re.search(r'var\s+SHORTLINK_BASE\s*=\s*[\'"]([^\'"]+)[\'"]', html)
+    video_url_match = re.search(r'var\s+VIDEO_URL\s*=\s*[\'"]([^\'"]+)[\'"]', html2)
+    shortlink_base_match = re.search(r'var\s+SHORTLINK_BASE\s*=\s*[\'"]([^\'"]+)[\'"]', html2)
     
     if not video_url_match or not shortlink_base_match:
-        return None
+        return None, "JS variables not found"
         
     video_url = video_url_match.group(1)
     shortlink_base = shortlink_base_match.group(1)
@@ -1153,14 +1153,14 @@ def get_new_referrer(cleaned_title: str, original_title: str) -> str | None:
     api_url = shortlink_base.replace('/st?api=', '/api?api=') + urllib.parse.quote(video_url)
     try:
         resp3 = requests.get(api_url, timeout=15)
+        if resp3.status_code != 200: return None, f"API failed: HTTP {resp3.status_code}"
         data = resp3.json()
         if data.get('status') == 'success':
             alias = data['shortenedUrl'].split('/')[-1]
-            return f"https://urlshortlink.top/{alias}"
-    except Exception:
-        pass
-        
-    return None
+            return f"https://urlshortlink.top/{alias}", "success"
+        return None, f"API error status: {data.get('status')} {data.get('message')}"
+    except Exception as e:
+        return None, f"API exception: {str(e)}"
 
 
 @app.route('/fix-referrers', methods=['GET', 'POST'])
@@ -1232,14 +1232,19 @@ def fix_referrers_endpoint():
     
     # Process fixes sequentially because it requires time.sleep() and multiple page loads.
     # With the new fast API logic, we can process up to 10 fixes per request.
+    debug_logs = {}
     for block in failed_blocks[:10]:
         cleaned = clean_title_for_search(block["title"])
-        new_ref = get_new_referrer(cleaned, block["title"])
+        new_ref, debug_msg = get_new_referrer(cleaned, block["title"])
         if new_ref and new_ref != block["referer"]:
             lines[block["referer_idx"]] = f"#EXTVLCOPT:http-referrer={new_ref}\n"
             changed = True
             updates_count += 1
             fixed_titles.append(cleaned)
+        elif new_ref == block["referer"]:
+            debug_logs[cleaned] = "Referer unchanged (already correct or shortlink hasn't changed)"
+        elif not new_ref:
+            debug_logs[cleaned] = debug_msg
 
     has_more = len(failed_blocks) > 10
 
@@ -1256,7 +1261,8 @@ def fix_referrers_endpoint():
         "fixed": updates_count,
         "titles": fixed_titles,
         "total_failed_remaining": len(failed_blocks) - updates_count,
-        "has_more": has_more
+        "has_more": has_more,
+        "debug_logs": debug_logs
     }, ensure_ascii=False), status=200, mimetype='application/json'))
 
 
