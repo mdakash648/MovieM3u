@@ -1204,7 +1204,8 @@ def fix_referrers_endpoint():
                     "title": title,
                     "referer": current_referer,
                     "video_url": video_url,
-                    "referer_idx": referer_idx
+                    "referer_idx": referer_idx,
+                    "video_idx": video_idx
                 })
             i = j
         else:
