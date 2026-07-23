@@ -5212,3 +5212,11 @@ http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/WandaVision%2
 #EXTVLCOPT:http-referrer=http://new.circleftp.net/content/89972
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://ftp16.circleftp.net/FILE/Dubbed%20TV%20Series%20%26%20Shows/WandaVision%20%28TV%20Mini-Series%202021%29%20Hindi%20Dubbed/Season%201%201080p/Wandavision.S01E09.1080p.WEBRip.Hindi-English.x264-KatmovieHD.si.mkv
+# ==========================================
+# Add : 23 JULY 2026
+# CONTENT - Ek Din (2026) 1080p WEB-DL Hindi x264
+# ==========================================
+#EXTINF:1 tvg-logo="https://m.media-amazon.com/images/M/MV5BYzVhNmVhYzUtYjhhYy00ZGY0LTlmMTQtNjA2ZDk2OGFiNzllXkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg" group-title="Default" , Ek Din (2026) 1080p WEB-DL Hindi x264
+#EXTVLCOPT:http-referrer=http://new.circleftp.net/content/105357
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://index1.circleftp.net/FILE/Hindi%20Movies/2026/Ek%20Din%20%282026%29%201080p%20WEB-DL%20Hindi%20x264/Ek%20Din%20%282026%29%201080p%20WEB-DL%20Hindi%20x264.mkv
